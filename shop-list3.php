@@ -1612,7 +1612,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title medium">
+            <a href="product-page-v1.php"><h6 class="title medium">
             <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[3]->name;
@@ -1728,7 +1728,7 @@
         <!-- PRODUCT LIST ITEM -->
         <div class="product-list-item">
           <!-- PRODUCT IMG -->
-          <a href="product-page-v1.html">
+          <a href="product-page-v1.php">
             <figure class="product-img">
               <img src="img/products/05.png" alt="product06">
             </figure>
@@ -1737,7 +1737,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title medium"><?php
+            <a href="product-page-v1.php"><h6 class="title medium"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[4]->name;
               ?></h6></a>
@@ -1849,7 +1849,7 @@
         <!-- PRODUCT LIST ITEM -->
         <div class="product-list-item">
           <!-- PRODUCT IMG -->
-          <a href="product-page-v1.html">
+          <a href="product-page-v1.php">
             <figure class="product-img">
               <img src="img/products/06.png" alt="product04">
             </figure>
@@ -1858,7 +1858,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title medium">
+            <a href="product-page-v1.php"><h6 class="title medium">
             <?php
              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[5]->name;

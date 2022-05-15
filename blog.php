@@ -243,13 +243,13 @@
 
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
-          <a class="action-button" href="profile.html">My Account</a>
+          <a class="action-button" href="profile.php">My Account</a>
         </li>
         <!-- ACTIONS LIST ITEM -->
 
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
-          <a class="action-button" href="wishlist.html">Wishlist<span class="bold">4</span></a>
+          <a class="action-button" href="wishlist.php">Wishlist<span class="bold">4</span></a>
         </li>
         <!-- ACTIONS LIST ITEM -->
 
@@ -377,7 +377,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.html">
+              <a href="product-page-v1.php">
                 <figure class="product-img small">
                   <img src="img/products/02.jpg" alt="02">
                 </figure>
@@ -386,7 +386,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">Poisonous Frog</h6></a>
+                <a href="product-page-v1.php"><h6 class="title small">Poisonous Frog</h6></a>
                 <p class="product-description small">For Outdoor Sports</p>
                 <!-- RATING -->
                 <ul class="rating small">
@@ -457,7 +457,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.html">
+              <a href="product-page-v1.php">
                 <figure class="product-img small">
                   <img src="img/products/06.jpg" alt="06">
                 </figure>
@@ -466,7 +466,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">Crashing Wave</h6></a>
+                <a href="product-page-v1.php"><h6 class="title small">Crashing Wave</h6></a>
                 <p class="product-description small">Water Resistant</p>
                 <!-- RATING -->
                 <ul class="rating small">
@@ -537,7 +537,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.html">
+              <a href="product-page-v1.php">
                 <figure class="product-img small">
                   <img src="img/products/05.jpg" alt="05">
                 </figure>
@@ -546,7 +546,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">The Patriot</h6></a>
+                <a href="product-page-v1.php"><h6 class="title small">The Patriot</h6></a>
                 <p class="product-description small">By Spiegel</p>
                 <!-- RATING -->
                 <ul class="rating small">
@@ -625,8 +625,8 @@
 
           <!-- CART DROPDOWN ACTIONS -->
           <div class="cart-dropdown-actions">
-            <a href="cart.html" class="button dark large">Go to the Cart</a>
-            <a href="identification.html" class="button large">Go to Checkout</a>
+            <a href="cart.php" class="button dark large">Go to the Cart</a>
+            <a href="identification.php" class="button large">Go to Checkout</a>
           </div>
           <!-- /CART DROPDOWN ACTIONS -->
         </div>
@@ -638,13 +638,13 @@
       <ul class="main-menu">
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="index.html">Home</a>
+          <a href="index.php">Home</a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="aboutus.html">About</a>
+          <a href="aboutus.php">About</a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
@@ -662,13 +662,13 @@
           <!-- MENU DROPDOWN -->
           <ul class="menu-dropdown">
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-list.html">Motherboards</a>
+              <a href="shop-sidebar-list.php">Motherboards</a>
             </li>
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-list.html">Processors</a>
+              <a href="shop-sidebar-list.php">Processors</a>
             </li>
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-list.html">Graphic Cards</a>
+              <a href="shop-sidebar-list.php">Graphic Cards</a>
             </li>
 
             </li>
@@ -680,7 +680,7 @@
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="blog.html">Our Blog</a>
+          <a href="blog.php">Our Blog</a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
@@ -706,37 +706,37 @@
               <ul class="link-list simple">
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="identification.html">Identification</a>
+                  <a href="identification.php">Identification</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="billing-shipping.html">Billing and Shipping</a>
+                  <a href="billing-shipping.php">Billing and Shipping</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="confirmation.html">Confirmation</a>
+                  <a href="confirmation.php">Confirmation</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="cart.html">Shopping Cart</a>
+                  <a href="cart.php">Shopping Cart</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="wishlist.html">Wishlist</a>
+                  <a href="wishlist.php">Wishlist</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="profile.html">Your Account</a>
+                  <a href="profile.php">Your Account</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
               </ul>
@@ -750,7 +750,7 @@
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="contactus.html">Contact</a>
+          <a href="contactus.php">Contact</a>
         </li>
         <!-- /MAIN MENU ITEM -->
       </ul>
@@ -776,13 +776,13 @@
     <ul class="mobile-menu dropdown">
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="index.html">Home</a>
+        <a href="index.php">Home</a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="aboutus.html">About</a>
+        <a href="aboutus.php">About</a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
@@ -795,13 +795,13 @@
         <!-- MOBILE MENU DROPDOWN -->
         <ul class="mobile-menu-dropdown dropdown">
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.html">Motherboards</a>
+            <a href="shop-sidebar-list.php">Motherboards</a>
           </li>
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.html">Processors</a>
+            <a href="shop-sidebar-list.php">Processors</a>
           </li>
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.html">Graphic Cards</a>
+            <a href="shop-sidebar-list.php">Graphic Cards</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
         </ul>
@@ -811,7 +811,7 @@
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="blog.html">Our Blog</a>
+        <a href="blog.php">Our Blog</a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
@@ -831,37 +831,37 @@
          
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="identification.html">Identification</a>
+            <a href="identification.php">Identification</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="billing-shipping.html">Billing and Shipping</a>
+            <a href="billing-shipping.php">Billing and Shipping</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="confirmation.html">Confirmation</a>
+            <a href="confirmation.php">Confirmation</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="cart.html">Shopping Cart</a>
+            <a href="cart.php">Shopping Cart</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="wishlist.html">Wishlist</a>
+            <a href="wishlist.php">Wishlist</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="profile.html">Your Account</a>
+            <a href="profile.php">Your Account</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
         </ul>
@@ -871,19 +871,19 @@
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="contactus.html">Contact</a>
+        <a href="contactus.php">Contact</a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="profile.html">My Account</a>
+        <a href="profile.php">My Account</a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="wishlist.html">
+        <a href="wishlist.php">
           Wishlist
           <span class="bold">4</span>
         </a>
@@ -997,7 +997,7 @@
         <!-- POST PREVIEW LIST ITEM -->
         <div class="post-preview-list-item">
           <!-- POST PREVIEW IMG -->
-          <a href="post.html">
+          <a href="post.php">
             <div class="post-preview-img">
               <div class="overlay">
                 <div class="circle">
@@ -1017,19 +1017,19 @@
           </a>
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">October 26th, 2017</p>
-          <a href="post.html">
+          <a href="post.php">
             <h6 class="title medium">Nvidia has announced that it will be open-sourcing the Linux drivers for its graphics cards, starting with the R515 release, using a dual GPL/MIT license.</h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>26 Comments</p>
           <p>Nvidia says the code is currently production-ready for data center GPUs in the Turing and Ampere families following the phased rollout of the GSP driver architecture over the past year. It has been tested across a wide variety of workloads to ensure feature and performance parity with the proprietary kernel-mode driver, but brings new functionality too, such as the DMA-BUF framework for sharing buffers across devices and subsystems that will come into its own with the Hopper architecture.</p>
-          <a href="post.html" class="button">Read More</a>
+          <a href="post.php" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
 
         <!-- POST PREVIEW LIST ITEM -->
         <div class="post-preview-list-item">
           <!-- POST PREVIEW IMG -->
-          <a href="post.html">
+          <a href="post.php">
             <div class="post-preview-img">
               <div class="overlay">
                 <div class="circle">
@@ -1049,7 +1049,7 @@
           </a>
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">October 14th, 2017</p>
-          <a href="post.html">
+          <a href="post.php">
             <h6 class="title medium">AMD has released the AMD Software Preview Driver May 2022, which is now available to all Radeon graphics card owners.
               <br><br></h6>
           </a>
@@ -1057,14 +1057,14 @@
           <p>In other news, the AMD Software Preview Driver May 2022 now comes with the "sharpen effect" for Radeon users to tweak the sharpness of the image when using AMD's Radeon Super Resolution (RSR) 1.1 technology. AMD has also integrated the AMD Bug Report Tool directly into the Adrenalin software.
             <br><br><br><br><br></p>
           
-          <a href="post.html" class="button">Read More</a>
+          <a href="post.php" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
 
         <!-- POST PREVIEW LIST ITEM -->
         <div class="post-preview-list-item">
           <!-- POST PREVIEW IMG -->
-          <a href="post.html">
+          <a href="post.php">
             <div class="post-preview-img">
               <div class="overlay">
                 <div class="circle">
@@ -1084,20 +1084,20 @@
           </a>
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">August 17th, 2017</p>
-          <a href="post.html">
+          <a href="post.php">
             <h6 class="title medium">Today we have deals on two Zen 3 AMD CPUs: the Ryzen 7 5800X for $309 and the Ryzen 5 5600X for $199 both at their lowest price per ‘the Camelizer’. </h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>127 Comments</p>
           <p>To the delight of anyone requiring a graphics card, we have an MSRP-priced Asus Dual Radeon RX 6600 for $329 at Newegg. It's great to see the pricing of GPUs getting back to normal, here's hoping they fall even further.
             <br><br><br><br><br><br></p>
-          <a href="post.html" class="button">Read More</a>
+          <a href="post.php" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
 
         <!-- POST PREVIEW LIST ITEM -->
         <div class="post-preview-list-item">
           <!-- POST PREVIEW IMG -->
-          <a href="post.html">
+          <a href="post.php">
             <div class="post-preview-img">
               <div class="overlay">
                 <div class="circle">
@@ -1117,21 +1117,21 @@
           </a>
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">August 8th, 2017</p>
-          <a href="post.html">
+          <a href="post.php">
             <h6 class="title medium">AMD and Google have announced an intricate, deep-level collaboration on cybersecurity research for AMD's server-class EPYC CPUs — one that's now been running for five years.
               <br><br><br><br></h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>305 Comments</p>
           <p>Brent Hollingsworth, AMD's director of the EPYC software ecosystem, pointed out that the partnership pooled AMD and Google's best and brightest, opening up the space to previously unknown attack vectors, and pushing creativity on attack layers - whether software- or hardware-based.
             <br><br><br></p>
-          <a href="post.html" class="button">Read More</a>
+          <a href="post.php" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
 
         <!-- POST PREVIEW LIST ITEM -->
         <div class="post-preview-list-item">
           <!-- POST PREVIEW IMG -->
-          <a href="post.html">
+          <a href="post.php">
             <div class="post-preview-img">
               <div class="overlay">
                 <div class="circle">
@@ -1151,19 +1151,19 @@
           </a>
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">June 22nd, 2017</p>
-          <a href="post.html">
+          <a href="post.php">
             <h6 class="title medium">Intel has released 16 new security advisories, which address 41 vulnerabilities. The advisories, some with 'high' severity ratings, appear to cover the full gamut of Intel catalog, including processors, devices, firmware, drivers and software.</h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>205 Comments</p>
           <p>The Intel Processor advisory has been given the CVEID of CVE-2022-21151. It is described in summary as "a potential security vulnerability in some Intel Processors may allow information disclosure." It is 'only' a medium severity rating vulnerability. We think this is because it requires an authenticated user with local access to exploit the chance to "potentially enable information disclosure" from the processor.</p>
-          <a href="post.html" class="button">Read More</a>
+          <a href="post.php" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
 
         <!-- POST PREVIEW LIST ITEM -->
         <div class="post-preview-list-item">
           <!-- POST PREVIEW IMG -->
-          <a href="post.html">
+          <a href="post.php">
             <div class="post-preview-img">
               <div class="overlay">
                 <div class="circle">
@@ -1183,20 +1183,20 @@
           </a>
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">June 7th, 2017</p>
-          <a href="post.html">
+          <a href="post.php">
             <h6 class="title medium">AMD's Ryzen 7 5800X3D, the fastest CPU for gaming is finally available. We've reviewed and tested the 5800X3D and confirmed its gaming performance on our test suite of games that have placed it at the top of our list of the best CPUs for gaming. </h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>536 Comments</p>
           <p>The AMD Ryzen 7 5800X3D uses eight-cores and 16-threads with a max boost clock of up to 4.5GHz similar to its 5000-series family. What makes this chip different is a new 3D-stacked SRAM technology that employs a total of 96MB of L3 cache to give the 5800X3D amazing gaming performance.
             <br><br><br><br></p>
-          <a href="post.html" class="button">Read More</a>
+          <a href="post.php" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
 
         <!-- POST PREVIEW LIST ITEM -->
         <div class="post-preview-list-item">
           <!-- POST PREVIEW IMG -->
-          <a href="post.html">
+          <a href="post.php">
             <div class="post-preview-img">
               <div class="overlay">
                 <div class="circle">
@@ -1216,21 +1216,21 @@
           </a>
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">May 16th, 2017</p>
-          <a href="post.html">
+          <a href="post.php">
             <h6 class="title medium">It's more difficult than ever to find savings on internal components like CPUs or RAM or even locate a high-end graphics card in stock. However, buying a new monitor could have an even more dramatic effect on your tech life than improving your system's performance.
               <br><br><br></h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>630 Comments</p>
           <p>If you do any kind of PC gaming, getting a gaming monitor with a high-refresh rate and adaptive sync will completely change the way you play, eliminating tearing and ghosting. Upgrading to a larger screen or one with higher resolution will let you have a more immersive experience.
             <br><br><br><br></p>
-          <a href="post.html" class="button">Read More</a>
+          <a href="post.php" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
 
         <!-- POST PREVIEW LIST ITEM -->
         <div class="post-preview-list-item">
           <!-- POST PREVIEW IMG -->
-          <a href="post.html">
+          <a href="post.php">
             <div class="post-preview-img">
               <div class="overlay">
                 <div class="circle">
@@ -1250,21 +1250,21 @@
           </a>
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">March 29th, 2017</p>
-          <a href="post.html">
+          <a href="post.php">
             <h6 class="title medium">Whether you're building a PC, craving an upgrade, looking for one of the best gaming PCs, or just hoping to find one of the best gaming monitors on a big sale, we're here to help you sift through the discounts.
             <br><br><br><br><br></h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>763 Comments</p>
           <p>To make saving simpler, we're rounding up the very best deals on tech and hardware below, from components like CPUs and SSDs to peripherals to prebuilt desktops and even gadgets.
             <br><br><br><br><br><br></p>
-          <a href="post.html" class="button">Read More</a>
+          <a href="post.php" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
 
         <!-- POST PREVIEW LIST ITEM -->
         <div class="post-preview-list-item">
           <!-- POST PREVIEW IMG -->
-          <a href="post.html">
+          <a href="post.php">
             <div class="post-preview-img">
               <div class="overlay">
                 <div class="circle">
@@ -1284,12 +1284,12 @@
           </a>
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">March 6th, 2017</p>
-          <a href="post.html">
+          <a href="post.php">
             <h6 class="title medium">Nvidia's forthcoming GeForce RTX 40-series (Ada Lovelace) graphics cards continue to make the rounds in the rumor mill. Hardware tipster kopite7kimi, who has an impeccable history with Ampere leaks, has revealed the potential memory configurations for the GeForce RTX 4090 and RTX 4070.</h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>894 Comments</p>
           <p>In addition to the memory upgrade, the GeForce RTX 4090 would also sport more CUDA cores. However, the exact amount is unknown for now. Our estimation is between 17,000 to 18,500. Logically, Nvidia would need to raise the power limit on the GeForce RTX 4090 to accommodate the extra CUDA cores. Early diagrams of the GeForce RTX 4090's feasible PCB show that the graphics card could pull up to 600W of power.</p>
-          <a href="post.html" class="button">Read More</a>
+          <a href="post.php" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
       </div>
@@ -1392,7 +1392,7 @@
         <ul class="link-list decorated">
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="index.html">
+            <a href="index.php">
               Home
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
@@ -1405,7 +1405,7 @@
 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="aboutus.html">
+            <a href="aboutus.php">
               About Us
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
@@ -1418,7 +1418,7 @@
 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="shop-grid.html">
+            <a href="shop-grid.php">
               Shop
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
@@ -1431,7 +1431,7 @@
 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="blog.html">
+            <a href="blog.php">
               Our Blog
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
@@ -1444,7 +1444,7 @@
 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="contactus.html">
+            <a href="contactus.php">
               Contact
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
@@ -1457,7 +1457,7 @@
 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="profile.html">
+            <a href="profile.php">
               Your Account
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">

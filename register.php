@@ -12,7 +12,7 @@
 <body>
     <div class="form-body">
         <div class="website-logo">
-            <a href="index.html">
+            <a href="index.php">
                 <div class="logo">
                     <img class="logo-size" src="images/logo-light.svg" alt="">
                 </div>
@@ -31,7 +31,7 @@
                         <h3>Get more things done with Loggin platform.</h3>
                         <p>Access to the most powerfull tool in the entire design and web industry.</p>
                         <div class="page-links">
-                            <a href="login5.html">Login</a><a href="register5.html" class="active">Register</a>
+                            <a href="login5.php">Login</a><a href="register5.php" class="active">Register</a>
                         </div>
                         <form>
                             <input class="form-control" type="text" name="name" placeholder="Full Name" required>

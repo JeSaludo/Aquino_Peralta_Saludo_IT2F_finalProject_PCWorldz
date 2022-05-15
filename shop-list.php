@@ -243,13 +243,13 @@
 
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
-          <a class="action-button" href="profile.html">My Account</a>
+          <a class="action-button" href="profile.php">My Account</a>
         </li>
         <!-- ACTIONS LIST ITEM -->
 
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
-          <a class="action-button" href="wishlist.html">Wishlist<span class="bold">4</span></a>
+          <a class="action-button" href="wishlist.php">Wishlist<span class="bold">4</span></a>
         </li>
         <!-- ACTIONS LIST ITEM -->
 
@@ -377,7 +377,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.html">
+              <a href="product-page-v1.php">
                 <figure class="product-img small">
                   <img src="img/products/02.jpg" alt="02">
                 </figure>
@@ -386,7 +386,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">Poisonous Frog</h6></a>
+                <a href="product-page-v1.php"><h6 class="title small">Poisonous Frog</h6></a>
                 <p class="product-description small">For Outdoor Sports</p>
                 <!-- RATING -->
                 <ul class="rating small">
@@ -457,7 +457,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.html">
+              <a href="product-page-v1.php">
                 <figure class="product-img small">
                   <img src="img/products/06.jpg" alt="06">
                 </figure>
@@ -466,7 +466,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">Crashing Wave</h6></a>
+                <a href="product-page-v1.php"><h6 class="title small">Crashing Wave</h6></a>
                 <p class="product-description small">Water Resistant</p>
                 <!-- RATING -->
                 <ul class="rating small">
@@ -537,7 +537,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.html">
+              <a href="product-page-v1.php">
                 <figure class="product-img small">
                   <img src="img/products/05.jpg" alt="05">
                 </figure>
@@ -546,7 +546,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">The Patriot</h6></a>
+                <a href="product-page-v1.php"><h6 class="title small">The Patriot</h6></a>
                 <p class="product-description small">By Spiegel</p>
                 <!-- RATING -->
                 <ul class="rating small">
@@ -625,8 +625,8 @@
 
           <!-- CART DROPDOWN ACTIONS -->
           <div class="cart-dropdown-actions">
-            <a href="cart.html" class="button dark large">Go to the Cart</a>
-            <a href="identification.html" class="button large">Go to Checkout</a>
+            <a href="cart.php" class="button dark large">Go to the Cart</a>
+            <a href="identification.php" class="button large">Go to Checkout</a>
           </div>
           <!-- /CART DROPDOWN ACTIONS -->
         </div>
@@ -638,13 +638,13 @@
       <ul class="main-menu">
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="index.html">Home</a>
+          <a href="index.php">Home</a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="aboutus.html">About</a>
+          <a href="aboutus.php">About</a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
@@ -675,7 +675,7 @@
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="blog.html">Our Blog</a>
+          <a href="blog.php">Our Blog</a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
@@ -699,37 +699,37 @@
               <ul class="link-list simple">
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="identification.html">Identification</a>
+                  <a href="identification.php">Identification</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="billing-shipping.html">Billing and Shipping</a>
+                  <a href="billing-shipping.php">Billing and Shipping</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="confirmation.html">Confirmation</a>
+                  <a href="confirmation.php">Confirmation</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="cart.html">Shopping Cart</a>
+                  <a href="cart.php">Shopping Cart</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="wishlist.html">Wishlist</a>
+                  <a href="wishlist.php">Wishlist</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="profile.html">Your Account</a>
+                  <a href="profile.php">Your Account</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
               </ul>
@@ -743,7 +743,7 @@
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="contactus.html">Contact</a>
+          <a href="contactus.php">Contact</a>
         </li>
         <!-- /MAIN MENU ITEM -->
       </ul>
@@ -769,13 +769,13 @@
     <ul class="mobile-menu dropdown">
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="index.html">Home</a>
+        <a href="index.php">Home</a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="aboutus.html">About</a>
+        <a href="aboutus.php">About</a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
@@ -794,37 +794,37 @@
         <ul class="mobile-menu-dropdown dropdown">
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
+            <a href="shop-sidebar-grid.php">Sidebar 3 Col Grid</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-grid.html">4 Columns Grid</a>
+            <a href="shop-grid.php">4 Columns Grid</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
+            <a href="shop-sidebar-list.php">Sidebar 3 Col List</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-list.html">4 Columns List</a>
+            <a href="shop-list.php">4 Columns List</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.html">Product Page V1</a>
+            <a href="product-page-v1.php">Product Page V1</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v2.html">Product Page V2</a>
+            <a href="product-page-v2.php">Product Page V2</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
         </ul>
@@ -834,7 +834,7 @@
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="blog.html">Our Blog</a>
+        <a href="blog.php">Our Blog</a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
@@ -853,145 +853,145 @@
         <ul class="mobile-menu-dropdown dropdown">
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="index.html">Trickster Home</a>
+            <a href="index.php">Trickster Home</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="product-builder-v1.html">Product Builder V1</a>
+            <a href="product-builder-v1.php">Product Builder V1</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="product-builder-v2.html">Product Builder V2</a>
+            <a href="product-builder-v2.php">Product Builder V2</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="blog.html">Trickster Blog</a>
+            <a href="blog.php">Trickster Blog</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="post.html">Blog Post</a>
+            <a href="post.php">Blog Post</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="contactus.html">Contact Page</a>
+            <a href="contactus.php">Contact Page</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="404.html">Error Page</a>
+            <a href="404.php">Error Page</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="aboutus.html">About Us</a>
+            <a href="aboutus.php">About Us</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="menu-dropdowns.html">Menu &amp; DDowns</a>
+            <a href="menu-dropdowns.php">Menu &amp; DDowns</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shortcodes.html">Shortcodes</a>
+            <a href="shortcodes.php">Shortcodes</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="login-popup.html">Login Popup</a>
+            <a href="login-popup.php">Login Popup</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="ratings-popup.html">Ratings Popup</a>
+            <a href="ratings-popup.php">Ratings Popup</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
+            <a href="shop-sidebar-grid.php">Sidebar 3 Col Grid</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-grid.html">4 Columns Grid</a>
+            <a href="shop-grid.php">4 Columns Grid</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
+            <a href="shop-sidebar-list.php">Sidebar 3 Col List</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-list.html">4 Columns List</a>
+            <a href="shop-list.php">4 Columns List</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.html">Product Page V1</a>
+            <a href="product-page-v1.php">Product Page V1</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.html">Product Page V2</a>
+            <a href="product-page-v1.php">Product Page V2</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="identification.html">Identification</a>
+            <a href="identification.php">Identification</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="billing-shipping.html">Billing and Shipping</a>
+            <a href="billing-shipping.php">Billing and Shipping</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="confirmation.html">Confirmation</a>
+            <a href="confirmation.php">Confirmation</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="cart.html">Shopping Cart</a>
+            <a href="cart.php">Shopping Cart</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="wishlist.html">Wishlist</a>
+            <a href="wishlist.php">Wishlist</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="profile.html">Your Account</a>
+            <a href="profile.php">Your Account</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
         </ul>
@@ -1001,19 +1001,19 @@
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="contactus.html">Contact</a>
+        <a href="contactus.php">Contact</a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="profile.html">My Account</a>
+        <a href="profile.php">My Account</a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="wishlist.html">
+        <a href="wishlist.php">
           Wishlist
           <span class="bold">4</span>
         </a>
@@ -1229,7 +1229,7 @@
         <!-- PRODUCT LIST ITEM -->
         <div class="product-list-item">
           <!-- PRODUCT IMG -->
-          <a href="product-page-v1.html">
+          <a href="product-page-v1.php">
             <figure class="product-img">
               <img src="img/products/01.png" alt="product01">
             </figure>
@@ -1238,7 +1238,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title medium">
+            <a href="product-page-v1.php"><h6 class="title medium">
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[0]->name;
@@ -1352,7 +1352,7 @@
         <!-- PRODUCT LIST ITEM -->
         <div class="product-list-item">
           <!-- PRODUCT IMG -->
-          <a href="product-page-v1.html">
+          <a href="product-page-v1.php">
             <figure class="product-img">
               <img src="img/products/02.png" alt="product02">
             </figure>
@@ -1361,7 +1361,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title medium">
+            <a href="product-page-v1.php"><h6 class="title medium">
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[1]->name;
@@ -1478,7 +1478,7 @@
         <!-- PRODUCT LIST ITEM -->
         <div class="product-list-item">
           <!-- PRODUCT IMG -->
-          <a href="product-page-v1.html">
+          <a href="product-page-v1.php">
             <figure class="product-img">
               <img src="img/products/03.png" alt="product03">
             </figure>
@@ -1487,7 +1487,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title medium">
+            <a href="product-page-v1.php"><h6 class="title medium">
               <?php
                $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');;
               echo $item->product[2]->name;
@@ -1603,7 +1603,7 @@
         <!-- PRODUCT LIST ITEM -->
         <div class="product-list-item">
           <!-- PRODUCT IMG -->
-          <a href="product-page-v1.html">
+          <a href="product-page-v1.php">
             <figure class="product-img">
               <img src="img/products/04.png" alt="product05">
             </figure>
@@ -1612,7 +1612,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title medium">
+            <a href="product-page-v1.php"><h6 class="title medium">
             <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[3]->name;
@@ -1728,7 +1728,7 @@
         <!-- PRODUCT LIST ITEM -->
         <div class="product-list-item">
           <!-- PRODUCT IMG -->
-          <a href="product-page-v1.html">
+          <a href="product-page-v1.php">
             <figure class="product-img">
               <img src="img/products/05.png" alt="product06">
             </figure>
@@ -1737,7 +1737,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title medium"><?php
+            <a href="product-page-v1.php"><h6 class="title medium"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[4]->name;
               ?></h6></a>
@@ -1849,7 +1849,7 @@
         <!-- PRODUCT LIST ITEM -->
         <div class="product-list-item">
           <!-- PRODUCT IMG -->
-          <a href="product-page-v1.html">
+          <a href="product-page-v1.php">
             <figure class="product-img">
               <img src="img/products/06.png" alt="product04">
             </figure>
@@ -1858,7 +1858,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title medium">
+            <a href="product-page-v1.php"><h6 class="title medium">
             <?php
              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[5]->name;
@@ -2068,7 +2068,7 @@
         <ul class="link-list decorated">
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="index.html">
+            <a href="index.php">
               Home
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
@@ -2081,7 +2081,7 @@
 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="aboutus.html">
+            <a href="aboutus.php">
               About Us
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
@@ -2094,7 +2094,7 @@
 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="shop-grid.html">
+            <a href="shop-grid.php">
               Shop
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
@@ -2107,7 +2107,7 @@
 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="blog.html">
+            <a href="blog.php">
               Our Blog
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
@@ -2120,7 +2120,7 @@
 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="contactus.html">
+            <a href="contactus.php">
               Contact
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
@@ -2133,7 +2133,7 @@
 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="profile.html">
+            <a href="profile.php">
               Your Account
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">

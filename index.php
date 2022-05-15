@@ -12,7 +12,7 @@
 <body>
     <div class="form-body">
         <div class="website-logo">
-            <a href="index.html">
+            <a href="index.php">
                 <div class="logo">
                     <img class="logo-size" src="images/logo-light.svg" alt="">
                 </div>
@@ -31,13 +31,13 @@
                         <h3>Get more things done with Loggin platform.</h3>
                         <p>Access to the most powerfull tool in the entire design and web industry.</p>
                         <div class="page-links">
-                            <a href="login5.html" class="active">Login</a><a href="register5.html">Register</a>
+                            <a href="login5.php" class="active">Login</a><a href="register5.php">Register</a>
                         </div>
                         <form>
                             <input class="form-control" type="text" name="username" placeholder="E-mail Address" required>
                             <input class="form-control" type="password" name="password" placeholder="Password" required>
                             <div class="form-button">
-                                <button id="submit" type="submit" class="ibtn">Login</button> <a href="forget5.html">Forget password?</a>
+                                <button id="submit" type="submit" class="ibtn">Login</button> <a href="forget5.php">Forget password?</a>
                             </div>
                         </form>
                         <div class="other-links">
