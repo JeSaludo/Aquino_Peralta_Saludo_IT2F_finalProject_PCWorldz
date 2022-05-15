@@ -638,7 +638,7 @@
       <ul class="main-menu">
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="index.html">Home</a>
+          <a href="home.php">Home</a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
@@ -996,8 +996,8 @@
         <div class="feature-enum-item">
           <i class="s-icon icon-location-pin"></i>
           <h6 class="title">Our Address</h6>
-          <p>568 The Bebop Avenue</p>
-          <p>Los Angeles, CA</p>
+          <p>BOAC</p>
+          <p>Marinduque, PH</p>
         </div>
         <!-- FEATURE ENUM ITEM -->
 
@@ -1006,10 +1006,10 @@
           <i class="s-icon icon-envelope"></i>
           <h6 class="title">Our Email</h6>
           <p>
-            <a href="mailto:info@tricksterhelmets.com" class="link medium">info@tricksterhelmets.com</a>
+            <a href="mailto:info@tricksterhelmets.com" class="link medium">info@pcworldz.com</a>
           </p>
           <p>
-            <a href="mailto:deliveries@tricksterhelmets.com" class="link medium">deliveries@tricksterhelmets.com</a>
+            <a href="mailto:deliveries@tricksterhelmets.com" class="link medium">deliveries@pcworldz.com</a>
           </p>
         </div>
         <!-- FEATURE ENUM ITEM -->
@@ -1073,15 +1073,6 @@
       </div>
       <!-- /CONTACT ACTIONS -->
     </div>
-    <!-- /SECTION -->
-
-    <!-- CONTACT MAP -->
-    <div class="contact-map">
-      <div id="map"></div>
-    </div>
-    <!-- /CONTACT MAP -->
-  </div>
-  <!-- /SECTION WRAP -->
 
   <!-- FOOTER WRAP -->
   <footer class="footer-wrap">
@@ -1092,7 +1083,7 @@
         <!-- LOGO -->
         <figure class="logo">
           <img src="img/logo-footer.png" alt="logo">
-          <figcaption>The Trickster</figcaption>
+          <figcaption>PC WORLDZ</figcaption>
         </figure>
         <!-- /LOGO -->
         <p class="description">Lorem ipsum dolor sit amet, sectetur sicing elit, sed do eiusmod. Ut enim ad minim iam, quis trud exercitation laboris. En derum de lorem sectum eusidim en amet.</p>
@@ -1102,14 +1093,14 @@
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-location-pin"></i>
-            <p>568 The Bebop Avenue, CA</p>
+            <p>Marinduque, PH</p>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-envelope"></i>
-            <a href="mailto:info@tricksterhelmets.com" class="link">info@tricksterhelmets.com</a>
+            <a href="mailto:info@tricksterhelmets.com" class="link">info@pcworldz.com</a>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
@@ -1417,7 +1408,7 @@
   <div class="widget-line-wrap dark widget-line-copy">
     <!-- WIDGET LINE -->
     <div class="widget-line big">
-      <p class="copyright"><span class="bold">The Trickster</span> | All Rights Reserved 2016</p>
+      <p class="copyright"><span class="bold">PC WORLDZ</span> | All Rights Reserved 2016</p>
       <!-- ACTIONS LIST -->
       <ul class="actions-list right">
         <!-- ACTIONS LIST ITEM -->
