@@ -39,7 +39,7 @@ body {
 }
 
 .website-logo .logo img {
-    width: 100px;
+    width: 200px;
 }
 
 .website-logo-inside img {
@@ -83,8 +83,8 @@ body {
 }
 
 .img-holder .bg {
-    opacity: 0.23;
-    background-image: none;
+    opacity: 10;
+    background-image:url(../images/testing1.jpg);
 }
 
 .form-holder {
@@ -108,7 +108,8 @@ body {
 }
 
 .form-content {
-    background-color: #0093FF;
+    background-color: #0096c7;
+    
 }
 
 .form-content .form-group {

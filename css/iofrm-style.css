@@ -73,7 +73,7 @@ html, body {
 }
 
 .website-logo .logo img.logo-size {
-    opacity: 0 !important;
+    opacity: 1 !important;
 }
 
 .website-logo-inside {
@@ -217,8 +217,9 @@ html, body {
 }
 
 .img-holder .info-holder img {
-    width: 100%;
-    max-width: 378px;
+    width: 130%;
+    max-width: 500px;
+    
 }
 
 .img-holder .info-holder img.md-size {
