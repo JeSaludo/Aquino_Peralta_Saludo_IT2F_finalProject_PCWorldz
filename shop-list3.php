@@ -1231,7 +1231,7 @@
           <!-- PRODUCT IMG -->
           <a href="product-page-v1.php">
             <figure class="product-img">
-              <img src="img/products/01.png" alt="product01">
+              <img src="img/products/013.png" alt="product01">
             </figure>
           </a>
           <!-- /PRODUCT IMG -->
@@ -1241,12 +1241,12 @@
             <a href="product-page-v1.php"><h6 class="title medium">
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[0]->name;
+              echo $item->product[12]->name;
               ?>
             </h6></a>
             <p class="product-description medium"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[0]->tag;
+              echo $item->product[12]->tag;
               ?></p>
             <!-- RATING -->
             <ul class="rating">
@@ -1303,11 +1303,11 @@
             <!-- /RATING -->
             <h6 class="product-price medium"> <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[0]->price;
+              echo $item->product[12]->price;
               ?></h6>
             <p class="product-description-preview"> <?php
              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[0]->description;
+              echo $item->product[12]->description;
               ?></p>
             <!-- BUTTON LIST -->
             <div class="button-list wrap-4">
@@ -1354,7 +1354,7 @@
           <!-- PRODUCT IMG -->
           <a href="product-page-v1.php">
             <figure class="product-img">
-              <img src="img/products/02.png" alt="product02">
+              <img src="img/products/014.png" alt="product02">
             </figure>
           </a>
           <!-- /PRODUCT IMG -->
@@ -1364,12 +1364,12 @@
             <a href="product-page-v1.php"><h6 class="title medium">
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[1]->name;
+              echo $item->product[13]->name;
               ?></h6></a>
             <p class="product-description medium">
             <?php
                $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[1]->tag;
+              echo $item->product[13]->tag;
               ?>
             </p>
             <!-- RATING -->
@@ -1428,12 +1428,12 @@
             <h6 class="product-price medium">
             <?php
                $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[1]->price;
+              echo $item->product[13]->price;
               ?>
             </h6>
             <p class="product-description-preview"><?php
                $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[1]->description;
+              echo $item->product[13]->description;
               ?></p>
             <!-- BUTTON LIST -->
             <div class="button-list wrap-4">
@@ -1480,7 +1480,7 @@
           <!-- PRODUCT IMG -->
           <a href="product-page-v1.php">
             <figure class="product-img">
-              <img src="img/products/03.png" alt="product03">
+              <img src="img/products/015.png" alt="product03">
             </figure>
           </a>
           <!-- /PRODUCT IMG -->
@@ -1490,12 +1490,12 @@
             <a href="product-page-v1.php"><h6 class="title medium">
               <?php
                $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');;
-              echo $item->product[2]->name;
+              echo $item->product[14]->name;
               ?>
             </h6></a>
             <p class="product-description medium"><?php
                $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[2]->tag;
+              echo $item->product[14]->tag;
               ?></p>
             <!-- RATING -->
             <ul class="rating">
@@ -1553,12 +1553,12 @@
             <h6 class="product-price medium">
             <?php
                $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[2]->price;
+              echo $item->product[14]->price;
               ?>
             </h6>
             <p class="product-description-preview"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[2]->description;
+              echo $item->product[14]->description;
               ?></p>
             <!-- BUTTON LIST -->
             <div class="button-list wrap-4">
@@ -1605,7 +1605,7 @@
           <!-- PRODUCT IMG -->
           <a href="product-page-v1.php">
             <figure class="product-img">
-              <img src="img/products/04.png" alt="product05">
+              <img src="img/products/016.png" alt="product05">
             </figure>
           </a>
           <!-- /PRODUCT IMG -->
@@ -1615,13 +1615,13 @@
             <a href="product-page-v1.php"><h6 class="title medium">
             <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[3]->name;
+              echo $item->product[15]->name;
               ?>
             </h6></a>
             <p class="product-description medium">
             <?php
                $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[3]->tag;
+              echo $item->product[15]->tag;
               ?>
             </p>
             <!-- RATING -->
@@ -1679,11 +1679,11 @@
             <!-- /RATING -->
             <h6 class="product-price medium"><?php
                $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[3]->price;
+              echo $item->product[15]->price;
               ?></h6>
             <p class="product-description-preview"><?php
                $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[3]->description;
+              echo $item->product[15]->description;
               ?></p>
             <!-- BUTTON LIST -->
             <div class="button-list wrap-4">
@@ -1730,7 +1730,7 @@
           <!-- PRODUCT IMG -->
           <a href="product-page-v1.php">
             <figure class="product-img">
-              <img src="img/products/05.png" alt="product06">
+              <img src="img/products/017.png" alt="product06">
             </figure>
           </a>
           <!-- /PRODUCT IMG -->
@@ -1739,11 +1739,11 @@
           <div class="product-list-item-info">
             <a href="product-page-v1.php"><h6 class="title medium"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[4]->name;
+              echo $item->product[16]->name;
               ?></h6></a>
             <p class="product-description medium"><?php
                $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[4]->tag;
+              echo $item->product[16]->tag;
               ?></p>
             <!-- RATING -->
             <ul class="rating">
@@ -1800,11 +1800,11 @@
             <!-- /RATING -->
             <h6 class="product-price medium"><?php
              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[4]->price;
+              echo $item->product[16]->price;
               ?></h6>
             <p class="product-description-preview"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[4]->description;
+              echo $item->product[16]->description;
               ?></p>
             <!-- BUTTON LIST -->
             <div class="button-list wrap-4">
@@ -1851,7 +1851,7 @@
           <!-- PRODUCT IMG -->
           <a href="product-page-v1.php">
             <figure class="product-img">
-              <img src="img/products/06.png" alt="product04">
+              <img src="img/products/018.png" alt="product04">
             </figure>
           </a>
           <!-- /PRODUCT IMG -->
@@ -1861,12 +1861,12 @@
             <a href="product-page-v1.php"><h6 class="title medium">
             <?php
              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[5]->name;
+              echo $item->product[17]->name;
               ?>
             </h6></a>
             <p class="product-description medium"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[5]->tag;
+              echo $item->product[17]->tag;
               ?></p>
             <!-- RATING -->
             <ul class="rating">
@@ -1901,7 +1901,7 @@
               <!-- /RATING ITEM -->
 
               <!-- RATING ITEM -->
-              <li class="rating-item">
+              <li class="rating-item filled">
                 <!-- SVG STAR -->
                 <svg class="svg-star">
                   <use xlink:href="#svg-star"></use>
@@ -1923,11 +1923,11 @@
             <!-- /RATING -->
             <h6 class="product-price medium"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[5]->price;
+              echo $item->product[17]->price;
               ?></h6>
             <p class="product-description-preview"><?php
              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
-              echo $item->product[5]->description;
+              echo $item->product[17]->description;
               ?></p>
             <!-- BUTTON LIST -->
             <div class="button-list wrap-4">

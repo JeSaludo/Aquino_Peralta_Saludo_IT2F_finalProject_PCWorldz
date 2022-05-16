@@ -15,61 +15,133 @@
 
 <products>
 
-    <product>
+    <product name = "motherboard">
         <name>GIGABYTE X570 AORUS XTREME</name>
         <price>₱58,462</price>
         <tag> E-ATX Motherboard</tag>
         <description>Supports AMD Ryzen 5000 Series / 3rd Gen Ryzen/2nd Gen Ryzen / 2nd Gen Ryzen with Radeon Vega Graphics/Ryzen with Radeon Vega Graphics Processors</description>
     </product>
 
-    <product>
+    <product name = "motherboard">
         <name> ASUS ROG Crosshair III Dark Hero </name>
         <price> ₱28,516</price>
         <tag> ATX AMD Motherboard </tag>
         <description> AMD AM4 Socket for AMD Ryzen 5000 Series/4000 G-Series/3000 Series/3000 G-Series/2000 Series/2000 G-Series Desktop Processors</description>
     </product>
 
-    <product>
+    <product name = "motherboard">
         <name> ASUS ROG Strix B550-F Gaming</name>
         <price> ₱12,947.</price>
         <tag> ATX Gaming Motherboard </tag>
         <description> AMD AM4 Socket and PCIe 4.0: The perfect pairing for 3rd Gen AMD Ryzen CPUs</description>    
     </product>
 
-     <product>
+   <product name = "motherboard">
         <name> GIGABYTE X570 AORUS ELITE WIFI</name>
         <price> ₱12,644</price>
         <tag> ATX AMD Motherboard </tag>
         <description>  Supports AMD Ryzen 5000 Series / 5000 G-Series Processors, Supports AMD Ryzen 3rd Gen / 2nd Gen Processors , Supports AMD Ryzen 3rd Gen / 2nd Gen / 1st Gen with Radeon Vega Graphics Processors</description>
     </product>
     
-    <product>
+    <product name = "motherboard">
         <name> GIGABYTE B550M AORUS PRO-P </name>
         <price> ₱8,640 </price>
         <tag> Micro ATX Motherboard </tag>
         <description>AMD Socket AM4, support for: AMD Ryzen 5000 Series / 3rd Gen Ryzen and 3rd Gen Ryzen with Radeon Graphics Processors</description>
     </product>
 
-    <product>
+    <product name = "motherboard">
         <name> MSI MAG B550 TOMAHAWK  </name>
         <price>₱11,242</price>
         <tag>ATX AMD Motherboard  </tag>
         <description> Supports AMD Ryzen 5000 / 4000 G / 3000 Series* processors</description>
     </product>
 
-       <product>
-        <name> 2GIGABYTE B550M AORUS PRO-P </name>
-        <price> ₱8,640 </price>
-        <tag> Micro ATX Motherboard </tag>
-        <description>AMD Socket AM4, support for: AMD Ryzen 5000 Series / 3rd Gen Ryzen and 3rd Gen Ryzen with Radeon Graphics Processors</description>
+       <product name = "processor"> 
+        <name>Intel Core i9-12900K</name>
+        <price> ₱38,401 </price>
+        <tag> Processors</tag>
+        <description>One of intel's biggest generation performance increase ever and they are finally fighting back against AMD. Skip the 11th gen any and every day and get this now</description>
     </product>
 
-    <product>
-        <name> 3MSI MAG B550 TOMAHAWK  </name>
-        <price>₱11,242</price>
-        <tag>ATX AMD Motherboard  </tag>
-        <description> Supports AMD Ryzen 5000 / 4000 G / 3000 Series* processors</description>
+    <product name = "processor">
+        <name> AMD Ryzen 9 5900X</name>
+        <price>₱25,721</price>
+        <tag>Processors </tag>
+        <description>AMD Ryzen™ 9 5900X series desktop processors comes with 12 cores to power through gaming, streaming and more.</description>
     </product>
+
+    <product name = "processor">
+        <name> Intel Core i7 10th Gen</name>
+        <price>₱21,040</price>
+        <tag>Processors </tag>
+        <description>10th Gen Intel Core i7-10700K unlocked desktop processor. Featuring Intel Turbo Boost Max Technology 3.0, unlocked 10th Gen Intel Core desktop processors are optimized for enthusiast gamers and serious creators and help deliver high performance overclocking for an added boost.</description>
+    </product>
+
+    <product name = "processor">
+        <name> AMD Ryzen 7 5800X</name>
+        <price>₱20,973</price>
+        <tag>Processors </tag>
+        <description>AMD Ryzen™ 7 5900X series desktop processors comes with 8 cores to power through gaming, streaming and more.</description>
+    </product>
+
+    <product name = "processor">
+        <name> Intel Core i5-10400</name>
+        <price>₱9,719</price>
+        <tag>Processors </tag>
+        <description>10th Gen Intel Core i5-10400 desktop processor optimized for gaming, creating, and productivity.</description>
+    </product>
+
+    <product name = "processor">
+        <name> AMD Ryzen 5 3rd Gen </name>
+        <price>₱13,425</price>
+        <tag>Processors </tag>
+        <description>AMD Ryzen™ 5 3600X series desktop processors comes with 6 cores to power through gaming, streaming and more.</description>
+    </product>
+
+    <product name = "Video Card">
+        <name>NVIDIA GeForce RTX 3090</name>
+        <price>₱122,755</price>
+        <tag>Video Card </tag>
+        <description>The GeForce RTX 3090 is colossally powerful in every way, giving you a whole new tier of performance. It’s powered by Ampere—NVIDIA’s 2nd gen RTX architecture—doubling down on ray tracing and AI performance with enhanced RT Cores, Tensor Cores, and new streaming multiprocessors. Plus, it features a staggering 24 GB of G6X memory, all to deliver the ultimate gaming experience..</description>
+    </product>
+
+    <product name = "Video Card">
+        <name> MSI Ventus GeForce RTX 3080 </name>
+        <price>₱63,909</price>
+        <tag>Video Card </tag>
+        <description>The GeForce RTX™ 3080 delivers the ultra performance that gamers crave, powered by Ampere—NVIDIA's 2nd gen RTX architecture.</description>
+    </product>
+
+    <product name = "Video Card">
+        <name>GIGABYTE Gaming GeForce RTX 3070 </name>
+        <price>₱53,033</price>
+        <tag>Video Card</tag>
+        <description>Powered by GeForce RTX™ 3070. Integrated with 8GB GDDR6 256-bit memory interface. WINDFORCE 3X Cooling System with alternate spinning fans. RGB Fusion 2.0</description>
+    </product>
+
+    <product name = "Video Card">
+        <name> EVGA GeForce GTX TITAN Z </name>
+        <price>₱86, 189</price>
+        <tag>Video Card</tag>
+        <description>GeForce GTX TITAN Z is a gaming monster, built to power the most extreme gaming rigs on the planet. It is designed with the highest-grade components to deliver the best experience – incredible speed and cool, quiet performance — all in a stunningly crafted aluminum case. y</description>
+    </product>
+
+    <product name = "Video Card">
+        <name> GIGABYTE Radeon RX 6900 XT</name>
+        <price>₱63,910</price>
+        <tag>Video Card </tag>
+        <description>Powered by RDNA2 Radeon RX 6900 XT Integrated with 16GB GDDR6 256-bit memory interface WINDFORCE 3X Cooling System with alternate spinning fans Graphene nano lubricant RGB Fusion 2.0 Dual BIOS Protection metal back plate</description>
+    </product>
+
+    <product name = "Video Card">
+        <name> GIGABYTE GeForce GTX 1080 Ti </name>
+        <price>₱88,566</price>
+        <tag>Video Card </tag>
+        <description>Features Powered by GeForce® GTX 1080 Ti Integrated with 11GB GDDR5X 352-bit memory interface. WINDFORCE 3X Cooling System RGB Fusion 2.0.</description>
+    </product>
+
+    
 
 </products>
 
