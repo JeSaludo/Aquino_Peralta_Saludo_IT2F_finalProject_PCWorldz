@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/style.min.css">
   <!-- favicon -->
   <link rel="icon" href="favicon.ico">
-  <title>The Trickster | Post</title>
+  <title>PC WORLDZ | Post</title>
 </head>
 <body>
 
@@ -26,7 +26,7 @@
     <div class="form-popup-column small">
       <h2 class="subsection-title medium">Register now!</h2>
       <hr class="line-separator">
-      <p class="small">Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="small">Fill all the requirements on the space provided.</p>
       <!-- FORM -->
       <form>
         <!-- FORM ROW -->
@@ -45,7 +45,7 @@
 
         <!-- FORM ROW -->
         <div class="form-row separated">
-          <button class="button dark full">Register to Trickster!</button>
+          <button class="button dark full">Register to PC WORLDZ!</button>
         </div>
         <!-- /FORM ROW -->
       </form>
@@ -59,7 +59,7 @@
 
     <!-- FORM POPUP COLUMN -->
     <div class="form-popup-column small">
-      <h2 class="subsection-title medium">Login to Trickster</h2>
+      <h2 class="subsection-title medium">Login to PC WORLDZ</h2>
       <hr class="line-separator">
       <!-- FORM -->
       <form>
@@ -342,7 +342,7 @@
       <!-- LOGO -->
       <figure class="logo">
         <img src="img/logo.png" alt="logo">
-        <figcaption>The Trickster</figcaption>
+        <figcaption>PC WORLDZ</figcaption>
       </figure>
       <!-- /LOGO -->
 
@@ -650,67 +650,25 @@
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="#">
-            Shop
-            <!-- SVG ARROW -->
-            <svg class="svg-arrow face-down">
-              <use xlink:href="#svg-arrow"></use>
-            </svg>
-            <!-- /SVG ARROW -->
+          <a href="shop-list.php">
+            Shop            
           </a>
 
           <!-- MENU DROPDOWN -->
-          <ul class="menu-dropdown">
+          <ul class="menu-dropdown">           
             <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
+              <a href="shop-list.php">Motherboards</a>
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-grid.html">4 Columns Grid</a>
+              <a href="shop-list2.php">Processors</a>
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
+              <a href="shop-list3.php">Graphic Cards</a>
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
-            <li class="menu-dropdown-item">
-              <a href="shop-list.html">4 Columns List</a>
+             
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
-            <li class="menu-dropdown-item">
-              <a href="#">Product Pages</a>
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-
-              <!-- MENU DROPDOWN -->
-              <ul class="menu-dropdown">
-                <!-- MENU DROPDOWN ITEM -->
-                <li class="menu-dropdown-item">
-                  <a href="product-page-v1.html">Product Page V1</a>
-                </li>
-                <!-- /MENU DROPDOWN ITEM -->
-
-                <!-- MENU DROPDOWN ITEM -->
-                <li class="menu-dropdown-item">
-                  <a href="product-page-v2.html">Product Page V2</a>
-                </li>
-                <!-- /MENU DROPDOWN ITEM -->
-              </ul>
-              <!-- /MENU DROPDOWN -->
-            </li>
-            <!-- /MENU DROPDOWN ITEM -->
+           
           </ul>
           <!-- /MENU DROPDOWN -->
         </li>
@@ -718,7 +676,7 @@
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="blog.html">Our Blog</a>
+          <a href="blog.php">Our Blog</a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
@@ -735,137 +693,6 @@
 
           <!-- CONTENT DROPDOWN -->
           <div class="content-dropdown with-bg">
-            <!-- CONTENT DROPDOWN COLUMN -->
-            <div class="content-dropdown-column">
-              <h6 class="title tiny secondary">Main Features</h6>
-              <hr class="line-separator">
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="index.html">Trickster Home</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-builder-v1.html">Product Builder V1</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-builder-v2.html">Product Builder V2</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="blog.html">Trickster Blog</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="post.html">Blog Post</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="contactus.html">Contact Page</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="404.html">Error Page</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="aboutus.html">About Us</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="menu-dropdowns.html">Menu &amp; DDowns</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shortcodes.html">Shortcodes</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="login-popup.html">Login Popup</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="ratings-popup.html">Ratings Popup</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-            </div>
-            <!-- /CONTENT DROPDOWN COLUMN -->
-
-            <!-- CONTENT DROPDOWN COLUMN -->
-            <div class="content-dropdown-column">
-              <h6 class="title tiny secondary">Shop</h6>
-              <hr class="line-separator">
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-grid.html">4 Columns Grid</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-list.html">4 Columns List</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-page-v1.html">Product Page V1</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-page-v1.html">Product Page V2</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-            </div>
-            <!-- /CONTENT DROPDOWN COLUMN -->
 
             <!-- CONTENT DROPDOWN COLUMN -->
             <div class="content-dropdown-column">
@@ -875,37 +702,37 @@
               <ul class="link-list simple">
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="identification.html">Identification</a>
+                  <a href="identification.php">Identification</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="billing-shipping.html">Billing and Shipping</a>
+                  <a href="billing-shipping.php">Billing and Shipping</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="confirmation.html">Confirmation</a>
+                  <a href="confirmation.php">Confirmation</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="cart.html">Shopping Cart</a>
+                  <a href="cart.php">Shopping Cart</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="wishlist.html">Wishlist</a>
+                  <a href="wishlist.php">Wishlist</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="profile.html">Your Account</a>
+                  <a href="profile.php">Your Account</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
               </ul>
@@ -967,42 +794,18 @@
         </a>
 
         <!-- MOBILE MENU DROPDOWN -->
-        <ul class="mobile-menu-dropdown dropdown">
-          <!-- MOBILE MENU DROPDOWN ITEM -->
+        <ul class="mobile-menu-dropdown dropdown">         
+          
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
+            <a href="shop-sidebar-list.php">Motherboards</a>
           </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-grid.html">4 Columns Grid</a>
+            <a href="shop-sidebar-list.php">Processors</a>
           </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
+            <a href="shop-sidebar-list.php">Graphic Cards</a>
           </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list.html">4 Columns List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.html">Product Page V1</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v2.html">Product Page V2</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
+          
         </ul>
         <!-- /MOBILE MENU DROPDOWN -->
       </li>
@@ -1010,7 +813,7 @@
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="blog.html">Our Blog</a>
+        <a href="blog.php">Our Blog</a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
@@ -1027,147 +830,45 @@
 
         <!-- MOBILE MENU DROPDOWN -->
         <ul class="mobile-menu-dropdown dropdown">
+          
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="index.html">Trickster Home</a>
+            <a href="aboutus.php">asdf</a>
+          </li>
+          
+          <!-- MOBILE MENU DROPDOWN ITEM -->
+          <li class="mobile-menu-dropdown-item">
+            <a href="identification.php">Identification</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="product-builder-v1.html">Product Builder V1</a>
+            <a href="billing-shipping.php">Billing and Shipping</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="product-builder-v2.html">Product Builder V2</a>
+            <a href="confirmation.php">Confirmation</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="blog.html">Trickster Blog</a>
+            <a href="cart.php">Shopping Cart</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="post.html">Blog Post</a>
+            <a href="wishlist.php">Wishlist</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="contactus.html">Contact Page</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="404.html">Error Page</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="aboutus.html">About Us</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="menu-dropdowns.html">Menu &amp; DDowns</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shortcodes.html">Shortcodes</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="login-popup.html">Login Popup</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="ratings-popup.html">Ratings Popup</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-grid.html">4 Columns Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list.html">4 Columns List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.html">Product Page V1</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.html">Product Page V2</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="identification.html">Identification</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="billing-shipping.html">Billing and Shipping</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="confirmation.html">Confirmation</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="cart.html">Shopping Cart</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="wishlist.html">Wishlist</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="profile.html">Your Account</a>
+            <a href="profile.php">Your Account</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
         </ul>
@@ -1286,7 +987,7 @@
           </svg>
           <!-- /SVG ARROW -->
         </span>
-        <span class="path current">Trickster Blog</span>
+        <span class="path current">PC WORLDZ Blog</span>
       </p>
       <!-- SECTION NAVIGATION PATH -->
     </div>
@@ -1311,15 +1012,16 @@
         <p class="post-timestamp">March 6th, 2017</p>
         <!-- TEXT ROW -->
         <div class="text-row">
-          <h2 class="title main-title">The new book about all the Supervowls is here and we review it!</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum doloretate velit esse cillum dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum doloretate velit esse cillum dolore.</p>
+          <h2 class="title main-title">What Does a GPU Do?</h2>
+          <p>The graphics processing unit, or GPU, has become one of the most important types of computing technology, both for personal and business computing. Designed for parallel processing, the GPU is used in a wide range of applications, including graphics and video rendering. Although they’re best known for their capabilities in gaming, GPUs are becoming more popular for use in creative production and artificial intelligence (AI).<br><br>
+          GPUs were originally designed to accelerate the rendering of 3D graphics. Over time, they became more flexible and programmable, enhancing their capabilities. This allowed graphics programmers to create more interesting visual effects and realistic scenes with advanced lighting and shadowing techniques. Other developers also began to tap the power of GPUs to dramatically accelerate additional workloads in high performance computing (HPC), deep learning, and more.</p>
         </div>
         <!-- /TEXT ROW -->
 
         <!-- TEXT ROW -->
         <div class="text-row">
-          <h2 class="title subtitle">Unboxing the Deluxe Edition</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum doloretate velit esse cillum dolore.</p>
+          <h2 class="title subtitle">GPU and CPU: Working Together</h2>
+          <p>The GPU evolved as a complement to its close cousin, the CPU (central processing unit). While CPUs have continued to deliver performance increases through architectural innovations, faster clock speeds, and the addition of cores, GPUs are specifically designed to accelerate computer graphics workloads. When shopping for a system, it can be helpful to know the role of the CPU vs. GPU so you can make the most of both.</p>
         </div>
         <!-- /TEXT ROW -->
 
@@ -1331,7 +1033,7 @@
 
         <!-- TEXT ROW -->
         <div class="text-row">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. </p>
+          <p>Graphics processing technology has evolved to deliver unique benefits in the world of computing. The latest graphics processing units (GPUs) unlock new possibilities in gaming, content creation, machine learning, and more.</p>
         </div>
         <!-- /TEXT ROW -->
 
@@ -1369,11 +1071,10 @@
           <p class="tag-list">
             Tags:
             <span class="bold">
-              <a href="#">Supervowl</a>,
-              <a href="#">Book</a>,
-              <a href="#">Unboxing</a>,
-              <a href="#">Helmets</a>,
-              <a href="#">History</a>
+              <a href="#">GPU</a>,
+              <a href="#">CPU</a>,
+              <a href="#">Intel</a>,
+              <a href="#">Graphics Card</a>,
             </span>
           </p>
           <!-- /TAG LIST -->
@@ -1390,7 +1091,7 @@
             <!-- COMMENT LIST ITEM -->
             <div class="comment-list-item">
               <h6 class="title">Jessica March</h6>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat en derum.</p>
+              <p>Today’s GPUs are more programmable than ever before, allowing a broad range of applications that go beyond traditional graphics rendering.</p>
               <p class="timestamp">3 weeks ago - <a href="#">Report</a></p>
               <a href="#" class="reply-btn">Reply</a>
             </div>
@@ -1399,7 +1100,7 @@
             <!-- COMMENT LIST ITEM -->
             <div class="comment-list-item">
               <h6 class="title">Steven Richards</h6>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat den derum del lorem ipsen derum lorem en loquitar sit amet tempor.</p>
+              <p>While the terms GPU and graphics card (or video card) are often used interchangeably, there is a subtle distinction between these terms. Much like a motherboard contains a CPU, a graphics card refers to an add-in board that incorporates the GPU. This board also includes the raft of components required to both allow the GPU to function and connect to the rest of the system.</p>
               <p class="timestamp">5 weeks ago - <a href="#">Report</a></p>
               <a href="#" class="reply-btn">Reply</a>
 
@@ -1408,7 +1109,7 @@
                 <!-- COMMENT LIST ITEM -->
                 <div class="comment-list-item">
                   <h6 class="title">Serena Bellinson</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip.</p>
+                  <p>GPUs come in two basic types: integrated and discrete. An integrated GPU does not come on its own separate card at all and is instead embedded alongside the CPU. A discrete GPU is a distinct chip that is mounted on its own circuit board and is typically attached to a PCI Express slot.</p>
                   <p class="timestamp">4 weeks ago - <a href="#">Report</a></p>
                   <a href="#" class="reply-btn">Reply</a>
                 </div>
@@ -1421,7 +1122,7 @@
             <!-- COMMENT LIST ITEM -->
             <div class="comment-list-item">
               <h6 class="title">Thomas Willows</h6>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat den derum del lorem ipsen derum lorem.</p>
+              <p>Video games have become more computationally intensive, with hyperrealistic graphics and vast, complicated in-game worlds. With advanced display technologies, such as 4K screens and high refresh rates, along with the rise of virtual reality gaming, demands on graphics processing are growing fast. GPUs are capable of rendering graphics in both 2D and 3D. With better graphics performance, games can be played at higher resolution, at faster frame rates, or both.</p>
               <p class="timestamp">5 weeks ago - <a href="#">Report</a></p>
               <a href="#" class="reply-btn">Reply</a>
             </div>
@@ -1527,24 +1228,24 @@
         <!-- LOGO -->
         <figure class="logo">
           <img src="img/logo-footer.png" alt="logo">
-          <figcaption>The Trickster</figcaption>
+          <figcaption>PC WORLDZ</figcaption>
         </figure>
         <!-- /LOGO -->
-        <p class="description">Lorem ipsum dolor sit amet, sectetur sicing elit, sed do eiusmod. Ut enim ad minim iam, quis trud exercitation laboris. En derum de lorem sectum eusidim en amet.</p>
+        <p class="description">We're dedicated to give you the very best of Computer Products, with a focus on quality, price and uniqueness. Founded in 2022 by Saludo, Peralta and Aquino, PC WORLDZ serves customer worldwide, and are thrilled to be a part of the fair trade wing of the IT industry.</p>
 
         <!-- CONTACTUS LIST -->
         <ul class="contactus-list">
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-location-pin"></i>
-            <p>568 The Bebop Avenue, CA</p>
+            <p>Marinduque, PH</p>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-envelope"></i>
-            <a href="mailto:info@tricksterhelmets.com" class="link">info@tricksterhelmets.com</a>
+            <a href="mailto:info@tricksterhelmets.com" class="link">info@pcworldz.com</a>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
@@ -1778,7 +1479,7 @@
       <div class="content-dropdown-column full">
         <h6 class="title small secondary">Quick Contact</h6>
         <hr class="line-separator">
-        <p class="description">Lorem ipsum dolor sit amet, sectetur adipisicing elit, sed do eiusmod en derum der trenser lorem.</p>
+        <p class="description">You can contact by using our contact number or email us below by using our email info@pcworldz.com</p>
         <form class="quick-contact-form">
           <input type="text" class="dark" name="qc_email" placeholder="Email">
           <textarea name="qc_message" class="dark" placeholder="Message"></textarea>
@@ -1852,7 +1553,7 @@
   <div class="widget-line-wrap dark widget-line-copy">
     <!-- WIDGET LINE -->
     <div class="widget-line big">
-      <p class="copyright"><span class="bold">The Trickster</span> | All Rights Reserved 2016</p>
+      <p class="copyright"><span class="bold">PC WORLDZ</span> | All Rights Reserved 2016</p>
       <!-- ACTIONS LIST -->
       <ul class="actions-list right">
         <!-- ACTIONS LIST ITEM -->
