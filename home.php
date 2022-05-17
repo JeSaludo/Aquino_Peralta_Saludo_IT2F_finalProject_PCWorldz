@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/style.min.css">
   <!-- favicon -->
   <link rel="icon" href="favicon.ico">
-  <title>The Trickster | Home</title>
+  <title>PC WORLDZ | Home</title>
 </head>
 <body>
 
@@ -27,7 +27,7 @@
     <div class="form-popup-column small">
       <h2 class="subsection-title medium">Register now!</h2>
       <hr class="line-separator">
-      <p class="small">Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="small">Fill all the requirements on the space provided.</p>
       <!-- FORM -->
       <form>
         <!-- FORM ROW -->
@@ -46,7 +46,7 @@
 
         <!-- FORM ROW -->
         <div class="form-row separated">
-          <button class="button dark full">Register to Trickster!</button>
+          <button class="button dark full">Register to PC WORLDZ!</button>
         </div>
         <!-- /FORM ROW -->
       </form>
@@ -60,7 +60,7 @@
 
     <!-- FORM POPUP COLUMN -->
     <div class="form-popup-column small">
-      <h2 class="subsection-title medium">Login to Trickster</h2>
+      <h2 class="subsection-title medium">Login to PC WORLDZ</h2>
       <hr class="line-separator">
       <!-- FORM -->
       <form>
@@ -343,7 +343,7 @@
       <!-- LOGO -->
       <figure class="logo">
         <img src="img/logo.png" alt="logo">
-        <figcaption>The Trickster</figcaption>
+        <figcaption>PC WORLDZ</figcaption>
       </figure>
       <!-- /LOGO -->
 
@@ -829,7 +829,7 @@
           
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="aboutus.php">About Us</a>
+            <a href="aboutus.php">asdf</a>
           </li>
           
           <!-- MOBILE MENU DROPDOWN ITEM -->
@@ -1148,7 +1148,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           </svg>
           <!-- /SVG CHECK -->
           <p class="title">Original Products</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>You can make sure that all of the products that you buy here is original because we don't sell fake products</p>
         </li>
         <!-- /FEATURE LIST ITEM -->
 
@@ -1160,7 +1160,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           </svg>
           <!-- /SVG CHECK -->
           <p class="title">Affordable Prices</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>We lowered our price but depends on the product.</p>
         </li>
         <!-- /FEATURE LIST ITEM -->
 
@@ -1172,7 +1172,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           </svg>
           <!-- /SVG CHECK -->
           <p class="title">Fast Shipping</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>We ship our products as fast as possible.</p>
         </li>
         <!-- /FEATURE LIST ITEM -->
 
@@ -1184,7 +1184,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           </svg>
           <!-- /SVG CHECK -->
           <p class="title">24/7 Customer Support</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>We will keep updated to our customer support 24/7.</p>
         </li>
         <!-- /FEATURE LIST ITEM -->
       </ul>
@@ -1204,7 +1204,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
         <h5 class="title medium">Best Quality</h5>
         <h3 class="title big">Products</h3>
         <hr class="line-separator big">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        <p>We have the best quality pc products and items to make your pc at the next level.</p>
       </div>
       <!-- /SERVICE BANNER CONTENT -->
     </div>
@@ -1218,7 +1218,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
         <h5 class="title medium">One Year</h5>
         <h3 class="title big">Guarantee</h3>
         <hr class="line-separator big">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        <p>We will make sure that you get the best products in our shop</p>
       </div>
       <!-- /SERVICE BANNER CONTENT -->
     </div>
@@ -1232,7 +1232,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
         <h5 class="title medium">Worldwide</h5>
         <h3 class="title big">Shipping</h3>
         <hr class="line-separator big">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        <p>We ship our product all around the world.</p>
       </div>
       <!-- /SERVICE BANNER CONTENT -->
     </div>
@@ -1252,7 +1252,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
             <h6 class="title medium"><span class="bold">01.</span></h6>
             <h6 class="title large">Choose the<br>PC PARTS</h6>
             <h6 class="title small">Starting choosing the items for your PC</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore.</p>
+            <p>We provide computer part selection, compatibility, and pricing under guidance for do-it-yourself computer builders. Please choose wisely.</p>
           </div>
           <img src="img/home/step01.png" alt="step01" class="step-list-item-img">
         </div>
@@ -1264,7 +1264,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
             <h6 class="title medium"><span class="bold">02.</span></h6>
             <h6 class="title large">Add Items to<br>Cart</h6>
             <h6 class="title small">Don't forget to add desired items to your cart</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore en repentum der lorem.</p>
+            <p>You can add on product page, select add to cart, preferred variation option, and select add to cart. Don't miss out on exciting deals and discounts.</p>
           </div>
           <img src="img/home/step02.png" alt="step02" class="step-list-item-img">
         </div>
@@ -1276,7 +1276,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
             <h6 class="title medium"><span class="bold">03.</span></h6>
             <h6 class="title large">Confirm and<br>YOU'RE DONE</h6>
             <h6 class="title small">Finishing the purchase</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore.</p>
+            <p>Purchase and always check the confirmation and use your discount codes if you have one and then checkout.</p>
           </div>
           <img src="img/home/step03.png" alt="step03" class="step-list-item-img">
         </div>
@@ -1829,7 +1829,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
       <!-- WIDGET FORM INFO -->
       <div class="widget-form-info">
         <h6 class="title">Join our newsletter</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Sign up and join.</p>
       </div>
       <!-- /WIDGET FORM INFO -->
 
@@ -1853,24 +1853,24 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
         <!-- LOGO -->
         <figure class="logo">
           <img src="img/logo-footer.png" alt="logo">
-          <figcaption>The Trickster</figcaption>
+          <figcaption>PC WORLDZ</figcaption>
         </figure>
         <!-- /LOGO -->
-        <p class="description">Lorem ipsum dolor sit amet, sectetur sicing elit, sed do eiusmod. Ut enim ad minim iam, quis trud exercitation laboris. En derum de lorem sectum eusidim en amet.</p>
+        <p class="description">We're dedicated to give you the very best of Computer Products, with a focus on quality, price and uniqueness. Founded in 2022 by Saludo, Peralta and Aquino, PC WORLDZ serves customer worldwide, and are thrilled to be a part of the fair trade wing of the IT industry.</p>
 
         <!-- CONTACTUS LIST -->
         <ul class="contactus-list">
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-location-pin"></i>
-            <p>568 The Bebop Avenue, CA</p>
+            <p>Marinduque, PH</p>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-envelope"></i>
-            <a href="mailto:info@tricksterhelmets.com" class="link">info@tricksterhelmets.com</a>
+            <a href="mailto:info@tricksterhelmets.com" class="link">info@pcworldz.com</a>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
@@ -2104,7 +2104,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
       <div class="content-dropdown-column full">
         <h6 class="title small secondary">Quick Contact</h6>
         <hr class="line-separator">
-        <p class="description">Lorem ipsum dolor sit amet, sectetur adipisicing elit, sed do eiusmod en derum der trenser lorem.</p>
+        <p class="description">You can contact by using our contact number or email us below by using our email info@pcworldz.com</p>
         <form class="quick-contact-form">
           <input type="text" class="dark" name="qc_email" placeholder="Email">
           <textarea name="qc_message" class="dark" placeholder="Message"></textarea>
@@ -2178,7 +2178,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
   <div class="widget-line-wrap dark widget-line-copy">
     <!-- WIDGET LINE -->
     <div class="widget-line big">
-      <p class="copyright"><span class="bold">The Trickster</span> | All Rights Reserved 2016</p>
+      <p class="copyright"><span class="bold">PC WORLDZ</span> | All Rights Reserved 2016</p>
       <!-- ACTIONS LIST -->
       <ul class="actions-list right">
         <!-- ACTIONS LIST ITEM -->
