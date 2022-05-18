@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/style.min.css">
   <!-- favicon -->
   <link rel="icon" href="favicon.ico">
-  <title>The Trickster | Profile</title>
+  <title>PC WORLDZ | Profile</title>
 </head>
 <body>
 
@@ -26,7 +26,7 @@
     <div class="form-popup-column small">
       <h2 class="subsection-title medium">Register now!</h2>
       <hr class="line-separator">
-      <p class="small">Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="small">Fill all the requirements on the space provided.</p>
       <!-- FORM -->
       <form>
         <!-- FORM ROW -->
@@ -45,7 +45,7 @@
 
         <!-- FORM ROW -->
         <div class="form-row separated">
-          <button class="button dark full">Register to Trickster!</button>
+          <button class="button dark full">Register to PC WORLDZ!</button>
         </div>
         <!-- /FORM ROW -->
       </form>
@@ -59,7 +59,7 @@
 
     <!-- FORM POPUP COLUMN -->
     <div class="form-popup-column small">
-      <h2 class="subsection-title medium">Login to Trickster</h2>
+      <h2 class="subsection-title medium">Login to PC WORLDZ</h2>
       <hr class="line-separator">
       <!-- FORM -->
       <form>
@@ -342,7 +342,7 @@
       <!-- LOGO -->
       <figure class="logo">
         <img src="img/logo.png" alt="logo">
-        <figcaption>The Trickster</figcaption>
+        <figcaption>PC WORLDZ</figcaption>
       </figure>
       <!-- /LOGO -->
 
@@ -650,67 +650,25 @@
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="#">
-            Shop
-            <!-- SVG ARROW -->
-            <svg class="svg-arrow face-down">
-              <use xlink:href="#svg-arrow"></use>
-            </svg>
-            <!-- /SVG ARROW -->
+          <a href="shop-list.php">
+            Shop            
           </a>
 
           <!-- MENU DROPDOWN -->
-          <ul class="menu-dropdown">
+          <ul class="menu-dropdown">           
             <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
+              <a href="shop-list.php">Motherboards</a>
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-grid.html">4 Columns Grid</a>
+              <a href="shop-list2.php">Processors</a>
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
+              <a href="shop-list3.php">Graphic Cards</a>
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
-            <li class="menu-dropdown-item">
-              <a href="shop-list.html">4 Columns List</a>
+             
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
-            <li class="menu-dropdown-item">
-              <a href="#">Product Pages</a>
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-
-              <!-- MENU DROPDOWN -->
-              <ul class="menu-dropdown">
-                <!-- MENU DROPDOWN ITEM -->
-                <li class="menu-dropdown-item">
-                  <a href="product-page-v1.html">Product Page V1</a>
-                </li>
-                <!-- /MENU DROPDOWN ITEM -->
-
-                <!-- MENU DROPDOWN ITEM -->
-                <li class="menu-dropdown-item">
-                  <a href="product-page-v2.html">Product Page V2</a>
-                </li>
-                <!-- /MENU DROPDOWN ITEM -->
-              </ul>
-              <!-- /MENU DROPDOWN -->
-            </li>
-            <!-- /MENU DROPDOWN ITEM -->
+           
           </ul>
           <!-- /MENU DROPDOWN -->
         </li>
@@ -718,7 +676,7 @@
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="blog.html">Our Blog</a>
+          <a href="blog.php">Our Blog</a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
@@ -735,137 +693,6 @@
 
           <!-- CONTENT DROPDOWN -->
           <div class="content-dropdown with-bg">
-            <!-- CONTENT DROPDOWN COLUMN -->
-            <div class="content-dropdown-column">
-              <h6 class="title tiny secondary">Main Features</h6>
-              <hr class="line-separator">
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="index.html">Trickster Home</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-builder-v1.html">Product Builder V1</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-builder-v2.html">Product Builder V2</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="blog.html">Trickster Blog</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="post.html">Blog Post</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="contactus.html">Contact Page</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="404.html">Error Page</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="aboutus.html">About Us</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="menu-dropdowns.html">Menu &amp; DDowns</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shortcodes.html">Shortcodes</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="login-popup.html">Login Popup</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="ratings-popup.html">Ratings Popup</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-            </div>
-            <!-- /CONTENT DROPDOWN COLUMN -->
-
-            <!-- CONTENT DROPDOWN COLUMN -->
-            <div class="content-dropdown-column">
-              <h6 class="title tiny secondary">Shop</h6>
-              <hr class="line-separator">
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-grid.html">4 Columns Grid</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-list.html">4 Columns List</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-page-v1.html">Product Page V1</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-page-v1.html">Product Page V2</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-            </div>
-            <!-- /CONTENT DROPDOWN COLUMN -->
 
             <!-- CONTENT DROPDOWN COLUMN -->
             <div class="content-dropdown-column">
@@ -875,37 +702,37 @@
               <ul class="link-list simple">
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="identification.html">Identification</a>
+                  <a href="identification.php">Identification</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="billing-shipping.html">Billing and Shipping</a>
+                  <a href="billing-shipping.php">Billing and Shipping</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="confirmation.html">Confirmation</a>
+                  <a href="confirmation.php">Confirmation</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="cart.html">Shopping Cart</a>
+                  <a href="cart.php">Shopping Cart</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="wishlist.html">Wishlist</a>
+                  <a href="wishlist.php">Wishlist</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="profile.html">Your Account</a>
+                  <a href="profile.php">Your Account</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
               </ul>
@@ -967,42 +794,18 @@
         </a>
 
         <!-- MOBILE MENU DROPDOWN -->
-        <ul class="mobile-menu-dropdown dropdown">
-          <!-- MOBILE MENU DROPDOWN ITEM -->
+        <ul class="mobile-menu-dropdown dropdown">         
+          
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
+            <a href="shop-sidebar-list.php">Motherboards</a>
           </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-grid.html">4 Columns Grid</a>
+            <a href="shop-sidebar-list.php">Processors</a>
           </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
+            <a href="shop-sidebar-list.php">Graphic Cards</a>
           </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list.html">4 Columns List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.html">Product Page V1</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v2.html">Product Page V2</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
+          
         </ul>
         <!-- /MOBILE MENU DROPDOWN -->
       </li>
@@ -1010,7 +813,7 @@
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="blog.html">Our Blog</a>
+        <a href="blog.php">Our Blog</a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
@@ -1027,147 +830,45 @@
 
         <!-- MOBILE MENU DROPDOWN -->
         <ul class="mobile-menu-dropdown dropdown">
+          
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="index.html">Trickster Home</a>
+            <a href="aboutus.php">asdf</a>
+          </li>
+          
+          <!-- MOBILE MENU DROPDOWN ITEM -->
+          <li class="mobile-menu-dropdown-item">
+            <a href="identification.php">Identification</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="product-builder-v1.html">Product Builder V1</a>
+            <a href="billing-shipping.php">Billing and Shipping</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="product-builder-v2.html">Product Builder V2</a>
+            <a href="confirmation.php">Confirmation</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="blog.html">Trickster Blog</a>
+            <a href="cart.php">Shopping Cart</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="post.html">Blog Post</a>
+            <a href="wishlist.php">Wishlist</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="contactus.html">Contact Page</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="404.html">Error Page</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="aboutus.html">About Us</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="menu-dropdowns.html">Menu &amp; DDowns</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shortcodes.html">Shortcodes</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="login-popup.html">Login Popup</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="ratings-popup.html">Ratings Popup</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-grid.html">4 Columns Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list.html">4 Columns List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.html">Product Page V1</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.html">Product Page V2</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="identification.html">Identification</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="billing-shipping.html">Billing and Shipping</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="confirmation.html">Confirmation</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="cart.html">Shopping Cart</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="wishlist.html">Wishlist</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="profile.html">Your Account</a>
+            <a href="profile.php">Your Account</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
         </ul>
@@ -1507,24 +1208,24 @@
         <!-- LOGO -->
         <figure class="logo">
           <img src="img/logo-footer.png" alt="logo">
-          <figcaption>The Trickster</figcaption>
+          <figcaption>PC WORLDZ</figcaption>
         </figure>
         <!-- /LOGO -->
-        <p class="description">Lorem ipsum dolor sit amet, sectetur sicing elit, sed do eiusmod. Ut enim ad minim iam, quis trud exercitation laboris. En derum de lorem sectum eusidim en amet.</p>
+        <p class="description">We're dedicated to give you the very best of Computer Products, with a focus on quality, price and uniqueness. Founded in 2022 by Saludo, Peralta and Aquino, PC WORLDZ serves customer worldwide, and are thrilled to be a part of the fair trade wing of the IT industry.</p>
 
         <!-- CONTACTUS LIST -->
         <ul class="contactus-list">
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-location-pin"></i>
-            <p>568 The Bebop Avenue, CA</p>
+            <p>Marinduque, PH</p>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-envelope"></i>
-            <a href="mailto:info@tricksterhelmets.com" class="link">info@tricksterhelmets.com</a>
+            <a href="mailto:info@tricksterhelmets.com" class="link">info@pcworldz.com</a>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
@@ -1758,7 +1459,7 @@
       <div class="content-dropdown-column full">
         <h6 class="title small secondary">Quick Contact</h6>
         <hr class="line-separator">
-        <p class="description">Lorem ipsum dolor sit amet, sectetur adipisicing elit, sed do eiusmod en derum der trenser lorem.</p>
+        <p class="description">You can contact by using our contact number or email us below by using our email info@pcworldz.com</p>
         <form class="quick-contact-form">
           <input type="text" class="dark" name="qc_email" placeholder="Email">
           <textarea name="qc_message" class="dark" placeholder="Message"></textarea>
@@ -1832,7 +1533,7 @@
   <div class="widget-line-wrap dark widget-line-copy">
     <!-- WIDGET LINE -->
     <div class="widget-line big">
-      <p class="copyright"><span class="bold">The Trickster</span> | All Rights Reserved 2016</p>
+      <p class="copyright"><span class="bold">PC WORLDZ</span> | All Rights Reserved 2016</p>
       <!-- ACTIONS LIST -->
       <ul class="actions-list right">
         <!-- ACTIONS LIST ITEM -->
