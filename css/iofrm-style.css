@@ -322,7 +322,8 @@ html, body {
 
 .form-content {
     position: relative;
-    background-color: #0093FF;
+    background: rgb(72,202,228);
+    background: radial-gradient(circle, rgba(72,202,228,1) 0%, rgba(3,4,94,1) 100%);
 }
 
 .form-content .form-group {
