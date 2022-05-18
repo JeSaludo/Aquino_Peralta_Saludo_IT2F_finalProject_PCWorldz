@@ -255,7 +255,7 @@
 
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
-          <a class="action-button regular popup-trigger" href="#login-popup">Logout</a>
+          <a class="action-button" href="index.html">Logout</a>
         </li>
         <!-- ACTIONS LIST ITEM -->
 
@@ -638,7 +638,7 @@
       <ul class="main-menu">
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="index.php">Home</a>
+          <a href="home.php">Home</a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
@@ -663,7 +663,7 @@
           <ul class="menu-dropdown">
             <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-grid.php">Sidebar 3 Col Grid</a>
+              <a href="shop-grid.php">Sidebar 3 Col Grid</a>
             </li>
             <!-- /MENU DROPDOWN ITEM -->
 
@@ -675,7 +675,7 @@
 
             <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-list.php">Sidebar 3 Col List</a>
+              <a href="shop-list2.php">Sidebar 3 Col List</a>
             </li>
             <!-- /MENU DROPDOWN ITEM -->
 
@@ -743,7 +743,7 @@
               <ul class="link-list simple">
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="index.php">Trickster Home</a>
+                  <a href="home.php">Trickster Home</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
@@ -829,7 +829,7 @@
               <ul class="link-list simple">
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="shop-sidebar-grid.php">Sidebar 3 Col Grid</a>
+                  <a href="shop-grid.php">Sidebar 3 Col Grid</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
@@ -841,7 +841,7 @@
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="shop-sidebar-list.php">Sidebar 3 Col List</a>
+                  <a href="shop-list2.php">Sidebar 3 Col List</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
@@ -945,7 +945,7 @@
     <ul class="mobile-menu dropdown">
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="index.php">Home</a>
+        <a href="home.php">Home</a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
@@ -970,7 +970,7 @@
         <ul class="mobile-menu-dropdown dropdown">
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.php">Sidebar 3 Col Grid</a>
+            <a href="shop-grid.php">Sidebar 3 Col Grid</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
@@ -982,7 +982,7 @@
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.php">Sidebar 3 Col List</a>
+            <a href="shop-list2.php">Sidebar 3 Col List</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
@@ -1029,7 +1029,7 @@
         <ul class="mobile-menu-dropdown dropdown">
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="index.php">Trickster Home</a>
+            <a href="home.php">Trickster Home</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
@@ -1101,7 +1101,7 @@
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.php">Sidebar 3 Col Grid</a>
+            <a href="shop-grid.php">Sidebar 3 Col Grid</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
@@ -1113,7 +1113,7 @@
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.php">Sidebar 3 Col List</a>
+            <a href="shop-list2.php">Sidebar 3 Col List</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
@@ -1428,8 +1428,8 @@
 
       <!-- SECTION ACTIONS -->
       <div class="section-actions">
-        <a href="index.php" class="button dark">Return to Home</a>
-        <a href="shop-sidebar-grid.php" class="button">Continue Shopping</a>
+        <a href="home.php" class="button dark">Return to Home</a>
+        <a href="shop-grid.php" class="button">Continue Shopping</a>
       </div>
       <!-- /SECTION ACTIONS -->
     </div>
@@ -1486,7 +1486,7 @@
         <ul class="link-list decorated">
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="index.php">
+            <a href="home.php">
               Home
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">

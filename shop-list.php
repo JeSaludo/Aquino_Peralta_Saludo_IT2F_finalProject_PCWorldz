@@ -255,7 +255,7 @@
 
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
-          <a class="action-button regular popup-trigger" href="#login-popup">Logout</a>
+          <a class="action-button" href="index.html">Logout</a>
         </li>
         <!-- ACTIONS LIST ITEM -->
 
@@ -638,7 +638,7 @@
       <ul class="main-menu">
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="index.php">Home</a>
+          <a href="home.php">Home</a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
@@ -658,13 +658,13 @@
           <ul class="menu-dropdown">
             
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-list.php">Motherboards</a>
+              <a href="shop-list2.php">Motherboards</a>
             </li>
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-list.php">Processors</a>
+              <a href="shop-list2.php">Processors</a>
             </li>
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-list.php">Graphic Cards</a>
+              <a href="shop-list2.php">Graphic Cards</a>
             </li>
             </li>
             <!-- /MENU DROPDOWN ITEM -->
@@ -769,7 +769,7 @@
     <ul class="mobile-menu dropdown">
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="index.php">Home</a>
+        <a href="home.php">Home</a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
@@ -806,7 +806,7 @@
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.php">Sidebar 3 Col List</a>
+            <a href="shop-list2.php">Sidebar 3 Col List</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
@@ -853,7 +853,7 @@
         <ul class="mobile-menu-dropdown dropdown">
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="index.php">Trickster Home</a>
+            <a href="home.php">Trickster Home</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
@@ -937,7 +937,7 @@
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.php">Sidebar 3 Col List</a>
+            <a href="shop-list2.php">Sidebar 3 Col List</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
@@ -2068,7 +2068,7 @@
         <ul class="link-list decorated">
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="index.php">
+            <a href="home.php">
               Home
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">

@@ -362,7 +362,7 @@
 
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
-          <a class="action-button regular popup-trigger" href="#login-popup">Logout</a>
+          <a class="action-button" href="index.html">Logout</a>
         </li>
         <!-- ACTIONS LIST ITEM -->
 
@@ -782,7 +782,7 @@
 
             <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-list.php">Sidebar 3 Col List</a>
+              <a href="shop-list2.php">Sidebar 3 Col List</a>
             </li>
             <!-- /MENU DROPDOWN ITEM -->
 
@@ -948,7 +948,7 @@
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="shop-sidebar-list.php">Sidebar 3 Col List</a>
+                  <a href="shop-list2.php">Sidebar 3 Col List</a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
@@ -1089,7 +1089,7 @@
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.php">Sidebar 3 Col List</a>
+            <a href="shop-list2.php">Sidebar 3 Col List</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
@@ -1220,7 +1220,7 @@
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.php">Sidebar 3 Col List</a>
+            <a href="shop-list2.php">Sidebar 3 Col List</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 

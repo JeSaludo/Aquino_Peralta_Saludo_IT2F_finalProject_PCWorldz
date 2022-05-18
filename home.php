@@ -256,7 +256,7 @@
 
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
-          <a class="action-button regular popup-trigger" href="#login-popup">Logout</a>
+          <a class="action-button" href="index.php">Logout</a>
         </li>
         <!-- ACTIONS LIST ITEM -->
 
@@ -793,13 +793,13 @@
         <ul class="mobile-menu-dropdown dropdown">         
           
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.php">Motherboards</a>
+            <a href="shop-list2.php">Motherboards</a>
           </li>
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.php">Processors</a>
+            <a href="shop-list2.php">Processors</a>
           </li>
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.php">Graphic Cards</a>
+            <a href="shop-list2.php">Graphic Cards</a>
           </li>
           
         </ul>
