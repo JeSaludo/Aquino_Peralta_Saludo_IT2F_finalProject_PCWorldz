@@ -471,7 +471,7 @@
 
           <!-- CART ITEM QUANTITY -->
           <div class="cart-item-quantity">
-            <p>8</p>
+            <p>3</p>
           </div>
           <!-- /CART ITEM QUANTITY -->
         </div>
@@ -486,15 +486,20 @@
               <!-- PRODUCT IMG -->
               <a href="product-page-v1.html">
                 <figure class="product-img small">
-                  <img src="img/products/02.jpg" alt="02">
+                  <img src="img/products/01.png" alt="02">
                 </figure>
               </a>
               <!-- /PRODUCT IMG -->
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">Poisonous Frog</h6></a>
-                <p class="product-description small">For Outdoor Sports</p>
+                <a href="product-page-v1.html"><h6 class="title small">              
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[0]->name;
+              ?>
+              </h6></a>
+                <p class="product-description small">Gaming</p>
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -549,7 +554,9 @@
                 </ul>
                 <!-- /RATING -->
                 <p class="product-quantity">x4</p>
-                <p class="product-price">$600</p>
+                <p class="product-price"><br><br>
+                  ₱233,848
+              </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
 
@@ -566,15 +573,20 @@
               <!-- PRODUCT IMG -->
               <a href="product-page-v1.html">
                 <figure class="product-img small">
-                  <img src="img/products/06.jpg" alt="06">
+                  <img src="img/products/02.png" alt="06">
                 </figure>
               </a>
               <!-- /PRODUCT IMG -->
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">Crashing Wave</h6></a>
-                <p class="product-description small">Water Resistant</p>
+                <a href="product-page-v1.html"><h6 class="title small">              
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[1]->name;
+              ?>
+              </h6></a>
+                <p class="product-description small">Gaming</p>
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -629,7 +641,9 @@
                 </ul>
                 <!-- /RATING -->
                 <p class="product-quantity">x2</p>
-                <p class="product-price">$360</p>
+                <p class="product-price"><br><br>              
+                  ₱57,032
+                </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
 
@@ -646,15 +660,20 @@
               <!-- PRODUCT IMG -->
               <a href="product-page-v1.html">
                 <figure class="product-img small">
-                  <img src="img/products/05.jpg" alt="05">
+                  <img src="img/products/03.png" alt="05">
                 </figure>
               </a>
               <!-- /PRODUCT IMG -->
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">The Patriot</h6></a>
-                <p class="product-description small">By Spiegel</p>
+                <a href="product-page-v1.html"><h6 class="title small">              
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[2]->name;
+              ?>
+                </h6></a>
+                <p class="product-description small">Gaming</p>
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -709,7 +728,12 @@
                 </ul>
                 <!-- /RATING -->
                 <p class="product-quantity">x1</p>
-                <p class="product-price">$185</p>
+                <p class="product-price"> <br><br>             
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[2]->price;
+              ?>
+                </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
 
@@ -726,7 +750,7 @@
           <!-- CART DROPDOWN SUBTOTAL -->
           <div class="cart-dropdown-subtotal">
             <p class="title small">Cart Subtotal</p>
-            <p class="product-price">$1145</p>
+            <p class="product-price">₱303,827</p>
           </div>
           <!-- /CART DROPDOWN SUBTOTAL -->
 
@@ -1102,7 +1126,7 @@
           </svg>
           <!-- /SVG ARROW -->
         </span>
-        <span class="path current">Poisonous Frog</span>
+        <span class="path current">Items</span>
       </p>
       <!-- SECTION NAVIGATION PATH -->
     </div>
@@ -1172,11 +1196,12 @@
 
         <!-- PRODUCT DETAILS -->
         <div class="product-details">
-          <h2 class="title bigger">              <?php
+          <h2 class="title bigger">              
+              <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[0]->name;
               ?>
-</h2>
+          </h2>
           <p class="product-description medium">Gaming</p>
           <!-- RATING -->
           <ul class="rating medium">
