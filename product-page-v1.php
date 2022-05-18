@@ -493,10 +493,6 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-<<<<<<< HEAD
-                <a href="product-page-v1.php"><h6 class="title small">Poisonous Frog</h6></a>
-                <p class="product-description small">For Outdoor Sports</p>
-=======
                 <a href="product-page-v1.html"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
@@ -504,7 +500,6 @@
               ?>
               </h6></a>
                 <p class="product-description small">Gaming</p>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -585,10 +580,6 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-<<<<<<< HEAD
-                <a href="product-page-v1.php"><h6 class="title small">Crashing Wave</h6></a>
-                <p class="product-description small">Water Resistant</p>
-=======
                 <a href="product-page-v1.html"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
@@ -596,7 +587,6 @@
               ?>
               </h6></a>
                 <p class="product-description small">Gaming</p>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -677,10 +667,6 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-<<<<<<< HEAD
-                <a href="product-page-v1.php"><h6 class="title small">The Patriot</h6></a>
-                <p class="product-description small">By Spiegel</p>
-=======
                 <a href="product-page-v1.html"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
@@ -688,7 +674,6 @@
               ?>
                 </h6></a>
                 <p class="product-description small">Gaming</p>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -804,64 +789,17 @@
           <ul class="menu-dropdown">           
             <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-<<<<<<< HEAD
-              <a href="shop-sidebar-grid.php">Sidebar 3 Col Grid</a>
-=======
               <a href="shop-list.php">Motherboards</a>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
             </li>
             <li class="menu-dropdown-item">
-<<<<<<< HEAD
-              <a href="shop-grid.php">4 Columns Grid</a>
-=======
               <a href="shop-list2.php">Processors</a>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
             </li>
             <li class="menu-dropdown-item">
-<<<<<<< HEAD
-              <a href="shop-list2.php">Sidebar 3 Col List</a>
-            </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
-            <li class="menu-dropdown-item">
-              <a href="shop-list.php">4 Columns List</a>
-            </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
-            <li class="menu-dropdown-item">
-              <a href="#">Product Pages</a>
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-
-              <!-- MENU DROPDOWN -->
-              <ul class="menu-dropdown">
-                <!-- MENU DROPDOWN ITEM -->
-                <li class="menu-dropdown-item">
-                  <a href="product-page-v1.php">Product Page V1</a>
-                </li>
-                <!-- /MENU DROPDOWN ITEM -->
-
-                <!-- MENU DROPDOWN ITEM -->
-                <li class="menu-dropdown-item">
-                  <a href="product-page-v2.php">Product Page V2</a>
-                </li>
-                <!-- /MENU DROPDOWN ITEM -->
-              </ul>
-              <!-- /MENU DROPDOWN -->
-            </li>
-            <!-- /MENU DROPDOWN ITEM -->
-=======
               <a href="shop-list3.php">Graphic Cards</a>
             </li>
              
             </li>
            
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
           </ul>
           <!-- /MENU DROPDOWN -->
         </li>
@@ -886,140 +824,6 @@
 
           <!-- CONTENT DROPDOWN -->
           <div class="content-dropdown with-bg">
-<<<<<<< HEAD
-            <!-- CONTENT DROPDOWN COLUMN -->
-            <div class="content-dropdown-column">
-              <h6 class="title tiny secondary">Main Features</h6>
-              <hr class="line-separator">
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="index.php">Trickster Home</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-builder-v1.php">Product Builder V1</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-builder-v2.php">Product Builder V2</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="blog.php">Trickster Blog</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="post.php">Blog Post</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="contactus.php">Contact Page</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="404.php">Error Page</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="aboutus.php">About Us</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="menu-dropdowns.php">Menu &amp; DDowns</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shortcodes.php">Shortcodes</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="login-popup.php">Login Popup</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="ratings-popup.php">Ratings Popup</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-            </div>
-            <!-- /CONTENT DROPDOWN COLUMN -->
-
-            <!-- CONTENT DROPDOWN COLUMN -->
-            <div class="content-dropdown-column">
-              <h6 class="title tiny secondary">Shop</h6>
-              <hr class="line-separator">
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-sidebar-grid.php">Sidebar 3 Col Grid</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-grid.php">4 Columns Grid</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-list2.php">Sidebar 3 Col List</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-list.php">4 Columns List</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-page-v1.php">Product Page V1</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-page-v1.php">Product Page V2</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-            </div>
-            <!-- /CONTENT DROPDOWN COLUMN -->
-=======
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
 
             <!-- CONTENT DROPDOWN COLUMN -->
             <div class="content-dropdown-column">
@@ -1124,47 +928,15 @@
         <ul class="mobile-menu-dropdown dropdown">         
           
           <li class="mobile-menu-dropdown-item">
-<<<<<<< HEAD
-            <a href="shop-sidebar-grid.php">Sidebar 3 Col Grid</a>
-=======
             <a href="shop-sidebar-list.php">Motherboards</a>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
           </li>
           <li class="mobile-menu-dropdown-item">
-<<<<<<< HEAD
-            <a href="shop-grid.php">4 Columns Grid</a>
-=======
             <a href="shop-sidebar-list.php">Processors</a>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
           </li>
           <li class="mobile-menu-dropdown-item">
-<<<<<<< HEAD
-            <a href="shop-list2.php">Sidebar 3 Col List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list.php">4 Columns List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.php">Product Page V1</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v2.php">Product Page V2</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-=======
             <a href="shop-sidebar-list.php">Graphic Cards</a>
           </li>
           
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
         </ul>
         <!-- /MOBILE MENU DROPDOWN -->
       </li>
@@ -1192,141 +964,12 @@
           
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-<<<<<<< HEAD
-            <a href="index.php">Trickster Home</a>
-=======
             <a href="aboutus.php">asdf</a>
           </li>
           
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
             <a href="identification.php">Identification</a>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-<<<<<<< HEAD
-            <a href="product-builder-v1.php">Product Builder V1</a>
-=======
-            <a href="billing-shipping.php">Billing and Shipping</a>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-<<<<<<< HEAD
-            <a href="product-builder-v2.php">Product Builder V2</a>
-=======
-            <a href="confirmation.php">Confirmation</a>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-<<<<<<< HEAD
-            <a href="blog.php">Trickster Blog</a>
-=======
-            <a href="cart.php">Shopping Cart</a>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-<<<<<<< HEAD
-            <a href="post.php">Blog Post</a>
-=======
-            <a href="wishlist.php">Wishlist</a>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-<<<<<<< HEAD
-            <a href="contactus.php">Contact Page</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="404.php">Error Page</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="aboutus.php">About Us</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="menu-dropdowns.php">Menu &amp; DDowns</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shortcodes.php">Shortcodes</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="login-popup.php">Login Popup</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="ratings-popup.php">Ratings Popup</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.php">Sidebar 3 Col Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-grid.php">4 Columns Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list2.php">Sidebar 3 Col List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list.php">4 Columns List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.php">Product Page V1</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.php">Product Page V2</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="identification.php">Identification</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
@@ -1356,8 +999,6 @@
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-=======
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
             <a href="profile.php">Your Account</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
@@ -2206,16 +1847,11 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-<<<<<<< HEAD
-            <a href="product-page-v1.php"><h6 class="title">The Golden Eagle</h6></a>
-            <p class="product-description">For Extreme Conditions</p>
-=======
             <a href="product-page-v1.html"><h6 class="title"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[4]->name;
               ?></h6></a>
             <p class="product-description">Gaming</p>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
               <!-- RATING -->
@@ -2336,16 +1972,11 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-<<<<<<< HEAD
-            <a href="product-page-v1.php"><h6 class="title">Poisonous Frog</h6></a>
-            <p class="product-description">For Outdoor Sports</p>
-=======
             <a href="product-page-v1.html"><h6 class="title"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[5]->name;
               ?></h6></a>
             <p class="product-description">Gaming</p>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
               <!-- RATING -->
@@ -2466,16 +2097,11 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-<<<<<<< HEAD
-            <a href="product-page-v1.php"><h6 class="title">Crasher Blu</h6></a>
-            <p class="product-description">Water Resistant</p>
-=======
             <a href="product-page-v1.html"><h6 class="title"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[6]->name;
               ?></h6></a>
             <p class="product-description">Gaming</p>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
               <!-- RATING -->

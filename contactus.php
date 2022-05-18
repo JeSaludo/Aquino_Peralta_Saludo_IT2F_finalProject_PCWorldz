@@ -386,10 +386,6 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-<<<<<<< HEAD
-                <a href="product-page-v1.php"><h6 class="title small">Poisonous Frog</h6></a>
-                <p class="product-description small">For Outdoor Sports</p>
-=======
                 <a href="product-page-v1.html"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
@@ -397,7 +393,6 @@
               ?>
               </h6></a>
                 <p class="product-description small">Gaming</p>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -478,10 +473,6 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-<<<<<<< HEAD
-                <a href="product-page-v1.php"><h6 class="title small">Crashing Wave</h6></a>
-                <p class="product-description small">Water Resistant</p>
-=======
                 <a href="product-page-v1.html"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
@@ -489,7 +480,6 @@
               ?>
               </h6></a>
                 <p class="product-description small">Gaming</p>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -570,10 +560,6 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-<<<<<<< HEAD
-                <a href="product-page-v1.php"><h6 class="title small">The Patriot</h6></a>
-                <p class="product-description small">By Spiegel</p>
-=======
                 <a href="product-page-v1.html"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
@@ -581,7 +567,6 @@
               ?>
                 </h6></a>
                 <p class="product-description small">Gaming</p>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
