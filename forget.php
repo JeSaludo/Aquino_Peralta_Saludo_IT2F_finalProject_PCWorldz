@@ -22,7 +22,7 @@
             <div class="img-holder">
                 <div class="bg"></div>
                 <div class="info-holder">
-                    <img src="images/graphic2.svg" alt="">
+                    <img src="images/FORGOT PASSWORD.png" alt="">
                 </div>
             </div>
             <div class="form-holder">
