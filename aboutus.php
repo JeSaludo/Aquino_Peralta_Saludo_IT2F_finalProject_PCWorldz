@@ -26,7 +26,7 @@
     <div class="form-popup-column small">
       <h2 class="subsection-title medium">Register now!</h2>
       <hr class="line-separator">
-      <p class="small">Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="small">Fill all the requirements on the space provided.</p>
       <!-- FORM -->
       <form>
         <!-- FORM ROW -->
@@ -364,7 +364,7 @@
 
           <!-- CART ITEM QUANTITY -->
           <div class="cart-item-quantity">
-            <p>8</p>
+            <p>3</p>
           </div>
           <!-- /CART ITEM QUANTITY -->
         </div>
@@ -377,17 +377,22 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.php">
+              <a href="product-page-v1.html">
                 <figure class="product-img small">
-                  <img src="img/products/02.jpg" alt="02">
+                  <img src="img/products/01.png" alt="02">
                 </figure>
               </a>
               <!-- /PRODUCT IMG -->
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.php"><h6 class="title small">Poisonous Frog</h6></a>
-                <p class="product-description small">For Outdoor Sports</p>
+                <a href="product-page-v1.html"><h6 class="title small">              
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[0]->name;
+              ?>
+              </h6></a>
+                <p class="product-description small">Gaming</p>
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -442,7 +447,9 @@
                 </ul>
                 <!-- /RATING -->
                 <p class="product-quantity">x4</p>
-                <p class="product-price">$600</p>
+                <p class="product-price"><br><br>
+                  ₱233,848
+              </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
 
@@ -457,17 +464,22 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.php">
+              <a href="product-page-v1.html">
                 <figure class="product-img small">
-                  <img src="img/products/06.jpg" alt="06">
+                  <img src="img/products/02.png" alt="06">
                 </figure>
               </a>
               <!-- /PRODUCT IMG -->
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.php"><h6 class="title small">Crashing Wave</h6></a>
-                <p class="product-description small">Water Resistant</p>
+                <a href="product-page-v1.html"><h6 class="title small">              
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[1]->name;
+              ?>
+              </h6></a>
+                <p class="product-description small">Gaming</p>
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -522,7 +534,9 @@
                 </ul>
                 <!-- /RATING -->
                 <p class="product-quantity">x2</p>
-                <p class="product-price">$360</p>
+                <p class="product-price"><br><br>              
+                  ₱57,032
+                </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
 
@@ -537,17 +551,22 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.php">
+              <a href="product-page-v1.html">
                 <figure class="product-img small">
-                  <img src="img/products/05.jpg" alt="05">
+                  <img src="img/products/03.png" alt="05">
                 </figure>
               </a>
               <!-- /PRODUCT IMG -->
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.php"><h6 class="title small">The Patriot</h6></a>
-                <p class="product-description small">By Spiegel</p>
+                <a href="product-page-v1.html"><h6 class="title small">              
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[2]->name;
+              ?>
+                </h6></a>
+                <p class="product-description small">Gaming</p>
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -602,7 +621,12 @@
                 </ul>
                 <!-- /RATING -->
                 <p class="product-quantity">x1</p>
-                <p class="product-price">$185</p>
+                <p class="product-price"> <br><br>             
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[2]->price;
+              ?>
+                </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
 
@@ -619,7 +643,7 @@
           <!-- CART DROPDOWN SUBTOTAL -->
           <div class="cart-dropdown-subtotal">
             <p class="title small">Cart Subtotal</p>
-            <p class="product-price">$1145</p>
+            <p class="product-price">₱303,827</p>
           </div>
           <!-- /CART DROPDOWN SUBTOTAL -->
 
@@ -1019,7 +1043,7 @@
         <li class="feature-list-item">
           <i class="s-icon icon-energy"></i>
           <p class="title">Ultra Durability</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>We built a fully durable products to let our customer enjoy it.</p>
         </li>
         <!-- /FEATURE LIST ITEM -->
 
@@ -1027,7 +1051,7 @@
         <li class="feature-list-item">
           <i class="s-icon icon-drop"></i>
           <p class="title">Water Resistant</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>Some of our products can resist in waters but not in huge amount of time.</p>
         </li>
         <!-- /FEATURE LIST ITEM -->
 
@@ -1035,7 +1059,7 @@
         <li class="feature-list-item">
           <i class="s-icon icon-star"></i>
           <p class="title">Super Comfort</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>We make our products easy set up to make our customers building it comfortable.</p>
         </li>
         <!-- /FEATURE LIST ITEM -->
 
@@ -1043,7 +1067,7 @@
         <li class="feature-list-item">
           <i class="s-icon icon-rocket"></i>
           <p class="title">Special Designs</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>We added some designs to make our product more attractable like neon lights and some tubes for water flows to make it.</p>
         </li>
         <!-- /FEATURE LIST ITEM -->
 
@@ -1051,7 +1075,7 @@
         <li class="feature-list-item">
           <i class="s-icon icon-like"></i>
           <p class="title">Quality Warranty</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>It depends on the item you buy. But most of products in our store we give our customer 1 year warranty.</p>
         </li>
         <!-- /FEATURE LIST ITEM -->
 
@@ -1059,7 +1083,7 @@
         <li class="feature-list-item">
           <i class="s-icon icon-wrench"></i>
           <p class="title">Product Builder</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>You can customize your own ideal version of PC products to give us more infos and add some features.</p>
         </li>
         <!-- /FEATURE LIST ITEM -->
       </ul>
@@ -1081,7 +1105,7 @@
           <figcaption>PC WORLDZ</figcaption>
         </figure>
         <!-- /LOGO -->
-        <p class="description">Lorem ipsum dolor sit amet, sectetur sicing elit, sed do eiusmod. Ut enim ad minim iam, quis trud exercitation laboris. En derum de lorem sectum eusidim en amet.</p>
+        <p class="description">We're dedicated to give you the very best of Computer Products, with a focus on quality, price and uniqueness. Founded in 2022 by Saludo, Peralta and Aquino, PC WORLDZ serves customer worldwide, and are thrilled to be a part of the fair trade wing of the IT industry.</p>
 
         <!-- CONTACTUS LIST -->
         <ul class="contactus-list">
@@ -1329,7 +1353,7 @@
       <div class="content-dropdown-column full">
         <h6 class="title small secondary">Quick Contact</h6>
         <hr class="line-separator">
-        <p class="description">Lorem ipsum dolor sit amet, sectetur adipisicing elit, sed do eiusmod en derum der trenser lorem.</p>
+        <p class="description">You can contact by using our contact number or email us below by using our email info@pcworldz.com</p>
         <form class="quick-contact-form">
           <input type="text" class="dark" name="qc_email" placeholder="Email">
           <textarea name="qc_message" class="dark" placeholder="Message"></textarea>

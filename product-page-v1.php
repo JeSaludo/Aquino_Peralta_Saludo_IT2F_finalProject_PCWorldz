@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/style.min.css">
   <!-- favicon -->
   <link rel="icon" href="favicon.ico">
-  <title>The Trickster | Product Page</title>
+  <title>PC WORLDZ | Product Page</title>
 </head>
 <body>
 
@@ -26,7 +26,7 @@
     <div class="form-popup-column small">
       <h2 class="subsection-title medium">Register now!</h2>
       <hr class="line-separator">
-      <p class="small">Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="small">Fill all the requirements on the space provided.</p>
       <!-- FORM -->
       <form>
         <!-- FORM ROW -->
@@ -45,7 +45,7 @@
 
         <!-- FORM ROW -->
         <div class="form-row separated">
-          <button class="button dark full">Register to Trickster!</button>
+          <button class="button dark full">Register to PC WORLDZ!</button>
         </div>
         <!-- /FORM ROW -->
       </form>
@@ -59,7 +59,7 @@
 
     <!-- FORM POPUP COLUMN -->
     <div class="form-popup-column small">
-      <h2 class="subsection-title medium">Login to Trickster</h2>
+      <h2 class="subsection-title medium">Login to PC WORLDZ</h2>
       <hr class="line-separator">
       <!-- FORM -->
       <form>
@@ -132,7 +132,7 @@
     <div class="form-popup-column centered">
       <h2 class="subsection-title medium">Write a Review</h2>
       <hr class="line-separator">
-      <p class="small">Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor incididunt labore.</p>
+      <p class="small">Write the reviews on the space provided.</p>
       <!-- FORM -->
       <form>
         <!-- FORM ROW -->
@@ -449,7 +449,7 @@
       <!-- LOGO -->
       <figure class="logo">
         <img src="img/logo.png" alt="logo">
-        <figcaption>The Trickster</figcaption>
+        <figcaption>PC WORLDZ</figcaption>
       </figure>
       <!-- /LOGO -->
 
@@ -471,7 +471,7 @@
 
           <!-- CART ITEM QUANTITY -->
           <div class="cart-item-quantity">
-            <p>8</p>
+            <p>3</p>
           </div>
           <!-- /CART ITEM QUANTITY -->
         </div>
@@ -486,15 +486,25 @@
               <!-- PRODUCT IMG -->
               <a href="product-page-v1.php">
                 <figure class="product-img small">
-                  <img src="img/products/02.jpg" alt="02">
+                  <img src="img/products/01.png" alt="02">
                 </figure>
               </a>
               <!-- /PRODUCT IMG -->
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
+<<<<<<< HEAD
                 <a href="product-page-v1.php"><h6 class="title small">Poisonous Frog</h6></a>
                 <p class="product-description small">For Outdoor Sports</p>
+=======
+                <a href="product-page-v1.html"><h6 class="title small">              
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[0]->name;
+              ?>
+              </h6></a>
+                <p class="product-description small">Gaming</p>
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -549,7 +559,9 @@
                 </ul>
                 <!-- /RATING -->
                 <p class="product-quantity">x4</p>
-                <p class="product-price">$600</p>
+                <p class="product-price"><br><br>
+                  ₱233,848
+              </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
 
@@ -566,15 +578,25 @@
               <!-- PRODUCT IMG -->
               <a href="product-page-v1.php">
                 <figure class="product-img small">
-                  <img src="img/products/06.jpg" alt="06">
+                  <img src="img/products/02.png" alt="06">
                 </figure>
               </a>
               <!-- /PRODUCT IMG -->
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
+<<<<<<< HEAD
                 <a href="product-page-v1.php"><h6 class="title small">Crashing Wave</h6></a>
                 <p class="product-description small">Water Resistant</p>
+=======
+                <a href="product-page-v1.html"><h6 class="title small">              
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[1]->name;
+              ?>
+              </h6></a>
+                <p class="product-description small">Gaming</p>
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -629,7 +651,9 @@
                 </ul>
                 <!-- /RATING -->
                 <p class="product-quantity">x2</p>
-                <p class="product-price">$360</p>
+                <p class="product-price"><br><br>              
+                  ₱57,032
+                </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
 
@@ -646,15 +670,25 @@
               <!-- PRODUCT IMG -->
               <a href="product-page-v1.php">
                 <figure class="product-img small">
-                  <img src="img/products/05.jpg" alt="05">
+                  <img src="img/products/03.png" alt="05">
                 </figure>
               </a>
               <!-- /PRODUCT IMG -->
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
+<<<<<<< HEAD
                 <a href="product-page-v1.php"><h6 class="title small">The Patriot</h6></a>
                 <p class="product-description small">By Spiegel</p>
+=======
+                <a href="product-page-v1.html"><h6 class="title small">              
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[2]->name;
+              ?>
+                </h6></a>
+                <p class="product-description small">Gaming</p>
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -709,7 +743,12 @@
                 </ul>
                 <!-- /RATING -->
                 <p class="product-quantity">x1</p>
-                <p class="product-price">$185</p>
+                <p class="product-price"> <br><br>             
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[2]->price;
+              ?>
+                </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
 
@@ -726,7 +765,7 @@
           <!-- CART DROPDOWN SUBTOTAL -->
           <div class="cart-dropdown-subtotal">
             <p class="title small">Cart Subtotal</p>
-            <p class="product-price">$1145</p>
+            <p class="product-price">₱303,827</p>
           </div>
           <!-- /CART DROPDOWN SUBTOTAL -->
 
@@ -757,31 +796,29 @@
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="#">
-            Shop
-            <!-- SVG ARROW -->
-            <svg class="svg-arrow face-down">
-              <use xlink:href="#svg-arrow"></use>
-            </svg>
-            <!-- /SVG ARROW -->
+          <a href="shop-list.php">
+            Shop            
           </a>
 
           <!-- MENU DROPDOWN -->
-          <ul class="menu-dropdown">
+          <ul class="menu-dropdown">           
             <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
+<<<<<<< HEAD
               <a href="shop-sidebar-grid.php">Sidebar 3 Col Grid</a>
+=======
+              <a href="shop-list.php">Motherboards</a>
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
+<<<<<<< HEAD
               <a href="shop-grid.php">4 Columns Grid</a>
+=======
+              <a href="shop-list2.php">Processors</a>
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
+<<<<<<< HEAD
               <a href="shop-list2.php">Sidebar 3 Col List</a>
             </li>
             <!-- /MENU DROPDOWN ITEM -->
@@ -818,6 +855,13 @@
               <!-- /MENU DROPDOWN -->
             </li>
             <!-- /MENU DROPDOWN ITEM -->
+=======
+              <a href="shop-list3.php">Graphic Cards</a>
+            </li>
+             
+            </li>
+           
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
           </ul>
           <!-- /MENU DROPDOWN -->
         </li>
@@ -842,6 +886,7 @@
 
           <!-- CONTENT DROPDOWN -->
           <div class="content-dropdown with-bg">
+<<<<<<< HEAD
             <!-- CONTENT DROPDOWN COLUMN -->
             <div class="content-dropdown-column">
               <h6 class="title tiny secondary">Main Features</h6>
@@ -973,6 +1018,8 @@
               <!-- /LINK LIST -->
             </div>
             <!-- /CONTENT DROPDOWN COLUMN -->
+=======
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
 
             <!-- CONTENT DROPDOWN COLUMN -->
             <div class="content-dropdown-column">
@@ -1074,21 +1121,24 @@
         </a>
 
         <!-- MOBILE MENU DROPDOWN -->
-        <ul class="mobile-menu-dropdown dropdown">
-          <!-- MOBILE MENU DROPDOWN ITEM -->
+        <ul class="mobile-menu-dropdown dropdown">         
+          
           <li class="mobile-menu-dropdown-item">
+<<<<<<< HEAD
             <a href="shop-sidebar-grid.php">Sidebar 3 Col Grid</a>
+=======
+            <a href="shop-sidebar-list.php">Motherboards</a>
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
           </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
+<<<<<<< HEAD
             <a href="shop-grid.php">4 Columns Grid</a>
+=======
+            <a href="shop-sidebar-list.php">Processors</a>
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
           </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
+<<<<<<< HEAD
             <a href="shop-list2.php">Sidebar 3 Col List</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
@@ -1110,6 +1160,11 @@
             <a href="product-page-v2.php">Product Page V2</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
+=======
+            <a href="shop-sidebar-list.php">Graphic Cards</a>
+          </li>
+          
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
         </ul>
         <!-- /MOBILE MENU DROPDOWN -->
       </li>
@@ -1134,38 +1189,65 @@
 
         <!-- MOBILE MENU DROPDOWN -->
         <ul class="mobile-menu-dropdown dropdown">
+          
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
+<<<<<<< HEAD
             <a href="index.php">Trickster Home</a>
+=======
+            <a href="aboutus.php">asdf</a>
+          </li>
+          
+          <!-- MOBILE MENU DROPDOWN ITEM -->
+          <li class="mobile-menu-dropdown-item">
+            <a href="identification.php">Identification</a>
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
+<<<<<<< HEAD
             <a href="product-builder-v1.php">Product Builder V1</a>
+=======
+            <a href="billing-shipping.php">Billing and Shipping</a>
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
+<<<<<<< HEAD
             <a href="product-builder-v2.php">Product Builder V2</a>
+=======
+            <a href="confirmation.php">Confirmation</a>
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
+<<<<<<< HEAD
             <a href="blog.php">Trickster Blog</a>
+=======
+            <a href="cart.php">Shopping Cart</a>
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
+<<<<<<< HEAD
             <a href="post.php">Blog Post</a>
+=======
+            <a href="wishlist.php">Wishlist</a>
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
+<<<<<<< HEAD
             <a href="contactus.php">Contact Page</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
@@ -1274,6 +1356,8 @@
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
+=======
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
             <a href="profile.php">Your Account</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
@@ -1401,7 +1485,7 @@
           </svg>
           <!-- /SVG ARROW -->
         </span>
-        <span class="path current">Poisonous Frog</span>
+        <span class="path current">Items</span>
       </p>
       <!-- SECTION NAVIGATION PATH -->
     </div>
@@ -1422,7 +1506,7 @@
             <div class="overlay"></div>
             <!-- PRODUCT IMG -->
             <figure class="product-img small">
-              <img src="img/product_page/02.jpg" alt="product02">
+              <img src="img/products/01.png" alt="product02">
             </figure>
             <!-- /PRODUCT IMG -->
           </div>
@@ -1433,7 +1517,7 @@
             <div class="overlay"></div>
             <!-- PRODUCT IMG -->
             <figure class="product-img small">
-              <img src="img/product_page/06.jpg" alt="product06">
+              <img src="img/products/02.png" alt="product06">
             </figure>
             <!-- /PRODUCT IMG -->
           </div>
@@ -1444,7 +1528,7 @@
             <div class="overlay"></div>
             <!-- PRODUCT IMG -->
             <figure class="product-img small">
-              <img src="img/product_page/10.jpg" alt="product10">
+              <img src="img/products/03.png" alt="product10">
             </figure>
             <!-- /PRODUCT IMG -->
           </div>
@@ -1455,7 +1539,7 @@
             <div class="overlay"></div>
             <!-- PRODUCT IMG -->
             <figure class="product-img small">
-              <img src="img/product_page/08.jpg" alt="product08">
+              <img src="img/products/04.png" alt="product08">
             </figure>
             <!-- /PRODUCT IMG -->
           </div>
@@ -1465,14 +1549,19 @@
 
         <!-- PRODUCT IMG -->
         <figure class="product-img big scalable">
-          <img src="img/product_page/02.jpg" alt="product02">
+          <img src="img/products/01.png" alt="product02">
         </figure>
         <!-- /PRODUCT IMG -->
 
         <!-- PRODUCT DETAILS -->
         <div class="product-details">
-          <h2 class="title bigger">Poisonous Frog</h2>
-          <p class="product-description medium">For Outdoor Sports</p>
+          <h2 class="title bigger">              
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[0]->name;
+              ?>
+          </h2>
+          <p class="product-description medium">Gaming</p>
           <!-- RATING -->
           <ul class="rating medium">
             <!-- RATING ITEM -->
@@ -1526,14 +1615,23 @@
             <!-- /RATING ITEM -->
           </ul>
           <!-- /RATING -->
-          <h6 class="product-price big">$170</h6>
-          <p class="product-description-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat.</p>
+          <h6 class="product-price big">
+            <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[0]->price;
+              ?>
+</h6>
+          <p class="product-description-preview">              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[0]->description;
+              ?>
+</p>
 
           <!-- FORM -->
           <form>
             <!-- FORM ROW -->
             <div class="form-row">
-              <label class="rl-label">Helmet Size</label>
+              <label class="rl-label">Size</label>
               <!-- SELECT BLOCK -->
               <label for="helmet_size" class="select-block medium">
   							<select name="helmet_size" id="helmet_size">
@@ -1673,15 +1771,30 @@
         <div class="tabbed-content-item tab-item padded">
           <!-- TEXT ROW -->
           <div class="text-row">
-            <h2 class="title main-title">Enjoy all Outdoor Sports!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum doloretate velit esse cillum dolore.</p>
+            <h2 class="title main-title">Enjoy all Gaming PC parts!</h2>
+            <p>By building your own Computer you gain a lot of insight into the inner workings of Hardware Components and how everything fits together.
+              <br>
+              You will be able to troubleshoot if any problems arise later on much easier, than when you have no clue what is actually going on inside your PC’s Case.
+              <br>
+              Knowing the ins and outs of assembling a Computer and what Parts a Computer needs will also let you upgrade your Computer in the future.
+              <br>
+              Another very important factor is optimization. Knowing how a Computer works, enables you to optimize it as much as possible for your type of work.
+              <br>
+              You can optimize by buying the best parts for your specific workloads, be it Gaming, 3D Rendering, Modeling, Graphic Design, Video Editing or so many other purposes you can use a Computer for.
+              <br>
+              Building your own computer also is a lot cheaper than getting a pre-built PC. You can usually save around 30% in Cost when researching, buying the PC Components individually, and assembling them yourself.
+              <br>
+              And the best of it all, building a Computer is so easy, it’s kind of interesting that not more people are doing it!
+              <br>
+            Anyway, we now definitely know that we are on the right track by looking into building our own Computer, that’s probably why you came here in the first place.</p>
           </div>
           <!-- /TEXT ROW -->
 
           <!-- TEXT ROW -->
           <div class="text-row">
-            <h2 class="title subtitle">The Poisonous Color Pallette</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum doloretate velit esse cillum dolore.</p>
+            <h2 class="title subtitle">Computer Parts List</h2>
+            <p>Case, Motherboard, CPU [Processor], GPU [Graphics Card] (if no integrated GPU), RAM [Memory], Storage Device (SSD, NVME SSD, HDD), Cooling (CPU, Chassis), PSU [Power Supply Unit], Display device, Monitor, Operating System [OS], Input Devices, Mouse, Keyboard
+</p>
           </div>
           <!-- /TEXT ROW -->
 
@@ -1691,7 +1804,7 @@
             <div class="feature-enum-item">
               <i class="s-icon icon-badge"></i>
               <h6 class="title">Quality Assurance</h6>
-              <p>Lorem ipsum dolor sit amet, consectetur sicing elit, se do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>We will make sure to give you the best qualities of PC products.</p>
             </div>
             <!-- FEATURE ENUM ITEM -->
 
@@ -1701,7 +1814,7 @@
             <div class="feature-enum-item">
               <i class="s-icon icon-rocket"></i>
               <h6 class="title">Overnight Shipping</h6>
-              <p>Lorem ipsum dolor sit amet, consectetur sicing elit, se do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>We ship our product as fast as possible.</p>
             </div>
             <!-- FEATURE ENUM ITEM -->
           </div>
@@ -1830,7 +1943,7 @@
                 <!-- /RATING ITEM -->
               </ul>
               <!-- /RATING -->
-              <p><span class="review-author">Jessica March -</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat en derum.</p>
+              <p><span class="review-author">Jessica March -</span> Thank you for giving us the best quality products.</p>
               <p class="timestamp">3 weeks ago - <a href="#">Report</a></p>
             </div>
             <!-- /REVIEWS ITEM -->
@@ -1891,7 +2004,7 @@
                 <!-- /RATING ITEM -->
               </ul>
               <!-- /RATING -->
-              <p><span class="review-author">Steven Richards -</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat den derum del lorem ipsen.</p>
+              <p><span class="review-author">Steven Richards -</span> Thank you for giving us the best quality products.</p>
               <p class="timestamp">4 weeks ago - <a href="#">Report</a></p>
             </div>
             <!-- /REVIEWS ITEM -->
@@ -1952,7 +2065,7 @@
                 <!-- /RATING ITEM -->
               </ul>
               <!-- /RATING -->
-              <p><span class="review-author">Spencer Jameson -</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p><span class="review-author">Spencer Jameson -</span> LThank you for giving us the best quality products.</p>
               <p class="timestamp">1 month ago - <a href="#">Report</a></p>
             </div>
             <!-- /REVIEWS ITEM -->
@@ -2013,7 +2126,7 @@
                 <!-- /RATING ITEM -->
               </ul>
               <!-- /RATING -->
-              <p><span class="review-author">Marissa Roschers -</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat perum der.</p>
+              <p><span class="review-author">Marissa Roschers -</span> Thank you for giving us the best quality products.</p>
               <p class="timestamp">2 years ago - <a href="#">Report</a></p>
             </div>
             <!-- /REVIEWS ITEM -->
@@ -2045,7 +2158,7 @@
           <div class="product-list-item-preview">
             <!-- PRODUCT IMG -->
             <figure class="product-img">
-              <img src="img/products/01.jpg" alt="product01">
+              <img src="img/products/05.png" alt="product01">
             </figure>
             <!-- /PRODUCT IMG -->
 
@@ -2093,8 +2206,16 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
+<<<<<<< HEAD
             <a href="product-page-v1.php"><h6 class="title">The Golden Eagle</h6></a>
             <p class="product-description">For Extreme Conditions</p>
+=======
+            <a href="product-page-v1.html"><h6 class="title"><?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[4]->name;
+              ?></h6></a>
+            <p class="product-description">Gaming</p>
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
               <!-- RATING -->
@@ -2150,7 +2271,10 @@
                 <!-- /RATING ITEM -->
               </ul>
               <!-- /RATING -->
-              <h6 class="product-price">$140</h6>
+              <h6 class="product-price"><?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[4]->price;
+              ?></h6>
             </div>
             <!-- /PRODUCT LIST ITEM PRICE -->
           </div>
@@ -2164,7 +2288,7 @@
           <div class="product-list-item-preview">
             <!-- PRODUCT IMG -->
             <figure class="product-img">
-              <img src="img/products/02.jpg" alt="product02">
+              <img src="img/products/06.png" alt="product02">
             </figure>
             <!-- /PRODUCT IMG -->
 
@@ -2174,7 +2298,7 @@
               <div class="button-list wrap-4">
                 <!-- BUTTON -->
                 <a href="#" class="button square">
-                  <!-- SVG CART -->
+                  <!-- SVG CART --> 
                   <svg class="svg-cart-small">
                     <use xlink:href="#svg-cart-small"></use>
                   </svg>
@@ -2212,8 +2336,16 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
+<<<<<<< HEAD
             <a href="product-page-v1.php"><h6 class="title">Poisonous Frog</h6></a>
             <p class="product-description">For Outdoor Sports</p>
+=======
+            <a href="product-page-v1.html"><h6 class="title"><?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[5]->name;
+              ?></h6></a>
+            <p class="product-description">Gaming</p>
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
               <!-- RATING -->
@@ -2269,7 +2401,10 @@
                 <!-- /RATING ITEM -->
               </ul>
               <!-- /RATING -->
-              <h6 class="product-price">$170</h6>
+              <h6 class="product-price"><?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[5]->price;
+              ?></h6>
             </div>
             <!-- /PRODUCT LIST ITEM PRICE -->
           </div>
@@ -2283,7 +2418,7 @@
           <div class="product-list-item-preview">
             <!-- PRODUCT IMG -->
             <figure class="product-img">
-              <img src="img/products/03.jpg" alt="product03">
+              <img src="img/products/07.png" alt="product03">
             </figure>
             <!-- /PRODUCT IMG -->
 
@@ -2331,8 +2466,16 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
+<<<<<<< HEAD
             <a href="product-page-v1.php"><h6 class="title">Crasher Blu</h6></a>
             <p class="product-description">Water Resistant</p>
+=======
+            <a href="product-page-v1.html"><h6 class="title"><?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[6]->name;
+              ?></h6></a>
+            <p class="product-description">Gaming</p>
+>>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
               <!-- RATING -->
@@ -2388,7 +2531,10 @@
                 <!-- /RATING ITEM -->
               </ul>
               <!-- /RATING -->
-              <h6 class="product-price">$165</h6>
+              <h6 class="product-price"><?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[6]->price;
+              ?></h6>
             </div>
             <!-- /PRODUCT LIST ITEM PRICE -->
           </div>
@@ -2411,24 +2557,24 @@
         <!-- LOGO -->
         <figure class="logo">
           <img src="img/logo-footer.png" alt="logo">
-          <figcaption>The Trickster</figcaption>
+          <figcaption>PC WORLDZ</figcaption>
         </figure>
         <!-- /LOGO -->
-        <p class="description">Lorem ipsum dolor sit amet, sectetur sicing elit, sed do eiusmod. Ut enim ad minim iam, quis trud exercitation laboris. En derum de lorem sectum eusidim en amet.</p>
+        <p class="description">We're dedicated to give you the very best of Computer Products, with a focus on quality, price and uniqueness. Founded in 2022 by Saludo, Peralta and Aquino, PC WORLDZ serves customer worldwide, and are thrilled to be a part of the fair trade wing of the IT industry.</p>
 
         <!-- CONTACTUS LIST -->
         <ul class="contactus-list">
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-location-pin"></i>
-            <p>568 The Bebop Avenue, CA</p>
+            <p>Marinduque, PH</p>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-envelope"></i>
-            <a href="mailto:info@tricksterhelmets.com" class="link">info@tricksterhelmets.com</a>
+            <a href="mailto:info@tricksterhelmets.com" class="link">info@pcworldz.com</a>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
@@ -2662,7 +2808,7 @@
       <div class="content-dropdown-column full">
         <h6 class="title small secondary">Quick Contact</h6>
         <hr class="line-separator">
-        <p class="description">Lorem ipsum dolor sit amet, sectetur adipisicing elit, sed do eiusmod en derum der trenser lorem.</p>
+        <p class="description">You can contact by using our contact number or email us below by using our email info@pcworldz.com</p>
         <form class="quick-contact-form">
           <input type="text" class="dark" name="qc_email" placeholder="Email">
           <textarea name="qc_message" class="dark" placeholder="Message"></textarea>
@@ -2736,7 +2882,7 @@
   <div class="widget-line-wrap dark widget-line-copy">
     <!-- WIDGET LINE -->
     <div class="widget-line big">
-      <p class="copyright"><span class="bold">The Trickster</span> | All Rights Reserved 2016</p>
+      <p class="copyright"><span class="bold">PC WORLDZ</span> | All Rights Reserved 2016</p>
       <!-- ACTIONS LIST -->
       <ul class="actions-list right">
         <!-- ACTIONS LIST ITEM -->
