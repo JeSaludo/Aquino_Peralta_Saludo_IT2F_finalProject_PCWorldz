@@ -22,16 +22,16 @@
             <div class="img-holder">
                 <div class="bg"></div>
                 <div class="info-holder">
-                    <img src="images/graphic2.svg" alt="">
+                    <img src="images/REGISTER.png" alt="">
                 </div>
             </div>
             <div class="form-holder">
                 <div class="form-content">
                     <div class="form-items">
-                        <h3>Get more things done with Loggin platform.</h3>
-                        <p>Access to the most powerfull tool in the entire design and web industry.</p>
+                        <h3>Register now!</h3>
+                        <p>Create your very own account in PC Worldz.</p>
                         <div class="page-links">
-                            <a href="login5.php">Login</a><a href="register5.php" class="active">Register</a>
+                            <a href="index.php">Login</a><a href="register5.php" class="active">Register</a>
                         </div>
                         <form>
                             <input class="form-control" type="text" name="name" placeholder="Full Name" required>

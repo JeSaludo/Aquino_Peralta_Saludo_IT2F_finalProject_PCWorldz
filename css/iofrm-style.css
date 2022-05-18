@@ -63,7 +63,7 @@ html, body {
 
 .website-logo .logo {
     display: inline-block;
-    background-image: url("../images/logo-light.svg");
+    background-image: url("../images/logo-footer.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -73,7 +73,7 @@ html, body {
 }
 
 .website-logo .logo img.logo-size {
-    opacity: 1 !important;
+    
 }
 
 .website-logo-inside {
@@ -1776,7 +1776,7 @@ input.sm-content {
     }
 
     .form-body.without-side .website-logo .logo {
-        background-image: url("../images/logo-light.svg");
+        background-image: url("../images/logo-footer.png");
     }
 
     .form-body.without-side .form-holder .form-content {
