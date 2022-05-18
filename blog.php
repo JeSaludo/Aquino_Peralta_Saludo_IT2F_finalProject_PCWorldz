@@ -1176,7 +1176,7 @@
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">June 22nd, 2017</p>
           <a href="post.php">
-            <h6 class="title medium">Intel has released 16 new security advisories, which address 41 vulnerabilities. The advisories, some with 'high' severity ratings, appear to cover the full gamut of Intel catalog, including processors, devices, firmware, drivers and software.</h6>
+            <h6 class="title medium">Intel has released 16 new security advisories, which address 41 vulnerabilities. The advisories, some with 'high' severity ratings, appear to cover the full gamut of Intel catalog, including processors, devices, firmware, drivers and software.<br><br></h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>205 Comments</p>
           <p>The Intel Processor advisory has been given the CVEID of CVE-2022-21151. It is described in summary as "a potential security vulnerability in some Intel Processors may allow information disclosure." It is 'only' a medium severity rating vulnerability. We think this is because it requires an authenticated user with local access to exploit the chance to "potentially enable information disclosure" from the processor.</p>
@@ -1208,11 +1208,11 @@
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">June 7th, 2017</p>
           <a href="post.php">
-            <h6 class="title medium">AMD's Ryzen 7 5800X3D, the fastest CPU for gaming is finally available. We've reviewed and tested the 5800X3D and confirmed its gaming performance on our test suite of games that have placed it at the top of our list of the best CPUs for gaming. </h6>
+            <h6 class="title medium">AMD's Ryzen 7 5800X3D, the fastest CPU for gaming is finally available. We've reviewed and tested the 5800X3D and confirmed its gaming performance on our test suite of games that have placed it at the top of our list of the best CPUs for gaming.<br><br></h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>536 Comments</p>
           <p>The AMD Ryzen 7 5800X3D uses eight-cores and 16-threads with a max boost clock of up to 4.5GHz similar to its 5000-series family. What makes this chip different is a new 3D-stacked SRAM technology that employs a total of 96MB of L3 cache to give the 5800X3D amazing gaming performance.
-            <br><br><br><br></p>
+            <br><br><br></p>
           <a href="post.php" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
@@ -1276,7 +1276,7 @@
           <p class="post-timestamp">March 29th, 2017</p>
           <a href="post.php">
             <h6 class="title medium">Whether you're building a PC, craving an upgrade, looking for one of the best gaming PCs, or just hoping to find one of the best gaming monitors on a big sale, we're here to help you sift through the discounts.
-            <br><br><br><br><br></h6>
+            <br><br><br><br><br><br></h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>763 Comments</p>
           <p>To make saving simpler, we're rounding up the very best deals on tech and hardware below, from components like CPUs and SSDs to peripherals to prebuilt desktops and even gadgets.
