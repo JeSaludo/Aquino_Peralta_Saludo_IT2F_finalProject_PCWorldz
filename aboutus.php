@@ -377,7 +377,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.php">
+              <a href="product-page-v1.html">
                 <figure class="product-img small">
                   <img src="img/products/01.png" alt="02">
                 </figure>
@@ -535,7 +535,7 @@
                 <!-- /RATING -->
                 <p class="product-quantity">x2</p>
                 <p class="product-price"><br><br>              
-                  ₱116,924
+                  ₱57,032
                 </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
@@ -643,7 +643,7 @@
           <!-- CART DROPDOWN SUBTOTAL -->
           <div class="cart-dropdown-subtotal">
             <p class="title small">Cart Subtotal</p>
-            <p class="product-price">₱363,719</p>
+            <p class="product-price">₱303,827</p>
           </div>
           <!-- /CART DROPDOWN SUBTOTAL -->
 
