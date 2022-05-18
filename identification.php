@@ -646,7 +646,7 @@
             <p class="product-price">₱303,827</p>
           </div>
           <!-- /CART DROPDOWN SUBTOTAL -->
-
+s
           <!-- CART DROPDOWN ACTIONS -->
           <div class="cart-dropdown-actions">
             <a href="cart.html" class="button dark large">Go to the Cart</a>
