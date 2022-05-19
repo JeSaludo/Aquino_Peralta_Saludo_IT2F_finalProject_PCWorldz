@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/style.min.css">
   <!-- favicon -->
   <link rel="icon" href="favicon.ico">
-  <title>PC WORLDZ | Home</title>
+  <title><?php echo 'PC WORLDZ | Home';?></title>
 </head>
 <body>
 
@@ -25,28 +25,28 @@
 
     <!-- FORM POPUP COLUMN -->
     <div class="form-popup-column small">
-      <h2 class="subsection-title medium">Register now!</h2>
+      <h2 class="subsection-title medium"><?php echo 'Register now!'; ?></h2>
       <hr class="line-separator">
-      <p class="small">Fill all the requirements on the space provided.</p>
+      <p class="small"><?php echo 'Fill all the requirements on the space provided.'; ?></p>
       <!-- FORM -->
       <form>
         <!-- FORM ROW -->
         <div class="form-row">
-          <label for="email" class="rl-label">Email</label>
+          <label for="email" class="rl-label"><?php echo 'Email'; ?></label>
           <input type="text" id="email" name="email" placeholder="Enter your email...">
         </div>
         <!-- /FORM ROW -->
 
         <!-- FORM ROW -->
         <div class="form-row">
-          <label for="password" class="rl-label">Password</label>
+          <label for="password" class="rl-label"><?php echo 'Password'; ?></label>
           <input type="password" id="password" name="password" placeholder="Enter your password...">
         </div>
         <!-- /FORM ROW -->
 
         <!-- FORM ROW -->
         <div class="form-row separated">
-          <button class="button dark full">Register to PC WORLDZ!</button>
+          <button class="button dark full"><?php echo 'Register to PC WORLDZ!'; ?></button>
         </div>
         <!-- /FORM ROW -->
       </form>
@@ -60,20 +60,20 @@
 
     <!-- FORM POPUP COLUMN -->
     <div class="form-popup-column small">
-      <h2 class="subsection-title medium">Login to PC WORLDZ</h2>
+      <h2 class="subsection-title medium"><?php echo 'Login to PC WORLDZ'; ?></h2>
       <hr class="line-separator">
       <!-- FORM -->
       <form>
         <!-- FORM ROW -->
         <div class="form-row">
-          <label for="username" class="rl-label">Username</label>
+          <label for="username" class="rl-label"><?php echo 'Username'; ?></label>
           <input type="text" id="username" name="username" placeholder="Enter your username...">
         </div>
         <!-- /FORM ROW -->
 
         <!-- FORM ROW -->
         <div class="form-row">
-          <label for="password2" class="rl-label">Password</label>
+          <label for="password2" class="rl-label"><?php echo 'Password'; ?></label>
           <input type="password" id="password2" name="password2" placeholder="Enter your password...">
         </div>
         <!-- /FORM ROW -->
@@ -90,27 +90,27 @@
 						  </svg>
               <!-- /SVG CHECK -->
 						</span>
-						Keep me logged in
+						<?php echo 'Keep me logged in'; ?>
 					</label>
 					<!-- /CHECKBOX -->
 
-          <a href="#" class="link">Forgot password?</a>
+          <a href="#" class="link"><?php echo 'Forgot password?'; ?></a>
         </div>
         <!-- /FORM ROW -->
 
         <!-- FORM ROW -->
         <div class="form-row short-space separated">
-          <button class="button full">Login to your Account</button>
+          <button class="button full"><?php echo 'Login to your Account'; ?></button>
         </div>
         <!-- /FORM ROW -->
 
         <!-- FORM ROW -->
         <div class="form-row">
           <div class="half">
-            <a href="#" class="button blue full">Facebook Login</a>
+            <a href="#" class="button blue full"><?php echo 'Facebook Login'; ?></a>
           </div>
           <div class="half">
-            <a href="#" class="button lightblue full">Twitter Login</a>
+            <a href="#" class="button lightblue full"><?php echo 'Twitter Login'; ?></a>
           </div>
         </div>
         <!-- /FORM ROW -->
@@ -194,7 +194,7 @@
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
           <a class="action-button options-dropdown dropdown-control click-closable" href="#">
-            <span class="language-selected-option">eng</span>
+            <span class="language-selected-option"><?php echo 'eng'; ?></span>
             <!-- SVG ARROW -->
   					<svg class="svg-arrow small face-down">
   						<use xlink:href="#svg-arrow"></use>
@@ -205,13 +205,13 @@
           <!-- DROPDOWN LIST -->
           <ul class="dropdown-list dropdown">
             <li data-language="eng" class="dropdown-list-item language-option selected">
-              <a href="#">eng</a>
+              <a href="#"><?php echo 'eng'; ?></a>
             </li>
             <li data-language="spa" class="dropdown-list-item language-option">
-              <a href="#">spa</a>
+              <a href="#"><?php echo 'spa'; ?></a>
             </li>
             <li data-language="ger" class="dropdown-list-item language-option">
-              <a href="#">ger</a>
+              <a href="#"><?php echo 'ger'; ?></a>
             </li>
           </ul>
           <!-- /DROPDOWN LIST -->
@@ -221,7 +221,7 @@
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
           <a class="action-button options-dropdown dropdown-control click-closable" href="#">
-            <span class="currency-selected-option">usd</span>
+            <span class="currency-selected-option"><?php echo 'usd'; ?></span>
             <!-- SVG ARROW -->
   					<svg class="svg-arrow small face-down">
   						<use xlink:href="#svg-arrow"></use>
@@ -232,10 +232,10 @@
           <!-- DROPDOWN LIST -->
           <ul class="dropdown-list dropdown">
             <li data-currency="usd" class="dropdown-list-item currency-option selected">
-              <a href="#">usd</a>
+              <a href="#"><?php echo 'usd'; ?></a>
             </li>
             <li data-currency="euro" class="dropdown-list-item currency-option">
-              <a href="#">euro</a>
+              <a href="#"><?php echo 'euro'; ?></a>
             </li>
           </ul>
           <!-- /DROPDOWN LIST -->
@@ -244,19 +244,19 @@
 
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
-          <a class="action-button" href="profile.php">My Account</a>
+          <a class="action-button" href="profile.php"><?php echo 'My Account'; ?></a>
         </li>
         <!-- ACTIONS LIST ITEM -->
 
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
-          <a class="action-button" href="wishlist.php">Wishlist<span class="bold">4</span></a>
+          <a class="action-button" href="wishlist.php"><?php echo 'Wishlist'; ?><span class="bold"><?php echo '4'; ?></span></a>
         </li>
         <!-- ACTIONS LIST ITEM -->
 
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
-          <a class="action-button" href="index.php">Logout</a>
+          <a class="action-button" href="index.php"><?php echo 'Logout'; ?></a>
         </li>
         <!-- ACTIONS LIST ITEM -->
 
@@ -343,7 +343,7 @@
       <!-- LOGO -->
       <figure class="logo">
         <img src="img/logo.png" alt="logo">
-        <figcaption>PC WORLDZ</figcaption>
+        <figcaption><?php echo 'PC WORLDZ'; ?></figcaption>
       </figure>
       <!-- /LOGO -->
 
@@ -393,7 +393,7 @@
               echo $item->product[0]->name;
               ?>
               </h6></a>
-                <p class="product-description small">Gaming</p>
+                <p class="product-description small"><?php echo 'Gaming'; ?></p>
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -447,9 +447,9 @@
                   <!-- /RATING ITEM -->
                 </ul>
                 <!-- /RATING -->
-                <p class="product-quantity">x4</p>
+                <p class="product-quantity"><?php echo 'x4'; ?></p>
                 <p class="product-price"><br><br>
-                  ₱233,848
+                <?php echo '₱233,848'; ?>
               </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
@@ -480,7 +480,7 @@
               echo $item->product[1]->name;
               ?>
               </h6></a>
-                <p class="product-description small">Gaming</p>
+                <p class="product-description small"><?php echo 'Gaming'; ?></p>
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -536,7 +536,7 @@
                 <!-- /RATING -->
                 <p class="product-quantity">x2</p>
                 <p class="product-price"><br><br>              
-                  ₱57,032
+                <?php echo '₱57,032'; ?>
                 </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
@@ -567,7 +567,7 @@
               echo $item->product[2]->name;
               ?>
                 </h6></a>
-                <p class="product-description small">Gaming</p>
+                <p class="product-description small"><?php echo 'Gaming'; ?></p>
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -643,15 +643,15 @@
 
           <!-- CART DROPDOWN SUBTOTAL -->
           <div class="cart-dropdown-subtotal">
-            <p class="title small">Cart Subtotal</p>
-            <p class="product-price">₱303,827</p>
+            <p class="title small"><?php echo 'Cart Subtotal'; ?></p>
+            <p class="product-price"><?php echo '₱303,827'; ?></p>
           </div>
           <!-- /CART DROPDOWN SUBTOTAL -->
 
           <!-- CART DROPDOWN ACTIONS -->
           <div class="cart-dropdown-actions">
-            <a href="cart.php" class="button dark large">Go to the Cart</a>
-            <a href="identification.php" class="button large">Go to Checkout</a>
+            <a href="cart.php" class="button dark large"><?php echo 'Go to the Cart'; ?></a>
+            <a href="identification.php" class="button large"><?php echo 'Go to Checkout'; ?></a>
           </div>
           <!-- /CART DROPDOWN ACTIONS -->
         </div>
@@ -663,33 +663,33 @@
       <ul class="main-menu">
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="index.php">Home</a>
+          <a href="index.php"><?php echo 'Home'; ?></a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="aboutus.php">About</a>
+          <a href="aboutus.php"><?php echo 'About'; ?></a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
           <a href="shop-list.php">
-            Shop            
+          <?php echo 'Shop'; ?>            
           </a>
 
           <!-- MENU DROPDOWN -->
           <ul class="menu-dropdown">           
             <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-list.php">Motherboards</a>
+              <a href="shop-list.php"><?php echo 'Motherboards'; ?></a>
             </li>
             <li class="menu-dropdown-item">
-              <a href="shop-list2.php">Processors</a>
+              <a href="shop-list2.php"><?php echo 'Processors'; ?></a>
             </li>
             <li class="menu-dropdown-item">
-              <a href="shop-list3.php">Graphic Cards</a>
+              <a href="shop-list3.php"><?php echo 'Graphic Cards'; ?></a>
             </li>
              
             </li>
@@ -701,14 +701,14 @@
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="blog.php">Our Blog</a>
+          <a href="blog.php"><?php echo 'Our Blog'; ?></a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item sub">
           <a href="#">
-            Features
+          <?php echo 'Features'; ?>
             <!-- SVG ARROW -->
             <svg class="svg-arrow face-down">
               <use xlink:href="#svg-arrow"></use>
@@ -721,43 +721,43 @@
 
             <!-- CONTENT DROPDOWN COLUMN -->
             <div class="content-dropdown-column">
-              <h6 class="title tiny secondary">Account</h6>
+              <h6 class="title tiny secondary"><?php echo 'Account'; ?></h6>
               <hr class="line-separator">
               <!-- LINK LIST -->
               <ul class="link-list simple">
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="identification.php">Identification</a>
+                  <a href="identification.php"><?php echo 'Identification'; ?></a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="billing-shipping.php">Billing and Shipping</a>
+                  <a href="billing-shipping.php"><?php echo 'Billing and Shipping'; ?></a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="confirmation.php">Confirmation</a>
+                  <a href="confirmation.php"><?php echo 'Confirmation'; ?></a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="cart.php">Shopping Cart</a>
+                  <a href="cart.php"><?php echo 'Shopping Cart'; ?></a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="wishlist.php">Wishlist</a>
+                  <a href="wishlist.php"><?php echo 'Wishlist'; ?></a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="profile.php">Your Account</a>
+                  <a href="profile.php"><?php echo 'Your Account'; ?></a>
                 </li>
                 <!-- /LINK LIST ITEM -->
               </ul>
@@ -771,7 +771,7 @@
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="contactus.php">Contact</a>
+          <a href="contactus.php"><?php echo 'Contact'; ?></a>
         </li>
         <!-- /MAIN MENU ITEM -->
       </ul>
@@ -797,33 +797,33 @@
     <ul class="mobile-menu dropdown">
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="index.php">Home</a>
+        <a href="index.php"><?php echo 'Home'; ?></a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="aboutus.php">About</a>
+        <a href="aboutus.php"><?php echo 'About'; ?></a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
         <a href="#" class="dropdown-control">
-          Shop          
+        <?php echo 'Shop'; ?>          
         </a>
 
         <!-- MOBILE MENU DROPDOWN -->
         <ul class="mobile-menu-dropdown dropdown">         
           
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-list2.php">Motherboards</a>
+            <a href="shop-list2.php"><?php echo 'Motherboards'; ?></a>
           </li>
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-list2.php">Processors</a>
+            <a href="shop-list2.php"><?php echo 'Processors'; ?></a>
           </li>
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-list2.php">Graphic Cards</a>
+            <a href="shop-list2.php"><?php echo 'Graphic Cards'; ?></a>
           </li>
           
         </ul>
@@ -833,7 +833,7 @@
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="blog.php">Our Blog</a>
+        <a href="blog.php"><?php echo 'Our Blog'; ?></a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
@@ -853,42 +853,42 @@
           
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="aboutus.php">asdf</a>
+            <a href="aboutus.php"><?php echo 'About'; ?></a>
           </li>
           
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="identification.php">Identification</a>
+            <a href="identification.php"><?php echo 'Identification'; ?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="billing-shipping.php">Billing and Shipping</a>
+            <a href="billing-shipping.php"><?php echo 'Billing and Shipping'; ?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="confirmation.php">Confirmation</a>
+            <a href="confirmation.php"><?php echo 'Confirmation'; ?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="cart.php">Shopping Cart</a>
+            <a href="cart.php"><?php echo 'Shopping Cart'; ?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="wishlist.php">Wishlist</a>
+            <a href="wishlist.php"><?php echo 'Wishlist'; ?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="profile.php">Your Account</a>
+            <a href="profile.php"><?php echo 'Your Account'; ?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
         </ul>
@@ -898,21 +898,21 @@
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="contactus.php">Contact</a>
+        <a href="contactus.php"><?php echo 'Contact'; ?></a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="profile.php">My Account</a>
+        <a href="profile.php"><?php echo 'My Account'; ?></a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
         <a href="wishlist.php">
-          Wishlist
-          <span class="bold">4</span>
+        <?php echo 'Wishlist'; ?>
+          <span class="bold"><?php echo '4'; ?></span>
         </a>
       </li>
       <!-- /MOBILE MENU ITEM -->
@@ -920,8 +920,8 @@
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
         <a href="#" class="dropdown-control">
-          Language:
-          <span class="selected-option language-selected-option">eng</span>
+        <?php echo 'Language:'; ?>
+          <span class="selected-option language-selected-option"><?php echo 'eng'; ?></span>
           <!-- SVG ARROW -->
           <svg class="svg-arrow medium rotable">
             <use xlink:href="#svg-arrow"></use>
@@ -933,19 +933,19 @@
         <ul class="mobile-menu-dropdown dropdown">
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li data-language="eng" class="mobile-menu-dropdown-item language-option selected">
-            <a href="#">eng</a>
+            <a href="#"><?php echo 'eng'; ?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li data-language="spa" class="mobile-menu-dropdown-item language-option">
-            <a href="#">eu</a>
+            <a href="#"><?php echo 'eu'; ?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li data-language="ger" class="mobile-menu-dropdown-item language-option">
-            <a href="#">spa</a>
+            <a href="#"><?php echo 'spa'; ?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
         </ul>
@@ -956,8 +956,8 @@
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
         <a href="#" class="dropdown-control">
-          Currency:
-          <span class="selected-option currency-selected-option">usd</span>
+        <?php echo 'Currency:'; ?>
+          <span class="selected-option currency-selected-option"><?php echo 'usd'; ?></span>
           <!-- SVG ARROW -->
           <svg class="svg-arrow medium rotable">
             <use xlink:href="#svg-arrow"></use>
@@ -969,13 +969,13 @@
         <ul class="mobile-menu-dropdown dropdown">
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li data-currency="usd" class="mobile-menu-dropdown-item currency-option selected">
-            <a href="#">usd</a>
+            <a href="#"><?php echo 'usd'; ?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li data-currency="euro" class="mobile-menu-dropdown-item currency-option">
-            <a href="#">euro</a>
+            <a href="#"><?php echo 'euro'; ?></a>
           </li>
 
           
@@ -987,7 +987,7 @@
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item void">
-        <a href="#">Logout</a>
+        <a href="#"><?php echo 'Logout'; ?></a>
       </li>
       <!-- /MOBILE MENU ITEM -->
     </ul>
@@ -1021,9 +1021,9 @@
         <div class="slide-content-wrap">
           <!-- SLIDE CONTENT -->
           <div class="slide-content">
-            <h2 class="banner-title tiny">WELCOME TO</h2>
-            <h2 class="banner-title">PC WORLDZ</h2>
-            <h2 class="banner-title micro">You have hundreds of pc parts to choose from!</h2>
+            <h2 class="banner-title tiny"><?php echo 'WELCOME TO'; ?></h2>
+            <h2 class="banner-title"><?php echo 'PC WORLDZ'; ?></h2>
+            <h2 class="banner-title micro"><?php echo 'You have hundreds of pc parts to choose from!';?></h2>
           </div>
           <!-- SLIDE CONTENT -->
         </div>
@@ -1037,11 +1037,11 @@
         <div class="slide-content-wrap">
           <!-- SLIDE CONTENT -->
           <div class="slide-content">
-            <h2 class="banner-title small">We have</h2>
-            <h2 class="banner-title"><span class="highlighted">High-end</span></h2>
-            <h2 class="banner-title">PC Parts</h2>
-            <h2 class="banner-title micro">Hundreds of brands to choose from!</h2>
-            <a href="#" class="button">Explore now!</a>
+            <h2 class="banner-title small"><?php echo 'We have'; ?></h2>
+            <h2 class="banner-title"><span class="highlighted"><?php echo 'High-end'; ?></span></h2>
+            <h2 class="banner-title"><?php echo 'PC Parts'; ?></h2>
+            <h2 class="banner-title micro"><?php echo 'Hundreds of brands to choose from!'; ?></h2>
+            <a href="#" class="button"><?php echo 'Explore now!'; ?></a>
 
           </div>
           <!-- SLIDE CONTENT -->
@@ -1056,10 +1056,10 @@
         <div class="slide-content-wrap">
           <!-- SLIDE CONTENT -->
           <div class="slide-content">
-            <h2 class="banner-title dark large">Choose</h2>
-            <h2 class="banner-title main medium">Your Parts</h2>
-            <h2 class="banner-title micro light">Build your dream gaming PC!</h2>
-            <a href="#" class="button">Let's Go!</a>
+            <h2 class="banner-title dark large"><?php echo 'Choose'; ?></h2>
+            <h2 class="banner-title main medium"><?php echo 'Your Parts'; ?></h2>
+            <h2 class="banner-title micro light"><?php echo 'Build your dream gaming PC!'; ?></h2>
+            <a href="#" class="button"><?php echo 'Lets Go!'; ?> </a>
           </div>
           <!-- SLIDE CONTENT -->
         </div>
@@ -1078,9 +1078,9 @@
       <!-- BUILDER ACTIONS ITEM -->
       <div class="builder-actions-item">
         <img src="img/home/start01.png" alt="start01">
-        <h6 class="title">Motherboard</h6>
-        <p>Better optimization</p>
-        <a href="product-builder-v1.php" class="button small">Explore</a>
+        <h6 class="title"><?php echo 'Motherboard'; ?></h6>
+        <p><?php echo 'Better optimization'; ?></p>
+        <a href="product-builder-v1.php" class="button small"><?php echo 'Explore'; ?></a>
       </div>
       <!-- /BUILDER ACTIONS ITEM -->
     </div>
@@ -1091,9 +1091,9 @@
       <!-- BUILDER ACTIONS ITEM -->
       <div class="builder-actions-item">
         <img src="img/home/start02.png" alt="start02">
-        <h6 class="title">Processor</h6>
-        <p>Faster than ever</p>
-        <a href="product-builder-v2.php" class="button small">Explore</a>
+        <h6 class="title"><?php echo 'Processor'; ?></h6>
+        <p><?php echo 'Faster than ever'; ?></p>
+        <a href="product-builder-v2.php" class="button small"><?php echo 'Explore'; ?></a>
       </div>
       <!-- /BUILDER ACTIONS ITEM -->
     </div>
@@ -1104,9 +1104,9 @@
       <!-- BUILDER ACTIONS ITEM -->
       <div class="builder-actions-item">
         <img src="img/home/start03.png" alt="start03">
-        <h6 class="title">GRAPHICS CARD</h6>
-        <p>Boost your gaming experience</p>
-        <a href="shop-grid.php" class="button small">Explore</a>
+        <h6 class="title"><?php echo 'GRAPHICS CARD'; ?></h6>
+        <p><?php echo 'Boost your gaming experience'; ?></p>
+        <a href="shop-grid.php" class="button small"><?php echo 'Explore'; ?></a>
       </div>
       <!-- /BUILDER ACTIONS ITEM -->
     </div>
@@ -1118,11 +1118,10 @@
   <div class="section-wrap welcome-section-wrap">
     <!-- WELCOME SECTION -->
     <div class="welcome-section section">
-      <h6 class="pretitle">Build your own gaming PC right now!</h6>
-      <h3 class="title large">Welcome to PC WORLDZ</h3>
+      <h6 class="pretitle"><?php echo 'Build your own gaming PC right now!'; ?></h6>
+      <h3 class="title large"><?php echo 'Welcome to PC WORLDZ'; ?></h3>
       <hr class="line-separator short">
-      <p class="section-description">We're dedicated to give you the very best of Computer Products, with a focus on quality, price and uniqueness. Founded in 2022 by Saludo, Peralta and Aquino, PC WORLDZ serves customer worldwide, and are thrilled to be a part of the fair trade wing of the IT industry.
-We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.</p>
+      <p class="section-description"><?php echo 'We are dedicated to give you the very best of Computer Products, with a focus on quality, price and uniqueness. Founded in 2022 by Saludo, Peralta and Aquino, PC WORLDZ serves customer worldwide, and are thrilled to be a part of the fair trade wing of the IT industry.'; echo 'We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please do not hesitate to contact us.'; ?></p>
     </div>
     <!-- /WELCOME SECTION -->
   </div>
@@ -1134,13 +1133,13 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
     <div class="action-poster">
       <!-- ACTION POSTER INFO -->
       <div class="action-poster-info">
-        <h3 class="title">Check our <span class="bold">Available Items</span></h3>
-        <p>Carefully Designed by Experts</p>
+        <h3 class="title"><?php echo 'Check our'; ?> <span class="bold"><?php echo 'Available Items'; ?></span></h3>
+        <p><?php echo 'Carefully Designed by Experts'; ?></p>
       </div>
       <!-- /ACTION POSTER INFO -->
 
       <a href="#" class="button medium with-icon">
-        Start Browsing
+      <?php echo 'Start Browsing'; ?>
         <!-- SVG ARROW -->
         <svg class="svg-arrow">
           <use xlink:href="#svg-arrow"></use>
@@ -1156,8 +1155,8 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
   <div class="section-wrap">
     <!-- FEATURES SECTION -->
     <div class="features-section section">
-      <h6 class="pretitle">Take a Peek to the</h6>
-      <h3 class="title large">PC WORLDZ FEATURES</h3>
+      <h6 class="pretitle"><?php echo 'Take a Peek to the'; ?></h6>
+      <h3 class="title large"><?php echo 'PC WORLDZ FEATURES'; ?></h3>
       <hr class="line-separator">
       <!-- BG DECORATION -->
       <img src="img/home/features.png" alt="features" class="bg-decoration">
@@ -1171,8 +1170,8 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
             <use xlink:href="#svg-check"></use>
           </svg>
           <!-- /SVG CHECK -->
-          <p class="title">Original Products</p>
-          <p>You can make sure that all of the products that you buy here is original because we don't sell fake products</p>
+          <p class="title"><?php echo 'Original Products'; ?></p>
+          <p><?php echo 'You can make sure that all of the products that you buy here is original because we do not sell fake products'; ?></p>
         </li>
         <!-- /FEATURE LIST ITEM -->
 
@@ -1183,8 +1182,8 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
             <use xlink:href="#svg-check"></use>
           </svg>
           <!-- /SVG CHECK -->
-          <p class="title">Affordable Prices</p>
-          <p>We lowered our price but depends on the product.</p>
+          <p class="title"><?php echo 'Affordable Pricess'; ?></p>
+          <p><?php echo 'We lowered our price but depends on the product.'; ?></p>
         </li>
         <!-- /FEATURE LIST ITEM -->
 
@@ -1195,8 +1194,8 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
             <use xlink:href="#svg-check"></use>
           </svg>
           <!-- /SVG CHECK -->
-          <p class="title">Fast Shipping</p>
-          <p>We ship our products as fast as possible.</p>
+          <p class="title"><?php echo 'Fast Shipping'; ?></p>
+          <p><?php echo 'We ship our products as fast as possible.'; ?></p>
         </li>
         <!-- /FEATURE LIST ITEM -->
 
@@ -1207,8 +1206,8 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
             <use xlink:href="#svg-check"></use>
           </svg>
           <!-- /SVG CHECK -->
-          <p class="title">24/7 Customer Support</p>
-          <p>We will keep updated to our customer support 24/7.</p>
+          <p class="title"><?php echo '24/7 Customer Support'; ?></p>
+          <p><?php echo 'We will keep updated to our customer support 24/7.'; ?></p>
         </li>
         <!-- /FEATURE LIST ITEM -->
       </ul>
@@ -1225,10 +1224,10 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
       <!-- SERVICE BANNER CONTENT -->
       <div class="service-banner-content">
         <i class="icon-badge s-icon"></i>
-        <h5 class="title medium">Best Quality</h5>
-        <h3 class="title big">Products</h3>
+        <h5 class="title medium"><?php echo 'Best Quality'; ?></h5>
+        <h3 class="title big"><?php echo 'Products'; ?></h3>
         <hr class="line-separator big">
-        <p>We have the best quality pc products and items to make your pc at the next level.</p>
+        <p><?php echo 'We have the best quality pc products and items to make your pc at the next level.'; ?></p>
       </div>
       <!-- /SERVICE BANNER CONTENT -->
     </div>
@@ -1239,10 +1238,10 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
       <!-- SERVICE BANNER CONTENT -->
       <div class="service-banner-content">
         <i class="icon-like s-icon"></i>
-        <h5 class="title medium">One Year</h5>
-        <h3 class="title big">Guarantee</h3>
+        <h5 class="title medium"><?php echo 'One Year'; ?></h5>
+        <h3 class="title big"><?php echo 'Guarantee'; ?></h3>
         <hr class="line-separator big">
-        <p>We will make sure that you get the best products in our shop</p>
+        <p><?php echo 'We will make sure that you get the best products in our shop'; ?></p>
       </div>
       <!-- /SERVICE BANNER CONTENT -->
     </div>
@@ -1253,10 +1252,10 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
       <!-- SERVICE BANNER CONTENT -->
       <div class="service-banner-content">
         <i class="icon-rocket s-icon"></i>
-        <h5 class="title medium">Worldwide</h5>
-        <h3 class="title big">Shipping</h3>
+        <h5 class="title medium"><?php echo 'Worldwide'; ?></h5>
+        <h3 class="title big"><?php echo 'Shipping'; ?></h3>
         <hr class="line-separator big">
-        <p>We ship our product all around the world.</p>
+        <p><?php echo 'We ship our product all around the world.'; ?></p>
       </div>
       <!-- /SERVICE BANNER CONTENT -->
     </div>
@@ -1273,10 +1272,10 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
         <!-- STEP LIST ITEM -->
         <div class="step-list-item left">
           <div class="step-list-item-info">
-            <h6 class="title medium"><span class="bold">01.</span></h6>
-            <h6 class="title large">Choose the<br>PC PARTS</h6>
-            <h6 class="title small">Starting choosing the items for your PC</h6>
-            <p>We provide computer part selection, compatibility, and pricing under guidance for do-it-yourself computer builders. Please choose wisely.</p>
+            <h6 class="title medium"><span class="bold"><?php echo '01.'; ?></span></h6>
+            <h6 class="title large"><?php echo 'Choose the'; ?><br><?php echo 'PC PARTS'; ?></h6>
+            <h6 class="title small"><?php echo 'Starting choosing the items for your PC'; ?></h6>
+            <p><?php echo 'We provide computer part selection, compatibility, and pricing under guidance for do-it-yourself computer builders. Please choose wisely.'; ?></p>
           </div>
           <img src="img/home/step01.png" alt="step01" class="step-list-item-img">
         </div>
@@ -1285,10 +1284,10 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
         <!-- STEP LIST ITEM -->
         <div class="step-list-item right">
           <div class="step-list-item-info">
-            <h6 class="title medium"><span class="bold">02.</span></h6>
-            <h6 class="title large">Add Items to<br>Cart</h6>
-            <h6 class="title small">Don't forget to add desired items to your cart</h6>
-            <p>You can add on product page, select add to cart, preferred variation option, and select add to cart. Don't miss out on exciting deals and discounts.</p>
+            <h6 class="title medium"><span class="bold"><?php echo '02.'; ?></span></h6>
+            <h6 class="title large"><?php echo 'Add Items to'; ?><br><?php echo 'Cart'; ?></h6>
+            <h6 class="title small"><?php echo 'Do not forget to add desired items to your cart'; ?></h6>
+            <p><?php echo 'You can add on product page, select add to cart, preferred variation option, and select add to cart. Do not miss out on exciting deals and discounts.'; ?></p>
           </div>
           <img src="img/home/step02.png" alt="step02" class="step-list-item-img">
         </div>
@@ -1297,10 +1296,10 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
         <!-- STEP LIST ITEM -->
         <div class="step-list-item left">
           <div class="step-list-item-info">
-            <h6 class="title medium"><span class="bold">03.</span></h6>
-            <h6 class="title large">Confirm and<br>YOU'RE DONE</h6>
-            <h6 class="title small">Finishing the purchase</h6>
-            <p>Purchase and always check the confirmation and use your discount codes if you have one and then checkout.</p>
+            <h6 class="title medium"><span class="bold"><?php echo '03.'; ?></span></h6>
+            <h6 class="title large"><?php echo 'Confirm and'; ?><br><?php echo 'YOU ARE DONE'; ?></h6>
+            <h6 class="title small"><?php echo 'Finishing the purchase'; ?></h6>
+            <p><?php echo 'Purchase and always check the confirmation and use your discount codes if you have one and then checkout.'; ?></p>
           </div>
           <img src="img/home/step03.png" alt="step03" class="step-list-item-img">
         </div>
@@ -1318,15 +1317,15 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
     <div class="promo-banner main">
       <!-- PROMO BANNER TITLE WRAP -->
       <div class="promo-banner-title-wrap">
-        <h3 class="title title-promo composed">25</h3>
-        <h3 class="title title-percent">%<br><span class="title-unit">off</span></h3>
-        <h3 class="title title-extra">First time <br>Purchase</h3>
+        <h3 class="title title-promo composed"><?php echo '25'; ?></h3>
+        <h3 class="title title-percent"><?php echo '%'; ?><br><span class="title-unit"><?php echo 'off'; ?></span></h3>
+        <h3 class="title title-extra"><?php echo 'First time'; ?> <br><?php echo 'Purchase'; ?></h3>
       </div>
       <!-- PROMO BANNER TITLE WRAP -->
 
-      <h6 class="title title-description">Redeeming this code: CPN8F529</h6>
-      <p>* code valid untill 08/12/2023 only for first time purchase</p>
-      <a href="#" class="button medium dark">Buy now!</a>
+      <h6 class="title title-description"><?php echo 'Redeeming this code: PCWRLDZ69'; ?></h6>
+      <p><?php echo '* code valid untill 08/12/2023 only for first time purchase'; ?></p>
+      <a href="#" class="button medium dark"><?php echo 'Buy now!'; ?></a>
     </div>
     <!-- /PROMO BANNER -->
 
@@ -1334,15 +1333,15 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
     <div class="promo-banner dark">
       <!-- PROMO BANNER TITLE WRAP -->
       <div class="promo-banner-title-wrap">
-        <h3 class="title title-promo simple"><span class="bold">Sale</span></h3>
-        <h3 class="title title-extra">Black <br>Friday</h3>
+        <h3 class="title title-promo simple"><span class="bold"><?php echo 'Sale'; ?></span></h3>
+        <h3 class="title title-extra"><?php echo 'Black'; ?> <br><?php echo 'Friday'; ?></h3>
       </div>
       <!-- PROMO BANNER TITLE WRAP -->
 
-      <h6 class="title title-description">Amazing discounts all day long!</h6>
-      <p>* discount valid untill 08/12/2023</p>
+      <h6 class="title title-description"><?php echo 'Amazing discounts all day long!'; ?></h6>
+      <p><?php echo '* discount valid untill 08/12/2023'; ?></p>
       <a href="#" class="button medium with-icon">
-        Check all deals
+      <?php echo 'Check all deals'; ?>
         <!-- SVG ARROW -->
         <svg class="svg-arrow">
           <use xlink:href="#svg-arrow"></use>
@@ -1358,8 +1357,8 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
   <div class="section-wrap">
     <!-- SECTION -->
     <div class="section bottom-short">
-      <h6 class="pretitle">PC WORLDZ</h6>
-      <h3 class="title large">Latest Arrivals</h3>
+      <h6 class="pretitle"><?php echo 'PC WORLDZ'; ?></h6>
+      <h3 class="title large"><?php echo 'Latest Arrivals'; ?></h3>
       <hr class="line-separator">
 
       <!-- PRODUCT LIST -->
@@ -1418,8 +1417,8 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title">RTX 3080</h6></a>
-            <p class="product-description">NVIDIA</p>
+            <a href="product-page-v1.php"><h6 class="title"><?php echo 'RTX 3080'; ?></h6></a>
+            <p class="product-description"><?php echo 'NVIDIA'; ?></p>
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
               <!-- RATING -->
@@ -1475,7 +1474,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
                 <!-- /RATING ITEM -->
               </ul>
               <!-- /RATING -->
-              <h6 class="product-price">$140</h6>
+              <h6 class="product-price"><?php echo '$140'; ?></h6>
             </div>
             <!-- /PRODUCT LIST ITEM PRICE -->
           </div>
@@ -1537,8 +1536,8 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title">Intel Core i9</h6></a>
-            <p class="product-description">Intel</p>
+            <a href="product-page-v1.php"><h6 class="title"><?php echo 'Intel Core i9'; ?></h6></a>
+            <p class="product-description"><?php echo 'Intel'; ?></p>
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
               <!-- RATING -->
@@ -1594,7 +1593,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
                 <!-- /RATING ITEM -->
               </ul>
               <!-- /RATING -->
-              <h6 class="product-price">$170</h6>
+              <h6 class="product-price"><?php echo '$170'; ?></h6>
             </div>
             <!-- /PRODUCT LIST ITEM PRICE -->
           </div>
@@ -1656,8 +1655,8 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title">ROG STRIX Z490-H </h6></a>
-            <p class="product-description">Republic of Gamers</p>
+            <a href="product-page-v1.php"><h6 class="title"><?php echo 'ROG STRIX Z490-H'; ?> </h6></a>
+            <p class="product-description"><?php echo 'Republic of Gamers'; ?></p>
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
               <!-- RATING -->
@@ -1713,7 +1712,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
                 <!-- /RATING ITEM -->
               </ul>
               <!-- /RATING -->
-              <h6 class="product-price">$165</h6>
+              <h6 class="product-price"><?php echo '$165'; ?></h6>
             </div>
             <!-- /PRODUCT LIST ITEM PRICE -->
           </div>
@@ -1775,8 +1774,8 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title">Ryzen 9</h6></a>
-            <p class="product-description">AMD</p>
+            <a href="product-page-v1.php"><h6 class="title"><?php echo 'Ryzen 9'; ?></h6></a>
+            <p class="product-description"><?php echo 'AMD'; ?></p>
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
               <!-- RATING -->
@@ -1832,7 +1831,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
                 <!-- /RATING ITEM -->
               </ul>
               <!-- /RATING -->
-              <h6 class="product-price">$140</h6>
+              <h6 class="product-price"><?php echo '$140'; ?></h6>
             </div>
             <!-- /PRODUCT LIST ITEM PRICE -->
           </div>
@@ -1852,8 +1851,8 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
     <div class="widget-form">
       <!-- WIDGET FORM INFO -->
       <div class="widget-form-info">
-        <h6 class="title">Join our newsletter</h6>
-        <p>Sign up and join.</p>
+        <h6 class="title"><?php echo 'Join our newsletter'; ?></h6>
+        <p><?php echo 'Sign up and join.'; ?></p>
       </div>
       <!-- /WIDGET FORM INFO -->
 
@@ -1877,31 +1876,31 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
         <!-- LOGO -->
         <figure class="logo">
           <img src="img/logo-footer.png" alt="logo">
-          <figcaption>PC WORLDZ</figcaption>
+          <figcaption><?php echo 'PC WORLDZ'; ?></figcaption>
         </figure>
         <!-- /LOGO -->
-        <p class="description">We're dedicated to give you the very best of Computer Products, with a focus on quality, price and uniqueness. Founded in 2022 by Saludo, Peralta and Aquino, PC WORLDZ serves customer worldwide, and are thrilled to be a part of the fair trade wing of the IT industry.</p>
+        <p class="description"><?php echo 'We are dedicated to give you the very best of Computer Products, with a focus on quality, price and uniqueness. Founded in 2022 by Saludo, Peralta and Aquino, PC WORLDZ serves customer worldwide, and are thrilled to be a part of the fair trade wing of the IT industry.'; ?></p>
 
         <!-- CONTACTUS LIST -->
         <ul class="contactus-list">
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-location-pin"></i>
-            <p>Marinduque, PH</p>
+            <p><?php echo 'Marinduque, PH'; ?></p>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-envelope"></i>
-            <a href="mailto:info@tricksterhelmets.com" class="link">info@pcworldz.com</a>
+            <a href="mailto:info@tricksterhelmets.com" class="link"><?php echo 'info@pcworldz.com'; ?></a>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-phone"></i>
-            <p>044 - 555 - 123 - 1234</p>
+            <p><?php echo '044 - 555 - 123 - 1234'; ?></p>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
         </ul>
@@ -1911,14 +1910,14 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
 
       <!-- CONTENT DROPDOWN COLUMN -->
       <div class="content-dropdown-column">
-        <h6 class="title small secondary">Sitemap</h6>
+        <h6 class="title small secondary"><?php echo 'Sitemap'; ?></h6>
         <hr class="line-separator">
         <!-- LINK LIST -->
         <ul class="link-list decorated">
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="index.php">
-              Home
+            <?php echo 'Home'; ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1931,7 +1930,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="aboutus.php">
-              About Us
+            <?php echo 'About Us'; ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1944,7 +1943,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="shop-grid.php">
-              Shop
+            <?php echo 'Shop'; ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1957,7 +1956,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="blog.php">
-              Our Blog
+            <?php echo 'Our Blog'; ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1970,7 +1969,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="contactus.php">
-              Contact
+            <?php echo 'Contact'; ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1983,7 +1982,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="profile.php">
-              Your Account
+            <?php echo 'Your Account'; ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1996,7 +1995,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              FAQs
+            <?php echo 'FAQs'; ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -2009,7 +2008,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              Our Guarantee
+            <?php echo 'Our Guarantee'; ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -2025,14 +2024,14 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
 
       <!-- CONTENT DROPDOWN COLUMN -->
       <div class="content-dropdown-column">
-        <h6 class="title small secondary">Company</h6>
+        <h6 class="title small secondary"><?php echo 'Company'; ?></h6>
         <hr class="line-separator">
         <!-- LINK LIST -->
         <ul class="link-list decorated">
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              Shipping Policy
+            <?php echo 'Shipping Policy'; ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -2045,7 +2044,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              International Shipping
+            <?php echo 'International Shipping'; ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -2058,7 +2057,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              Affiliates
+            <?php echo 'Affiliates'; ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -2071,7 +2070,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              Our Sponsors
+            <?php echo 'Our Sponsors'; ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -2084,7 +2083,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              Privacy Policy
+            <?php echo 'Privacy Policy'; ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -2097,7 +2096,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              Terms and Conditions
+            <?php echo 'Terms and Conditions'; ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -2110,7 +2109,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              Pay on Arrival
+            <?php echo 'Pay on Arrival'; ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -2126,13 +2125,13 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
 
       <!-- CONTENT DROPDOWN COLUMN -->
       <div class="content-dropdown-column full">
-        <h6 class="title small secondary">Quick Contact</h6>
+        <h6 class="title small secondary"><?php echo 'Quick Contact'; ?></h6>
         <hr class="line-separator">
-        <p class="description">You can contact by using our contact number or email us below by using our email info@pcworldz.com</p>
+        <p class="description"><?php echo 'You can contact by using our contact number or email us below by using our email info@pcworldz.com'; ?></p>
         <form class="quick-contact-form">
           <input type="text" class="dark" name="qc_email" placeholder="Email">
           <textarea name="qc_message" class="dark" placeholder="Message"></textarea>
-          <button class="button small">Send Message</button>
+          <button class="button small"><?php echo 'Send Message'; ?></button>
         </form>
       </div>
       <!-- /CONTENT DROPDOWN COLUMN -->
@@ -2141,7 +2140,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
 
     <!-- FOOTER BOTTOM -->
     <div class="footer-bottom">
-      <h6 class="title tiny secondary">Payment Methods:</h6>
+      <h6 class="title tiny secondary"><?php echo 'Payment Methods:'; ?></h6>
       <!-- PAYMENT LIST -->
       <ul class="payment-list">
         <!-- PAYMENT LIST ITEM -->
@@ -2202,7 +2201,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
   <div class="widget-line-wrap dark widget-line-copy">
     <!-- WIDGET LINE -->
     <div class="widget-line big">
-      <p class="copyright"><span class="bold">PC WORLDZ</span> | All Rights Reserved 2016</p>
+      <p class="copyright"><span class="bold"><?php echo 'PC WORLDZ'; ?></span> <?php echo '| All Rights Reserved 2022'; ?></p>
       <!-- ACTIONS LIST -->
       <ul class="actions-list right">
         <!-- ACTIONS LIST ITEM -->
