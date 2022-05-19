@@ -9,8 +9,7 @@
   <link rel="stylesheet" href="css/vendor/magnific-popup.css">
   <link rel="stylesheet" href="css/style.min.css">
   <!-- favicon -->
-  <link rel="icon" href="favicon.ico">
-  <title>PCWORLDZ | Blog</title>
+  <link rel="icon" href="favicon.ico"><title><?php echo 'PCWORLDZ | Blog';?></title>
 </head>
 <body>
 
@@ -24,28 +23,28 @@
 
     <!-- FORM POPUP COLUMN -->
     <div class="form-popup-column small">
-      <h2 class="subsection-title medium">Register now!</h2>
+      <h2 class="subsection-title medium"><?php echo 'Register now!';?></h2>
       <hr class="line-separator">
-      <p class="small">Fill all the requirements on the space provided..</p>
+      <p class="small"><?php echo 'Fill all the requirements on the space provided.';?></p>
       <!-- FORM -->
       <form>
         <!-- FORM ROW -->
         <div class="form-row">
-          <label for="email" class="rl-label">Email</label>
+          <label for="email" class="rl-label"><?php echo 'Email';?></label>
           <input type="text" id="email" name="email" placeholder="Enter your email...">
         </div>
         <!-- /FORM ROW -->
 
         <!-- FORM ROW -->
         <div class="form-row">
-          <label for="password" class="rl-label">Password</label>
+          <label for="password" class="rl-label"><?php echo 'Password';?></label>
           <input type="password" id="password" name="password" placeholder="Enter your password...">
         </div>
         <!-- /FORM ROW -->
 
         <!-- FORM ROW -->
         <div class="form-row separated">
-          <button class="button dark full">Register to PC WORLDZ!</button>
+          <button class="button dark full"><?php echo 'Register to PC WORLDZ!';?></button>
         </div>
         <!-- /FORM ROW -->
       </form>
@@ -59,20 +58,20 @@
 
     <!-- FORM POPUP COLUMN -->
     <div class="form-popup-column small">
-      <h2 class="subsection-title medium">Login to PC WORLDZ</h2>
+      <h2 class="subsection-title medium"><?php echo 'Login to PC WORLDZ';?></h2>
       <hr class="line-separator">
       <!-- FORM -->
       <form>
         <!-- FORM ROW -->
         <div class="form-row">
-          <label for="username" class="rl-label">Username</label>
+          <label for="username" class="rl-label"><?php echo 'Username';?></label>
           <input type="text" id="username" name="username" placeholder="Enter your username...">
         </div>
         <!-- /FORM ROW -->
 
         <!-- FORM ROW -->
         <div class="form-row">
-          <label for="password2" class="rl-label">Password</label>
+          <label for="password2" class="rl-label"><?php echo 'Password';?></label>
           <input type="password" id="password2" name="password2" placeholder="Enter your password...">
         </div>
         <!-- /FORM ROW -->
@@ -89,27 +88,27 @@
 						  </svg>
               <!-- /SVG CHECK -->
 						</span>
-						Keep me logged in
+						<?php echo 'Keep me logged in';?>
 					</label>
 					<!-- /CHECKBOX -->
 
-          <a href="#" class="link">Forgot password?</a>
+          <a href="#" class="link"><?php echo 'Forgot password?';?></a>
         </div>
         <!-- /FORM ROW -->
 
         <!-- FORM ROW -->
         <div class="form-row short-space separated">
-          <button class="button full">Login to your Account</button>
+          <button class="button full"><?php echo 'Login to your Account';?></button>
         </div>
         <!-- /FORM ROW -->
 
         <!-- FORM ROW -->
         <div class="form-row">
           <div class="half">
-            <a href="#" class="button blue full">Facebook Login</a>
+            <a href="#" class="button blue full"><?php echo 'Facebook Login';?></a>
           </div>
           <div class="half">
-            <a href="#" class="button lightblue full">Twitter Login</a>
+            <a href="#" class="button lightblue full"><?php echo 'Twitter Login';?></a>
           </div>
         </div>
         <!-- /FORM ROW -->
@@ -193,7 +192,7 @@
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
           <a class="action-button options-dropdown dropdown-control click-closable" href="#">
-            <span class="language-selected-option">eng</span>
+            <span class="language-selected-option"><?php echo 'eng';?></span>
             <!-- SVG ARROW -->
   					<svg class="svg-arrow small face-down">
   						<use xlink:href="#svg-arrow"></use>
@@ -204,13 +203,13 @@
           <!-- DROPDOWN LIST -->
           <ul class="dropdown-list dropdown">
             <li data-language="eng" class="dropdown-list-item language-option selected">
-              <a href="#">eng</a>
+              <a href="#"><?php echo 'eng';?></a>
             </li>
             <li data-language="spa" class="dropdown-list-item language-option">
-              <a href="#">spa</a>
+              <a href="#"><?php echo 'spa';?></a>
             </li>
             <li data-language="ger" class="dropdown-list-item language-option">
-              <a href="#">ger</a>
+              <a href="#"><?php echo 'ger';?></a>
             </li>
           </ul>
           <!-- /DROPDOWN LIST -->
@@ -220,7 +219,7 @@
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
           <a class="action-button options-dropdown dropdown-control click-closable" href="#">
-            <span class="currency-selected-option">usd</span>
+            <span class="currency-selected-option"><?php echo 'usd';?></span>
             <!-- SVG ARROW -->
   					<svg class="svg-arrow small face-down">
   						<use xlink:href="#svg-arrow"></use>
@@ -231,10 +230,10 @@
           <!-- DROPDOWN LIST -->
           <ul class="dropdown-list dropdown">
             <li data-currency="usd" class="dropdown-list-item currency-option selected">
-              <a href="#">usd</a>
+              <a href="#"><?php echo 'usd';?></a>
             </li>
             <li data-currency="euro" class="dropdown-list-item currency-option">
-              <a href="#">euro</a>
+              <a href="#"><?php echo 'euro';?></a>
             </li>
           </ul>
           <!-- /DROPDOWN LIST -->
@@ -243,19 +242,19 @@
 
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
-          <a class="action-button" href="profile.php">My Account</a>
+          <a class="action-button" href="profile.php"><?php echo 'My Account';?></a>
         </li>
         <!-- ACTIONS LIST ITEM -->
 
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
-          <a class="action-button" href="wishlist.php">Wishlist<span class="bold">4</span></a>
+          <a class="action-button" href="wishlist.php"><?php echo 'Wishlist';?><span class="bold">4</span></a>
         </li>
         <!-- ACTIONS LIST ITEM -->
 
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
-          <a class="action-button" href="index.php">Logout</a>
+          <a class="action-button" href="index.php"><?php echo 'Logout';?></a>
         </li>
         <!-- ACTIONS LIST ITEM -->
 
@@ -342,7 +341,7 @@
       <!-- LOGO -->
       <figure class="logo">
         <img src="img/logo.png" alt="logo">
-        <figcaption>PC WORLDZ</figcaption>
+        <figcaption><?php echo 'PC WORLDZ';?></figcaption>
       </figure>
       <!-- /LOGO -->
 
@@ -364,7 +363,7 @@
 
           <!-- CART ITEM QUANTITY -->
           <div class="cart-item-quantity">
-            <p>3</p>
+            <p><?php echo '3';?></p>
           </div>
           <!-- /CART ITEM QUANTITY -->
         </div>
@@ -392,7 +391,7 @@
               echo $item->product[0]->name;
               ?>
               </h6></a>
-                <p class="product-description small">Gaming</p>
+                <p class="product-description small"><?php echo 'Gaming';?></p>
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -446,9 +445,11 @@
                   <!-- /RATING ITEM -->
                 </ul>
                 <!-- /RATING -->
-                <p class="product-quantity">x4</p>
+                <p class="product-quantity"><?php echo 'x4';?></p>
                 <p class="product-price"><br><br>
-                  ₱233,848
+                <?php
+                echo '₱233,848';
+                ?>              
               </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
@@ -479,7 +480,7 @@
               echo $item->product[1]->name;
               ?>
               </h6></a>
-                <p class="product-description small">Gaming</p>
+                <p class="product-description small"><?php echo 'Gaming';?></p>
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -533,9 +534,11 @@
                   <!-- /RATING ITEM -->
                 </ul>
                 <!-- /RATING -->
-                <p class="product-quantity">x2</p>
+                <p class="product-quantity"><?php echo 'x2';?></p>
                 <p class="product-price"><br><br>              
-                  ₱57,032
+                  <?php
+                  echo '₱57,032';
+                  ?>
                 </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
@@ -566,7 +569,7 @@
               echo $item->product[2]->name;
               ?>
                 </h6></a>
-                <p class="product-description small">Gaming</p>
+                <p class="product-description small"><?php echo 'Gaming';?></p>
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -620,7 +623,7 @@
                   <!-- /RATING ITEM -->
                 </ul>
                 <!-- /RATING -->
-                <p class="product-quantity">x1</p>
+                <p class="product-quantity"><?php echo 'x1';?></p>
                 <p class="product-price"> <br><br>             
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
@@ -642,15 +645,15 @@
 
           <!-- CART DROPDOWN SUBTOTAL -->
           <div class="cart-dropdown-subtotal">
-            <p class="title small">Cart Subtotal</p>
-            <p class="product-price">₱303,827</p>
+            <p class="title small"><?php echo 'Cart Subtotal';?></p>
+            <p class="product-price"><?php echo '₱303,827';?></p>
           </div>
           <!-- /CART DROPDOWN SUBTOTAL -->
 
           <!-- CART DROPDOWN ACTIONS -->
           <div class="cart-dropdown-actions">
-            <a href="cart.php" class="button dark large">Go to the Cart</a>
-            <a href="identification.php" class="button large">Go to Checkout</a>
+            <a href="cart.php" class="button dark large"><?php echo 'Go to the Cart';?></a>
+            <a href="identification.php" class="button large"><?php echo 'Go to Checkout';?></a>
           </div>
           <!-- /CART DROPDOWN ACTIONS -->
         </div>
@@ -662,20 +665,22 @@
       <ul class="main-menu">
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="home.php">Home</a>
+          <a href="home.php"><?php echo 'Home';?></a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="aboutus.php">About</a>
+          <a href="aboutus.php"><?phpecho 'About';?></a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
           <a href="#">
-            Shop
+            <?php
+            echo 'Shop';
+            ?>
             <!-- SVG ARROW -->
             <svg class="svg-arrow face-down">
               <use xlink:href="#svg-arrow"></use>
@@ -686,13 +691,13 @@
           <!-- MENU DROPDOWN -->
           <ul class="menu-dropdown">
             <li class="menu-dropdown-item">
-              <a href="shop-list2.php">Motherboards</a>
+              <a href="shop-list2.php"><?php echo 'Motherboards';?></a>
             </li>
             <li class="menu-dropdown-item">
-              <a href="shop-list2.php">Processors</a>
+              <a href="shop-list2.php"><?php echo 'Processors';?></a>
             </li>
             <li class="menu-dropdown-item">
-              <a href="shop-list2.php">Graphic Cards</a>
+              <a href="shop-list2.php"><?php echo 'Graphic Cards';?></a>
             </li>
 
             </li>
@@ -704,14 +709,16 @@
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="blog.php">Our Blog</a>
+          <a href="blog.php"><?php echo 'Our Blog';?></a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item sub">
           <a href="#">
-            Features
+            <?php
+            echo 'Features';
+            ?>
             <!-- SVG ARROW -->
             <svg class="svg-arrow face-down">
               <use xlink:href="#svg-arrow"></use>
@@ -724,31 +731,31 @@
             
             <!-- CONTENT DROPDOWN COLUMN -->
             <div class="content-dropdown-column">
-              <h6 class="title tiny secondary">Account</h6>
+              <h6 class="title tiny secondary"><?php echo 'Account';?></h6>
               <hr class="line-separator">
               <!-- LINK LIST -->
               <ul class="link-list simple">
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="identification.php">Identification</a>
+                  <a href="identification.php"><?php echo 'Identification';?></a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="billing-shipping.php">Billing and Shipping</a>
+                  <a href="billing-shipping.php"><?php echo 'Billing and Shipping';?></a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="confirmation.php">Confirmation</a>
+                  <a href="confirmation.php"><?php echo 'Confirmation';?></a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="cart.php">Shopping Cart</a>
+                  <a href="cart.php"><?php echo 'Shopping Cart';?></a>
                 </li>
                 <!-- /LINK LIST ITEM -->
 
@@ -760,7 +767,7 @@
 
                 <!-- LINK LIST ITEM -->
                 <li class="link-list-item">
-                  <a href="profile.php">Your Account</a>
+                  <a href="profile.php"><?php echo 'Wishlist';?></a>
                 </li>
                 <!-- /LINK LIST ITEM -->
               </ul>
@@ -774,7 +781,7 @@
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="contactus.php">Contact</a>
+          <a href="contactus.php"><?php echo 'Contact';?></a>
         </li>
         <!-- /MAIN MENU ITEM -->
       </ul>
@@ -800,32 +807,34 @@
     <ul class="mobile-menu dropdown">
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="home.php">Home</a>
+        <a href="home.php"><?php echo 'Home';?></a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="aboutus.php">About</a>
+        <a href="aboutus.php"><?php echo 'About';?></a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
         <a href="#" class="dropdown-control">
-          Shop          
+          <?php
+          echo 'Shop';
+          ?>          
         </a>
 
         <!-- MOBILE MENU DROPDOWN -->
         <ul class="mobile-menu-dropdown dropdown">
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-list2.php">Motherboards</a>
+            <a href="shop-list2.php"><?php echo 'Motherboards';?></a>
           </li>
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-list2.php">Processors</a>
+            <a href="shop-list2.php"><?php echo 'Processors';?></a>
           </li>
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-list2.php">Graphic Cards</a>
+            <a href="shop-list2.php"><?php echo 'Graphic Cards';?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
         </ul>
@@ -835,14 +844,16 @@
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="blog.php">Our Blog</a>
+        <a href="blog.php"><?php echo 'Our Blog';?></a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
         <a href="#" class="dropdown-control">
-          Features
+          <?php
+          echo 'Features';
+          ?>
           <!-- SVG ARROW -->
           <svg class="svg-arrow medium rotable">
             <use xlink:href="#svg-arrow"></use>
@@ -855,37 +866,37 @@
          
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="identification.php">Identification</a>
+            <a href="identification.php"><?php echo 'Identification';?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="billing-shipping.php">Billing and Shipping</a>
+            <a href="billing-shipping.php"><?php echo 'Billing and Shipping';?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="confirmation.php">Confirmation</a>
+            <a href="confirmation.php"><?php echo 'Confirmation';?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="cart.php">Shopping Cart</a>
+            <a href="cart.php"><?php echo 'Shopping Cart';?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="wishlist.php">Wishlist</a>
+            <a href="wishlist.php"><?php echo 'Wishlist';?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="profile.php">Your Account</a>
+            <a href="profile.php"><?php echo 'Your Account';?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
         </ul>
@@ -895,20 +906,22 @@
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="contactus.php">Contact</a>
+        <a href="contactus.php"><?php echo 'Contact';?></a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="profile.php">My Account</a>
+        <a href="profile.php"><?php echo 'My Account';?></a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
         <a href="wishlist.php">
-          Wishlist
+          <?php
+          echo 'Wishlist';
+          ?>
           <span class="bold">4</span>
         </a>
       </li>
@@ -917,8 +930,10 @@
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
         <a href="#" class="dropdown-control">
-          Language:
-          <span class="selected-option language-selected-option">eng</span>
+          <?php
+          echo 'Language:';
+          ?>
+          <span class="selected-option language-selected-option"><?php echo 'eng';?></span>
           <!-- SVG ARROW -->
           <svg class="svg-arrow medium rotable">
             <use xlink:href="#svg-arrow"></use>
@@ -930,19 +945,19 @@
         <ul class="mobile-menu-dropdown dropdown">
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li data-language="eng" class="mobile-menu-dropdown-item language-option selected">
-            <a href="#">eng</a>
+            <a href="#"><?php echo 'eng';?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li data-language="spa" class="mobile-menu-dropdown-item language-option">
-            <a href="#">spa</a>
+            <a href="#"><?php echo 'spa';?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li data-language="ger" class="mobile-menu-dropdown-item language-option">
-            <a href="#">ger</a>
+            <a href="#"><?php echo 'ger';?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
         </ul>
@@ -953,8 +968,10 @@
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
         <a href="#" class="dropdown-control">
-          Currency:
-          <span class="selected-option currency-selected-option">usd</span>
+          <?php
+          echo 'Currency:';
+          ?>
+          <span class="selected-option currency-selected-option"><?php echo 'usd';?></span>
           <!-- SVG ARROW -->
           <svg class="svg-arrow medium rotable">
             <use xlink:href="#svg-arrow"></use>
@@ -966,13 +983,13 @@
         <ul class="mobile-menu-dropdown dropdown">
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li data-currency="usd" class="mobile-menu-dropdown-item currency-option selected">
-            <a href="#">usd</a>
+            <a href="#"><?php echo 'usd';?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li data-currency="euro" class="mobile-menu-dropdown-item currency-option">
-            <a href="#">euro</a>
+            <a href="#"><?php echo 'euro';?></a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
         </ul>
@@ -982,7 +999,7 @@
 
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item void">
-        <a href="#">Logout</a>
+        <a href="#"><?php echo 'Logout';?></a>
       </li>
       <!-- /MOBILE MENU ITEM -->
     </ul>
@@ -996,7 +1013,7 @@
     <div class="section-navigation">
       <!-- SECTION NAVIGATION PATH -->
       <p class="section-navigation-path">
-        <span class="path">Home</span>
+        <span class="path"><?php echo 'Home';?></span>
         <span class="path bold">
           <!-- SVG ARROW -->
           <svg class="svg-arrow tiny">
@@ -1004,7 +1021,7 @@
           </svg>
           <!-- /SVG ARROW -->
         </span>
-        <span class="path current">PC WORLDZ Blog</span>
+        <span class="path current"><?php echo 'PC WORLDZ Blog';?></span>
       </p>
       <!-- SECTION NAVIGATION PATH -->
     </div>
@@ -1040,13 +1057,13 @@
             </div>
           </a>
           <!-- /POST PREVIEW IMG -->
-          <p class="post-timestamp">October 26th, 2017</p>
+          <p class="post-timestamp"><?php echo 'October 26th, 2017';?></p>
           <a href="post.php">
-            <h6 class="title medium">Nvidia has announced that it will be open-sourcing the Linux drivers for its graphics cards, starting with the R515 release, using a dual GPL/MIT license.</h6>
+            <h6 class="title medium"><?php echo 'Nvidia has announced that it will be open-sourcing the Linux drivers for its graphics cards, starting with the R515 release, using a dual GPL/MIT license.';?></h6>
           </a>
-          <p class="post-author">By Admin<span class="separator">|</span>26 Comments</p>
-          <p>Nvidia says the code is currently production-ready for data center GPUs in the Turing and Ampere families following the phased rollout of the GSP driver architecture over the past year. It has been tested across a wide variety of workloads to ensure feature and performance parity with the proprietary kernel-mode driver, but brings new functionality too, such as the DMA-BUF framework for sharing buffers across devices and subsystems that will come into its own with the Hopper architecture.</p>
-          <a href="post.php" class="button">Read More</a>
+          <p class="post-author"><?php echo 'By Admin';?><span class="separator">|</span><?php echo '26 Comments';?></p>
+          <p><?php echo 'Nvidia says the code is currently production-ready for data center GPUs in the Turing and Ampere families following the phased rollout of the GSP driver architecture over the past year. It has been tested across a wide variety of workloads to ensure feature and performance parity with the proprietary kernel-mode driver, but brings new functionality too, such as the DMA-BUF framework for sharing buffers across devices and subsystems that will come into its own with the Hopper architecture.';?></p>
+          <a href="post.php" class="button"><?php echo 'Read More';?></a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
 
@@ -1072,16 +1089,16 @@
             </div>
           </a>
           <!-- /POST PREVIEW IMG -->
-          <p class="post-timestamp">October 14th, 2017</p>
+          <p class="post-timestamp"><?php echo 'October 14th, 2017';?></p>
           <a href="post.php">
-            <h6 class="title medium">AMD has released the AMD Software Preview Driver May 2022, which is now available to all Radeon graphics card owners.
+            <h6 class="title medium"><?php echo 'AMD has released the AMD Software Preview Driver May 2022, which is now available to all Radeon graphics card owners.';?>
               <br><br></h6>
           </a>
-          <p class="post-author">By Admin<span class="separator">|</span>54 Comments</p>
-          <p>In other news, the AMD Software Preview Driver May 2022 now comes with the "sharpen effect" for Radeon users to tweak the sharpness of the image when using AMD's Radeon Super Resolution (RSR) 1.1 technology. AMD has also integrated the AMD Bug Report Tool directly into the Adrenalin software.
+          <p class="post-author"><?php echo 'By Admin';?><span class="separator">|</span><?php echo '54 Comments';?></p>
+          <p><?php echo 'In other news, the AMD Software Preview Driver May 2022 now comes with the "sharpen effect" for Radeon users to tweak the sharpness of the image when using AMD Radeon Super Resolution (RSR) 1.1 technology. AMD has also integrated the AMD Bug Report Tool directly into the Adrenalin software.';?>
             <br><br><br><br><br></p>
           
-          <a href="post.php" class="button">Read More</a>
+          <a href="post.php" class="button"><?php echo 'Read More';?></a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
 
@@ -1107,14 +1124,14 @@
             </div>
           </a>
           <!-- /POST PREVIEW IMG -->
-          <p class="post-timestamp">August 17th, 2017</p>
+          <p class="post-timestamp"><?php echo 'August 17th, 2017';?></p>
           <a href="post.php">
-            <h6 class="title medium">Today we have deals on two Zen 3 AMD CPUs: the Ryzen 7 5800X for $309 and the Ryzen 5 5600X for $199 both at their lowest price per ‘the Camelizer’. </h6>
+            <h6 class="title medium"><?php echo 'Today we have deals on two Zen 3 AMD CPUs: the Ryzen 7 5800X for $309 and the Ryzen 5 5600X for $199 both at their lowest price per ‘the Camelizer’.';?> </h6>
           </a>
-          <p class="post-author">By Admin<span class="separator">|</span>127 Comments</p>
-          <p>To the delight of anyone requiring a graphics card, we have an MSRP-priced Asus Dual Radeon RX 6600 for $329 at Newegg. It's great to see the pricing of GPUs getting back to normal, here's hoping they fall even further.
+          <p class="post-author"><?php echo 'By Admin';?><span class="separator">|</span><?php echo '127 Comments';?></p>
+          <p><?php echo 'To the delight of anyone requiring a graphics card, we have an MSRP-priced Asus Dual Radeon RX 6600 for $329 at Newegg. It is great to see the pricing of GPUs getting back to normal, here hoping they fall even further.';?>
             <br><br><br><br><br><br></p>
-          <a href="post.php" class="button">Read More</a>
+          <a href="post.php" class="button"><?php echo 'Read More';?></a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
 
@@ -1140,15 +1157,15 @@
             </div>
           </a>
           <!-- /POST PREVIEW IMG -->
-          <p class="post-timestamp">August 8th, 2017</p>
+          <p class="post-timestamp"><?php echo 'August 8th, 2017';?></p>
           <a href="post.php">
-            <h6 class="title medium">AMD and Google have announced an intricate, deep-level collaboration on cybersecurity research for AMD's server-class EPYC CPUs — one that's now been running for five years.
+            <h6 class="title medium"><?php echo 'AMD and Google have announced an intricate, deep-level collaboration on cybersecurity research for AMDs server-class EPYC CPUs — one thats now been running for five years.';?>
               <br><br><br><br></h6>
           </a>
-          <p class="post-author">By Admin<span class="separator">|</span>305 Comments</p>
-          <p>Brent Hollingsworth, AMD's director of the EPYC software ecosystem, pointed out that the partnership pooled AMD and Google's best and brightest, opening up the space to previously unknown attack vectors, and pushing creativity on attack layers - whether software- or hardware-based.
+          <p class="post-author"><?php echo 'By Admin';?><span class="separator">|</span><?php echo '305 Comments';?></p>
+          <p><?php echo 'Brent Hollingsworth, AMD director of the EPYC software ecosystem, pointed out that the partnership pooled AMD and Googles best and brightest, opening up the space to previously unknown attack vectors, and pushing creativity on attack layers - whether software- or hardware-based.';?>
             <br><br><br></p>
-          <a href="post.php" class="button">Read More</a>
+          <a href="post.php" class="button"><?php echo 'Read More';?></a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
 
@@ -1174,13 +1191,14 @@
             </div>
           </a>
           <!-- /POST PREVIEW IMG -->
-          <p class="post-timestamp">June 22nd, 2017</p>
+          <p class="post-timestamp"><?php echo 'June 22nd, 2017';?></p>
           <a href="post.php">
-            <h6 class="title medium">Intel has released 16 new security advisories, which address 41 vulnerabilities. The advisories, some with 'high' severity ratings, appear to cover the full gamut of Intel catalog, including processors, devices, firmware, drivers and software.<br><br></h6>
+            <h6 class="title medium"><?php echo 'Intel has released 16 new security advisories, which address 41 vulnerabilities. The advisories, some with high severity ratings, appear to cover the full gamut of Intel catalog, including processors, devices, firmware, drivers and software.';?>
+            <br><br></h6>
           </a>
-          <p class="post-author">By Admin<span class="separator">|</span>205 Comments</p>
-          <p>The Intel Processor advisory has been given the CVEID of CVE-2022-21151. It is described in summary as "a potential security vulnerability in some Intel Processors may allow information disclosure." It is 'only' a medium severity rating vulnerability. We think this is because it requires an authenticated user with local access to exploit the chance to "potentially enable information disclosure" from the processor.</p>
-          <a href="post.php" class="button">Read More</a>
+          <p class="post-author"><?php echo 'By Admin';?><span class="separator">|</span><?php echo '205 Comments';?></p>
+          <p><?php echo 'The Intel Processor advisory has been given the CVEID of CVE-2022-21151. It is described in summary as "a potential security vulnerability in some Intel Processors may allow information disclosure." It is only a medium severity rating vulnerability. We think this is because it requires an authenticated user with local access to exploit the chance to "potentially enable information disclosure" from the processor.';?></p>
+          <a href="post.php" class="button"><?php echo 'Read More';?></a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
 
@@ -1206,14 +1224,15 @@
             </div>
           </a>
           <!-- /POST PREVIEW IMG -->
-          <p class="post-timestamp">June 7th, 2017</p>
+          <p class="post-timestamp"><?php echo 'June 7th, 2017';?></p>
           <a href="post.php">
-            <h6 class="title medium">AMD's Ryzen 7 5800X3D, the fastest CPU for gaming is finally available. We've reviewed and tested the 5800X3D and confirmed its gaming performance on our test suite of games that have placed it at the top of our list of the best CPUs for gaming.<br><br></h6>
+            <h6 class="title medium"><?php echo 'AMDs Ryzen 7 5800X3D, the fastest CPU for gaming is finally available. Weve reviewed and tested the 5800X3D and confirmed its gaming performance on our test suite of games that have placed it at the top of our list of the best CPUs for gaming.';?>
+            <br><br></h6>
           </a>
-          <p class="post-author">By Admin<span class="separator">|</span>536 Comments</p>
-          <p>The AMD Ryzen 7 5800X3D uses eight-cores and 16-threads with a max boost clock of up to 4.5GHz similar to its 5000-series family. What makes this chip different is a new 3D-stacked SRAM technology that employs a total of 96MB of L3 cache to give the 5800X3D amazing gaming performance.
+          <p class="post-author"><?php echo 'By Admin';?><span class="separator">|</span><?php echo '536 Comments';?></p>
+          <p><?php echo 'The AMD Ryzen 7 5800X3D uses eight-cores and 16-threads with a max boost clock of up to 4.5GHz similar to its 5000-series family. What makes this chip different is a new 3D-stacked SRAM technology that employs a total of 96MB of L3 cache to give the 5800X3D amazing gaming performance.';?>
             <br><br><br></p>
-          <a href="post.php" class="button">Read More</a>
+          <a href="post.php" class="button"><?php echo 'Read More';?></a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
 
@@ -1239,15 +1258,15 @@
             </div>
           </a>
           <!-- /POST PREVIEW IMG -->
-          <p class="post-timestamp">May 16th, 2017</p>
+          <p class="post-timestamp"><?php echo 'May 16th, 2017';?></p>
           <a href="post.php">
-            <h6 class="title medium">It's more difficult than ever to find savings on internal components like CPUs or RAM or even locate a high-end graphics card in stock. However, buying a new monitor could have an even more dramatic effect on your tech life than improving your system's performance.
+            <h6 class="title medium"><?php echo 'Its more difficult than ever to find savings on internal components like CPUs or RAM or even locate a high-end graphics card in stock. However, buying a new monitor could have an even more dramatic effect on your tech life than improving your systems performance.';?>
               <br><br><br></h6>
           </a>
-          <p class="post-author">By Admin<span class="separator">|</span>630 Comments</p>
-          <p>If you do any kind of PC gaming, getting a gaming monitor with a high-refresh rate and adaptive sync will completely change the way you play, eliminating tearing and ghosting. Upgrading to a larger screen or one with higher resolution will let you have a more immersive experience.
+          <p class="post-author"><?php echo 'By Admin';?><span class="separator">|</span><?php echo '630 Comments';?></p>
+          <p><?php echo 'If you do any kind of PC gaming, getting a gaming monitor with a high-refresh rate and adaptive sync will completely change the way you play, eliminating tearing and ghosting. Upgrading to a larger screen or one with higher resolution will let you have a more immersive experience.';?>
             <br><br><br><br></p>
-          <a href="post.php" class="button">Read More</a>
+          <a href="post.php" class="button"><?php echo 'Read More';?></a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
 
@@ -1273,15 +1292,15 @@
             </div>
           </a>
           <!-- /POST PREVIEW IMG -->
-          <p class="post-timestamp">March 29th, 2017</p>
+          <p class="post-timestamp"><?php echo 'March 29th, 2017';?></p>
           <a href="post.php">
-            <h6 class="title medium">Whether you're building a PC, craving an upgrade, looking for one of the best gaming PCs, or just hoping to find one of the best gaming monitors on a big sale, we're here to help you sift through the discounts.
+            <h6 class="title medium"><?php echo 'Whether youre building a PC, craving an upgrade, looking for one of the best gaming PCs, or just hoping to find one of the best gaming monitors on a big sale, were here to help you sift through the discounts.';?>
             <br><br><br><br><br><br></h6>
           </a>
-          <p class="post-author">By Admin<span class="separator">|</span>763 Comments</p>
-          <p>To make saving simpler, we're rounding up the very best deals on tech and hardware below, from components like CPUs and SSDs to peripherals to prebuilt desktops and even gadgets.
+          <p class="post-author"><?php echo 'By Admin';?><span class="separator">|</span><?php echo '763 Comments';?></p>
+          <p><?php echo 'To make saving simpler, were rounding up the very best deals on tech and hardware below, from components like CPUs and SSDs to peripherals to prebuilt desktops and even gadgets.';?>
             <br><br><br><br><br><br></p>
-          <a href="post.php" class="button">Read More</a>
+          <a href="post.php" class="button"><?php echo 'Read More';?></a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
 
@@ -1307,13 +1326,13 @@
             </div>
           </a>
           <!-- /POST PREVIEW IMG -->
-          <p class="post-timestamp">March 6th, 2017</p>
+          <p class="post-timestamp"><?php echo 'March 6th, 2017';?></p>
           <a href="post.php">
-            <h6 class="title medium">Nvidia's forthcoming GeForce RTX 40-series (Ada Lovelace) graphics cards continue to make the rounds in the rumor mill. Hardware tipster kopite7kimi, who has an impeccable history with Ampere leaks, has revealed the potential memory configurations for the GeForce RTX 4090 and RTX 4070.</h6>
+            <h6 class="title medium"><?php echo 'Nvidias forthcoming GeForce RTX 40-series (Ada Lovelace) graphics cards continue to make the rounds in the rumor mill. Hardware tipster kopite7kimi, who has an impeccable history with Ampere leaks, has revealed the potential memory configurations for the GeForce RTX 4090 and RTX 4070.';?></h6>
           </a>
-          <p class="post-author">By Admin<span class="separator">|</span>894 Comments</p>
-          <p>In addition to the memory upgrade, the GeForce RTX 4090 would also sport more CUDA cores. However, the exact amount is unknown for now. Our estimation is between 17,000 to 18,500. Logically, Nvidia would need to raise the power limit on the GeForce RTX 4090 to accommodate the extra CUDA cores. Early diagrams of the GeForce RTX 4090's feasible PCB show that the graphics card could pull up to 600W of power.</p>
-          <a href="post.php" class="button">Read More</a>
+          <p class="post-author"><?php echo 'By Admin';?><span class="separator">|</span><?php echo '894 Comments';?></p>
+          <p><?php echo 'In addition to the memory upgrade, the GeForce RTX 4090 would also sport more CUDA cores. However, the exact amount is unknown for now. Our estimation is between 17,000 to 18,500. Logically, Nvidia would need to raise the power limit on the GeForce RTX 4090 to accommodate the extra CUDA cores. Early diagrams of the GeForce RTX 4090s feasible PCB show that the graphics card could pull up to 600W of power.';?></p>
+          <a href="post.php" class="button"><?php echo 'Read More';?></a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
       </div>
@@ -1336,15 +1355,15 @@
           <!-- /PAGER ITEM -->
 
           <!-- PAGER ITEM -->
-          <li class="pager-item selected"><a href="#">1</a></li>
+          <li class="pager-item selected"><a href="#"><?php echo '1';?></a></li>
           <!-- /PAGER ITEM -->
 
           <!-- PAGER ITEM -->
-          <li class="pager-item"><a href="#">2</a></li>
+          <li class="pager-item"><a href="#"><?php echo '2';?></a></li>
           <!-- /PAGER ITEM -->
 
           <!-- PAGER ITEM -->
-          <li class="pager-item"><a href="#">3</a></li>
+          <li class="pager-item"><a href="#"><?php echo '3';?></a></li>
           <!-- /PAGER ITEM -->
 
           <!-- PAGER ITEM -->
@@ -1376,31 +1395,31 @@
         <!-- LOGO -->
         <figure class="logo">
           <img src="img/logo-footer.png" alt="logo">
-          <figcaption>PC WORLDZ</figcaption>
+          <figcaption><?php echo 'PC WORLDZ';?></figcaption>
         </figure>
         <!-- /LOGO -->
-        <p class="description">We're dedicated to give you the very best of Computer Products, with a focus on quality, price and uniqueness. Founded in 2022 by Saludo, Peralta and Aquino, PC WORLDZ serves customer worldwide, and are thrilled to be a part of the fair trade wing of the IT industry.</p>
+        <p class="description"><?php echo 'Were dedicated to give you the very best of Computer Products, with a focus on quality, price and uniqueness. Founded in 2022 by Saludo, Peralta and Aquino, PC WORLDZ serves customer worldwide, and are thrilled to be a part of the fair trade wing of the IT industry.';?></p>
 
         <!-- CONTACTUS LIST -->
         <ul class="contactus-list">
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-location-pin"></i>
-            <p>Marinduque, PH</p>
+            <p><?php echo 'Marinduque, PH';?></p>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-envelope"></i>
-            <a href="mailto:info@tricksterhelmets.com" class="link">info@pcworldz.com</a>
+            <a href="mailto:info@tricksterhelmets.com" class="link"><?php echo 'info@pcworldz.com';?></a>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-phone"></i>
-            <p>044 - 555 - 123 - 1234</p>
+            <p><?php echo '044 - 555 - 123 - 1234';?></p>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
         </ul>
@@ -1410,14 +1429,16 @@
 
       <!-- CONTENT DROPDOWN COLUMN -->
       <div class="content-dropdown-column">
-        <h6 class="title small secondary">Sitemap</h6>
+        <h6 class="title small secondary"><?php echo 'Sitemap';?></h6>
         <hr class="line-separator">
         <!-- LINK LIST -->
         <ul class="link-list decorated">
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="home.php">
-              Home
+              <?php
+              echo 'Home';
+              ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1430,7 +1451,9 @@
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="aboutus.php">
-              About Us
+              <?php
+              echo 'About Us';
+              ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1443,7 +1466,9 @@
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="shop-grid.php">
-              Shop
+              <?php
+              echo 'Shop';
+              ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1456,7 +1481,9 @@
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="blog.php">
-              Our Blog
+              <?php
+              echo 'Our Blog';
+              ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1469,7 +1496,9 @@
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="contactus.php">
-              Contact
+              <?php
+              echo 'Contact';
+              ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1482,7 +1511,9 @@
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="profile.php">
-              Your Account
+              <?php
+              echo 'Your Account';
+              ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1495,7 +1526,9 @@
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              FAQs
+              <?php
+              echo 'FAQs';
+              ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1508,7 +1541,9 @@
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              Our Guarantee
+              <?php
+              echo 'Our Guarantee';
+              ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1524,14 +1559,16 @@
 
       <!-- CONTENT DROPDOWN COLUMN -->
       <div class="content-dropdown-column">
-        <h6 class="title small secondary">Company</h6>
+        <h6 class="title small secondary"><?php echo 'Company';?></h6>
         <hr class="line-separator">
         <!-- LINK LIST -->
         <ul class="link-list decorated">
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              Shipping Policy
+              <?php
+              echo 'Shipping Policy';
+              ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1544,7 +1581,9 @@
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              International Shipping
+              <?php
+              echo 'International Shipping';
+              ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1557,7 +1596,9 @@
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              Affiliates
+              <?php
+              echo 'Affiliates';
+              ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1570,7 +1611,9 @@
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              Our Sponsors
+              <?php
+              echo 'Our Sponsors';
+              ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1583,7 +1626,9 @@
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              Privacy Policy
+              <?php
+              echo 'Privacy Policy';
+              ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1596,7 +1641,9 @@
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              Terms and Conditions
+              <?php
+              echo 'Terms and Conditions';
+              ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1609,7 +1656,9 @@
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
             <a href="#">
-              Pay on Arrival
+              <?php
+              echo 'Pay on Arrival';
+              ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
                 <use xlink:href="#svg-arrow"></use>
@@ -1625,13 +1674,13 @@
 
       <!-- CONTENT DROPDOWN COLUMN -->
       <div class="content-dropdown-column full">
-        <h6 class="title small secondary">Quick Contact</h6>
+        <h6 class="title small secondary"><?php echo 'Quick Contact';?></h6>
         <hr class="line-separator">
-        <p class="description">You can contact by using our contact number or email us below by using our email info@pcworldz.com</p>
+        <p class="description"><?php echo 'You can contact by using our contact number or email us below by using our email info@pcworldz.com';?></p>
         <form class="quick-contact-form">
           <input type="text" class="dark" name="qc_email" placeholder="Email">
           <textarea name="qc_message" class="dark" placeholder="Message"></textarea>
-          <button class="button small">Send Message</button>
+          <button class="button small"><?php echo 'Send Message';?></button>
         </form>
       </div>
       <!-- /CONTENT DROPDOWN COLUMN -->
@@ -1640,7 +1689,7 @@
 
     <!-- FOOTER BOTTOM -->
     <div class="footer-bottom">
-      <h6 class="title tiny secondary">Payment Methods:</h6>
+      <h6 class="title tiny secondary"><?php echo 'Payment Methods:';?></h6>
       <!-- PAYMENT LIST -->
       <ul class="payment-list">
         <!-- PAYMENT LIST ITEM -->
@@ -1701,7 +1750,7 @@
   <div class="widget-line-wrap dark widget-line-copy">
     <!-- WIDGET LINE -->
     <div class="widget-line big">
-      <p class="copyright"><span class="bold">PC WORLDZ</span> | All Rights Reserved 2016</p>
+      <p class="copyright"><span class="bold"><?php echo 'PC WORLDZ';?></span><?php echo '| All Rights Reserved 2016';?></p>
       <!-- ACTIONS LIST -->
       <ul class="actions-list right">
         <!-- ACTIONS LIST ITEM -->
