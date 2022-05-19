@@ -10,291 +10,293 @@
   <link rel="stylesheet" href="css/style.min.css">
   <!-- favicon -->
   <link rel="icon" href="favicon.ico">
-  <title>The Trickster | Shop</title>
+  <title>PCWorldz | Shop</title>
 </head>
 <body>
 
-  <!-- FORM POPUP -->
-  <div id="login-popup" class="form-popup medium mfp-hide">
-    <!-- CLOSE BTN -->
-    <svg class="svg-cross medium close-btn">
-      <use xlink:href="#svg-cross"></use>
-    </svg>
-    <!-- /CLOSE BTN -->
+  
+<?php
+    echo '<div id="login-popup" class="form-popup medium mfp-hide">';
+    echo '<!-- CLOSE BTN -->';
+    echo '<svg class="svg-cross medium close-btn">';
+    echo '<use xlink:href="#svg-cross"></use>';
+    echo '</svg>';
+    echo '<!-- /CLOSE BTN -->';
+    echo '';
+    echo '<!-- FORM POPUP COLUMN -->';
+    echo '<div class="form-popup-column small">';
+    echo '<h2 class="subsection-title medium">Register now!</h2>';
+    echo '<hr class="line-separator">';
+    echo '<p class="small">Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>';
+    echo '<!-- FORM -->';
+    echo '<form>';
+    echo '<!-- FORM ROW -->';
+    echo '<div class="form-row">';
+    echo '<label for="email" class="rl-label">Email</label>';
+    echo '<input type="text" id="email" name="email" placeholder="Enter your email...">';
+    echo '</div>';
+    echo '<!-- /FORM ROW -->';
+    echo '';
+    echo '<!-- FORM ROW -->';
+    echo '<div class="form-row">';
+    echo '<label for="password" class="rl-label">Password</label>';
+    echo '<input type="password" id="password" name="password" placeholder="Enter your password...">';
+    echo '</div>';
+    echo '<!-- /FORM ROW -->';
+    echo '';
+    echo '<!-- FORM ROW -->';
+    echo '<div class="form-row separated">';
+    echo '<button class="button dark full">Register to P!</button>';
+    echo '</div>';
+    echo '<!-- /FORM ROW -->';
+    echo '</form>';
+    echo '<!-- /FORM -->';
+    echo '</div>';
+    echo '<!-- /FORM POPUP COLUMN -->';
+    echo '';
+    echo '<!-- FORM POPUP COLUMN SEPARATOR -->';
+    echo '<div class="form-popup-column-separator"></div>';
+    echo '<!-- /FORM POPUP COLUMN SEPARATOR -->';
+    echo '';
+    echo '<!-- FORM POPUP COLUMN -->';
+    echo '<div class="form-popup-column small">';
+    echo '<h2 class="subsection-title medium">Login to Trickster</h2>';
+    echo '<hr class="line-separator">';
+    echo '<!-- FORM -->';
+    echo '<form>';
+    echo '<!-- FORM ROW -->';
+    echo '<div class="form-row">';
+    echo '<label for="username" class="rl-label">Username</label>';
+    echo '<input type="text" id="username" name="username" placeholder="Enter your username...">';
+    echo '</div>';
+    echo '<!-- /FORM ROW -->';
+    echo '';
+    echo '<!-- FORM ROW -->';
+    echo '<div class="form-row">';
+    echo '<label for="password2" class="rl-label">Password</label>';
+    echo '<input type="password" id="password2" name="password2" placeholder="Enter your password...">';
+    echo '</div>';
+    echo '<!-- /FORM ROW -->';
+    echo '';
+    echo '<!-- FORM ROW -->';
+    echo '<div class="form-row">';
+    echo '<!-- CHECKBOX -->';
+    echo '<input type="checkbox" id="keep_logged" name="keep_logged" checked>';
+    echo '<label class="checkbox" for="keep_logged">';
+    echo '<span class="box">';
+    echo '<!-- SVG CHECK -->';
+    echo '<svg class="svg-check">';
+    echo '<use xlink:href="#svg-check"></use>';
+    echo '</svg>';
+    echo '<!-- /SVG CHECK -->';
+    echo '</span>';
+    echo 'Keep me logged in';
+    echo '</label>';
+    echo '<!-- /CHECKBOX -->';
+    echo '';
+    echo '<a href="#" class="link">Forgot password?</a>';
+    echo '</div>';
+    echo '<!-- /FORM ROW -->';
+    echo '';
+    echo '<!-- FORM ROW -->';
+    echo '<div class="form-row short-space separated">';
+    echo '<button class="button full">Login to your Account</button>';
+    echo '</div>';
+    echo '<!-- /FORM ROW -->';
+    echo '';
+    echo '<!-- FORM ROW -->';
+    echo '<div class="form-row">';
+    echo '<div class="half">';
+    echo '<a href="#" class="button blue full">Facebook Login</a>';
+    echo '</div>';
+    echo '<div class="half">';
+    echo '<a href="#" class="button lightblue full">Twitter Login</a>';
+    echo '</div>';
+    echo '</div>';
+    echo '<!-- /FORM ROW -->';
+    echo '</form>';
+    echo '<!-- /FORM -->';
+    echo '</div>';
+    echo '<!-- /FORM POPUP COLUMN -->';
+    echo '</div>';
+    echo '<!-- /FORM POPUP -->';
+    echo '';
+    echo '<!-- WIDGET LINE WRAP -->';
+    echo '<div class="widget-line-wrap widget-line-1">';
+    echo '<!-- WIDGET LINE -->';
+    echo '<div class="widget-line">';
+    echo '<!-- ACTIONS LIST -->';
+    echo '<ul class="actions-list left">';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '<li class="actions-list-item">';
+    echo '<!-- SOCIAL LINK -->';
+    echo '<div class="social-link">';
+    echo '<a href="#">';
+    echo '<i class="fa fa-facebook"></i>';
+    echo '</a>';
+    echo '</div>';
+    echo '<!-- /SOCIAL LINK -->';
+    echo '</li>';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '<li class="actions-list-item">';
+    echo '<!-- SOCIAL LINK -->';
+    echo '<div class="social-link">';
+    echo '<a href="#">';
+    echo '<i class="fa fa-twitter"></i>';
+    echo '</a>';
+    echo '</div>';
+    echo '<!-- /SOCIAL LINK -->';
+    echo '</li>';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '<li class="actions-list-item">';
+    echo '<!-- SOCIAL LINK -->';
+    echo '<div class="social-link">';
+    echo '<a href="#">';
+    echo '<i class="fa fa-google-plus"></i>';
+    echo '</a>';
+    echo '</div>';
+    echo '<!-- /SOCIAL LINK -->';
+    echo '</li>';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '<li class="actions-list-item">';
+    echo '<!-- SOCIAL LINK -->';
+    echo '<div class="social-link">';
+    echo '<a href="#">';
+    echo '<i class="fa fa-rss"></i>';
+    echo '</a>';
+    echo '</div>';
+    echo '<!-- /SOCIAL LINK -->';
+    echo '</li>';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '<li class="actions-list-item">';
+    echo '<!-- SOCIAL LINK -->';
+    echo '<div class="social-link">';
+    echo '<a href="#">';
+    echo '<i class="fa fa-vimeo"></i>';
+    echo '</a>';
+    echo '</div>';
+    echo '<!-- /SOCIAL LINK -->';
+    echo '</li>';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '</ul>';
+    echo '<!-- ACTIONS LIST -->';
+    echo '';
+    echo '<!-- ACTIONS LIST -->';
+    echo '<ul class="actions-list right">';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '<li class="actions-list-item">';
+    echo '<a class="action-button options-dropdown dropdown-control click-closable" href="#">';
+    echo '<span class="language-selected-option">eng</span>';
+    echo '<!-- SVG ARROW -->';
+    echo '<svg class="svg-arrow small face-down">';
+    echo '<use xlink:href="#svg-arrow"></use>';
+    echo '</svg>';
+    echo '<!-- /SVG ARROW -->';
+    echo '</a>';
+    echo '';
+    echo '<!-- DROPDOWN LIST -->';
+    echo '<ul class="dropdown-list dropdown">';
+    echo '<li data-language="eng" class="dropdown-list-item language-option selected">';
+    echo '<a href="#">eng</a>';
+    echo '</li>';
+    echo '<li data-language="spa" class="dropdown-list-item language-option">';
+    echo '<a href="#">spa</a>';
+    echo '</li>';
+    echo '<li data-language="ger" class="dropdown-list-item language-option">';
+    echo '<a href="#">ger</a>';
+    echo '</li>';
+    echo '</ul>';
+    echo '<!-- /DROPDOWN LIST -->';
+    echo '</li>';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '<li class="actions-list-item">';
+    echo '<a class="action-button options-dropdown dropdown-control click-closable" href="#">';
+    echo '<span class="currency-selected-option">usd</span>';
+    echo '<!-- SVG ARROW -->';
+    echo '<svg class="svg-arrow small face-down">';
+    echo '<use xlink:href="#svg-arrow"></use>';
+    echo '</svg>';
+    echo '<!-- /SVG ARROW -->';
+    echo '</a>';
+    echo '';
+    echo '<!-- DROPDOWN LIST -->';
+    echo '<ul class="dropdown-list dropdown">';
+    echo '<li data-currency="usd" class="dropdown-list-item currency-option selected">';
+    echo '<a href="#">usd</a>';
+    echo '</li>';
+    echo '<li data-currency="euro" class="dropdown-list-item currency-option">';
+    echo '<a href="#">euro</a>';
+    echo '</li>';
+    echo '</ul>';
+    echo '<!-- /DROPDOWN LIST -->';
+    echo '</li>';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '<li class="actions-list-item">';
+    echo '<a class="action-button" href="profile.php">My Account</a>';
+    echo '</li>';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '<li class="actions-list-item">';
+    echo '<a class="action-button" href="wishlist.php">Wishlist<span class="bold">4</span></a>';
+    echo '</li>';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '<li class="actions-list-item">';
+    echo '<a class="action-button" href="index.html">Logout</a>';
+    echo '</li>';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '<li class="actions-list-item">';
+    echo '<!-- SEARCH FORM -->';
+    echo '<form class="search-form">';
+    echo '<input type="text" name="search" autocomplete="off" placeholder="Search products here...">';
+    echo '<!-- SEARCH SUBMIT -->';
+    echo '<div class="search-submit">';
+    echo '<!-- SVG MAG GLASS -->';
+    echo '<svg class="svg-mag-glass">';
+    echo '<use xlink:href="#svg-mag-glass"></use>';
+    echo '</svg>';
+    echo '<!-- /SVG MAG GLASS -->';
+    echo '</div>';
+    echo '<!-- /SEARCH SUBMIT -->';
+    echo '';
+    echo '<!-- SEARCH CANCEL -->';
+    echo '<div class="search-cancel hidden">';
+    echo '<!-- SVG CROSS -->';
+    echo '<svg class="svg-cross">';
+    echo '<use xlink:href="#svg-cross"></use>';
+    echo '</svg>';
+    echo '<!-- /SVG CROSS -->';
+    echo '</div>';
+    echo '<!-- /SEARCH CANCEL -->';
+    echo '</form>';
+    echo '<!-- /SEARCH FORM -->';
+    echo '</li>';
+    echo '<!-- ACTIONS LIST ITEM -->';
+    echo '</ul>';
+    echo '<!-- ACTIONS LIST -->';
+    echo '</div>';
+    echo '<!-- WIDGET LINE -->';
+    echo '</div>';
+    ?>
+  
 
-    <!-- FORM POPUP COLUMN -->
-    <div class="form-popup-column small">
-      <h2 class="subsection-title medium">Register now!</h2>
-      <hr class="line-separator">
-      <p class="small">Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <!-- FORM -->
-      <form>
-        <!-- FORM ROW -->
-        <div class="form-row">
-          <label for="email" class="rl-label">Email</label>
-          <input type="text" id="email" name="email" placeholder="Enter your email...">
-        </div>
-        <!-- /FORM ROW -->
-
-        <!-- FORM ROW -->
-        <div class="form-row">
-          <label for="password" class="rl-label">Password</label>
-          <input type="password" id="password" name="password" placeholder="Enter your password...">
-        </div>
-        <!-- /FORM ROW -->
-
-        <!-- FORM ROW -->
-        <div class="form-row separated">
-          <button class="button dark full">Register to Trickster!</button>
-        </div>
-        <!-- /FORM ROW -->
-      </form>
-      <!-- /FORM -->
-    </div>
-    <!-- /FORM POPUP COLUMN -->
-
-    <!-- FORM POPUP COLUMN SEPARATOR -->
-    <div class="form-popup-column-separator"></div>
-    <!-- /FORM POPUP COLUMN SEPARATOR -->
-
-    <!-- FORM POPUP COLUMN -->
-    <div class="form-popup-column small">
-      <h2 class="subsection-title medium">Login to Trickster</h2>
-      <hr class="line-separator">
-      <!-- FORM -->
-      <form>
-        <!-- FORM ROW -->
-        <div class="form-row">
-          <label for="username" class="rl-label">Username</label>
-          <input type="text" id="username" name="username" placeholder="Enter your username...">
-        </div>
-        <!-- /FORM ROW -->
-
-        <!-- FORM ROW -->
-        <div class="form-row">
-          <label for="password2" class="rl-label">Password</label>
-          <input type="password" id="password2" name="password2" placeholder="Enter your password...">
-        </div>
-        <!-- /FORM ROW -->
-
-        <!-- FORM ROW -->
-        <div class="form-row">
-          <!-- CHECKBOX -->
-					<input type="checkbox" id="keep_logged" name="keep_logged" checked>
-					<label class="checkbox" for="keep_logged">
-						<span class="box">
-              <!-- SVG CHECK -->
-						  <svg class="svg-check">
-						    <use xlink:href="#svg-check"></use>
-						  </svg>
-              <!-- /SVG CHECK -->
-						</span>
-						Keep me logged in
-					</label>
-					<!-- /CHECKBOX -->
-
-          <a href="#" class="link">Forgot password?</a>
-        </div>
-        <!-- /FORM ROW -->
-
-        <!-- FORM ROW -->
-        <div class="form-row short-space separated">
-          <button class="button full">Login to your Account</button>
-        </div>
-        <!-- /FORM ROW -->
-
-        <!-- FORM ROW -->
-        <div class="form-row">
-          <div class="half">
-            <a href="#" class="button blue full">Facebook Login</a>
-          </div>
-          <div class="half">
-            <a href="#" class="button lightblue full">Twitter Login</a>
-          </div>
-        </div>
-        <!-- /FORM ROW -->
-      </form>
-      <!-- /FORM -->
-    </div>
-    <!-- /FORM POPUP COLUMN -->
-  </div>
-  <!-- /FORM POPUP -->
-
-  <!-- WIDGET LINE WRAP -->
-  <div class="widget-line-wrap widget-line-1">
-    <!-- WIDGET LINE -->
-    <div class="widget-line">
-      <!-- ACTIONS LIST -->
-      <ul class="actions-list left">
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <!-- SOCIAL LINK -->
-          <div class="social-link">
-            <a href="#">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </div>
-          <!-- /SOCIAL LINK -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <!-- SOCIAL LINK -->
-          <div class="social-link">
-            <a href="#">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </div>
-          <!-- /SOCIAL LINK -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <!-- SOCIAL LINK -->
-          <div class="social-link">
-            <a href="#">
-              <i class="fa fa-google-plus"></i>
-            </a>
-          </div>
-          <!-- /SOCIAL LINK -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <!-- SOCIAL LINK -->
-          <div class="social-link">
-            <a href="#">
-              <i class="fa fa-rss"></i>
-            </a>
-          </div>
-          <!-- /SOCIAL LINK -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <!-- SOCIAL LINK -->
-          <div class="social-link">
-            <a href="#">
-              <i class="fa fa-vimeo"></i>
-            </a>
-          </div>
-          <!-- /SOCIAL LINK -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-      </ul>
-      <!-- ACTIONS LIST -->
-
-      <!-- ACTIONS LIST -->
-      <ul class="actions-list right">
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <a class="action-button options-dropdown dropdown-control click-closable" href="#">
-            <span class="language-selected-option">eng</span>
-            <!-- SVG ARROW -->
-  					<svg class="svg-arrow small face-down">
-  						<use xlink:href="#svg-arrow"></use>
-  					</svg>
-  					<!-- /SVG ARROW -->
-          </a>
-
-          <!-- DROPDOWN LIST -->
-          <ul class="dropdown-list dropdown">
-            <li data-language="eng" class="dropdown-list-item language-option selected">
-              <a href="#">eng</a>
-            </li>
-            <li data-language="spa" class="dropdown-list-item language-option">
-              <a href="#">spa</a>
-            </li>
-            <li data-language="ger" class="dropdown-list-item language-option">
-              <a href="#">ger</a>
-            </li>
-          </ul>
-          <!-- /DROPDOWN LIST -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <a class="action-button options-dropdown dropdown-control click-closable" href="#">
-            <span class="currency-selected-option">usd</span>
-            <!-- SVG ARROW -->
-  					<svg class="svg-arrow small face-down">
-  						<use xlink:href="#svg-arrow"></use>
-  					</svg>
-  					<!-- /SVG ARROW -->
-          </a>
-
-          <!-- DROPDOWN LIST -->
-          <ul class="dropdown-list dropdown">
-            <li data-currency="usd" class="dropdown-list-item currency-option selected">
-              <a href="#">usd</a>
-            </li>
-            <li data-currency="euro" class="dropdown-list-item currency-option">
-              <a href="#">euro</a>
-            </li>
-          </ul>
-          <!-- /DROPDOWN LIST -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <a class="action-button" href="profile.php">My Account</a>
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <a class="action-button" href="wishlist.php">Wishlist<span class="bold">4</span></a>
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <a class="action-button" href="index.html">Logout</a>
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <!-- SEARCH FORM -->
-          <form class="search-form">
-            <input type="text" name="search" autocomplete="off" placeholder="Search products here...">
-            <!-- SEARCH SUBMIT -->
-            <div class="search-submit">
-              <!-- SVG MAG GLASS -->
-    					<svg class="svg-mag-glass">
-    						<use xlink:href="#svg-mag-glass"></use>
-    					</svg>
-    					<!-- /SVG MAG GLASS -->
-            </div>
-            <!-- /SEARCH SUBMIT -->
-
-            <!-- SEARCH CANCEL -->
-            <div class="search-cancel hidden">
-              <!-- SVG CROSS -->
-    					<svg class="svg-cross">
-    						<use xlink:href="#svg-cross"></use>
-    					</svg>
-    					<!-- /SVG CROSS -->
-            </div>
-            <!-- /SEARCH CANCEL -->
-          </form>
-          <!-- /SEARCH FORM -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-      </ul>
-      <!-- ACTIONS LIST -->
-    </div>
-    <!-- WIDGET LINE -->
-  </div>
-  <!-- WIDGET LINE WRAP -->
-
-  <!-- WIDGET LINE WRAP -->
+ 
   <div class="widget-line-wrap widget-line-2">
     <!-- WIDGET LINE -->
     <div class="widget-line">
@@ -346,7 +348,6 @@
       </figure>
       <!-- /LOGO -->
 
-      <!-- CART DROPDOWN WRAP -->
       <div class="cart-dropdown-wrap">
         <!-- CART DROPDOWN CONTROL -->
         <div class="cart-dropdown-control">
@@ -364,7 +365,7 @@
 
           <!-- CART ITEM QUANTITY -->
           <div class="cart-item-quantity">
-            <p>8</p>
+            <p>3</p>
           </div>
           <!-- /CART ITEM QUANTITY -->
         </div>
@@ -377,17 +378,22 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.php">
+              <a href="product-page-v1.html">
                 <figure class="product-img small">
-                  <img src="img/products/02.jpg" alt="02">
+                  <img src="img/products/01.png" alt="02">
                 </figure>
               </a>
               <!-- /PRODUCT IMG -->
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.php"><h6 class="title small">Poisonous Frog</h6></a>
-                <p class="product-description small">For Outdoor Sports</p>
+                <a href="product-page-v1.html"><h6 class="title small">              
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[0]->name;
+              ?>
+              </h6></a>
+                <p class="product-description small">Gaming</p>
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -442,7 +448,9 @@
                 </ul>
                 <!-- /RATING -->
                 <p class="product-quantity">x4</p>
-                <p class="product-price">$600</p>
+                <p class="product-price"><br><br>
+                  ₱233,848
+              </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
 
@@ -457,17 +465,22 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.php">
+              <a href="product-page-v1.html">
                 <figure class="product-img small">
-                  <img src="img/products/06.jpg" alt="06">
+                  <img src="img/products/02.png" alt="06">
                 </figure>
               </a>
               <!-- /PRODUCT IMG -->
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.php"><h6 class="title small">Crashing Wave</h6></a>
-                <p class="product-description small">Water Resistant</p>
+                <a href="product-page-v1.html"><h6 class="title small">              
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[1]->name;
+              ?>
+              </h6></a>
+                <p class="product-description small">Gaming</p>
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -522,7 +535,9 @@
                 </ul>
                 <!-- /RATING -->
                 <p class="product-quantity">x2</p>
-                <p class="product-price">$360</p>
+                <p class="product-price"><br><br>              
+                  ₱57,032
+                </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
 
@@ -537,17 +552,22 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.php">
+              <a href="product-page-v1.html">
                 <figure class="product-img small">
-                  <img src="img/products/05.jpg" alt="05">
+                  <img src="img/products/03.png" alt="05">
                 </figure>
               </a>
               <!-- /PRODUCT IMG -->
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.php"><h6 class="title small">The Patriot</h6></a>
-                <p class="product-description small">By Spiegel</p>
+                <a href="product-page-v1.html"><h6 class="title small">              
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[2]->name;
+              ?>
+                </h6></a>
+                <p class="product-description small">Gaming</p>
                 <!-- RATING -->
                 <ul class="rating small">
                   <!-- RATING ITEM -->
@@ -602,7 +622,12 @@
                 </ul>
                 <!-- /RATING -->
                 <p class="product-quantity">x1</p>
-                <p class="product-price">$185</p>
+                <p class="product-price"> <br><br>             
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[2]->price;
+              ?>
+                </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
 
@@ -619,7 +644,7 @@
           <!-- CART DROPDOWN SUBTOTAL -->
           <div class="cart-dropdown-subtotal">
             <p class="title small">Cart Subtotal</p>
-            <p class="product-price">$1145</p>
+            <p class="product-price">₱303,827</p>
           </div>
           <!-- /CART DROPDOWN SUBTOTAL -->
 
@@ -632,7 +657,6 @@
         </div>
         <!-- /CART DROPDOWN -->
       </div>
-      <!-- /CART DROPDOWN WRAP -->
 
       <!-- MAIN MENU -->
       <ul class="main-menu">
@@ -791,42 +815,50 @@
         </a>
 
         <!-- MOBILE MENU DROPDOWN -->
-        <ul class="mobile-menu-dropdown dropdown">
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.php">Sidebar 3 Col Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
+        <div class="mobile-menu-wrap">
+    <!-- MOBILE MENU CONTROL -->
+    <div class="mobile-menu-control dropdown-control">
+      <!-- SVG BURGER -->
+      <svg class="svg-burger">
+        <use xlink:href="#svg-burger"></use>
+      </svg>
+      <!-- /SVG BURGER -->
+    </div>
+    <!-- /MOBILE MENU CONTROL -->
 
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-grid.php">4 Columns Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
+    <!-- MOBILE MENU -->
+    <ul class="mobile-menu dropdown">
+      <!-- MOBILE MENU ITEM -->
+      <li class="mobile-menu-item">
+        <a href="index.php">Home</a>
+      </li>
+      <!-- /MOBILE MENU ITEM -->
 
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list2.php">Sidebar 3 Col List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
+      <!-- MOBILE MENU ITEM -->
+      <li class="mobile-menu-item">
+        <a href="aboutus.php">About</a>
+      </li>
+      <!-- /MOBILE MENU ITEM -->
 
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list.php">4 Columns List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
+      <!-- MOBILE MENU ITEM -->
+      <li class="mobile-menu-item">
+        <a href="#" class="dropdown-control">
+          Shop          
+        </a>
 
-          <!-- MOBILE MENU DROPDOWN ITEM -->
+        <!-- MOBILE MENU DROPDOWN -->
+        <ul class="mobile-menu-dropdown dropdown">         
+          
           <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.php">Product Page V1</a>
+            <a href="shop-list2.php">Motherboards</a>
           </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v2.php">Product Page V2</a>
+            <a href="shop-list2.php">Processors</a>
           </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
+          <li class="mobile-menu-dropdown-item">
+            <a href="shop-list2.php">Graphic Cards</a>
+          </li>
+          
         </ul>
         <!-- /MOBILE MENU DROPDOWN -->
       </li>
@@ -851,113 +883,178 @@
 
         <!-- MOBILE MENU DROPDOWN -->
         <ul class="mobile-menu-dropdown dropdown">
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="home.php">Trickster Home</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-builder-v1.php">Product Builder V1</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-builder-v2.php">Product Builder V2</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="blog.php">Trickster Blog</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="post.php">Blog Post</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="contactus.php">Contact Page</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="404.php">Error Page</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
+          
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
             <a href="aboutus.php">About Us</a>
           </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
+          
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="menu-dropdowns.php">Menu &amp; DDowns</a>
+            <a href="identification.php">Identification</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shortcodes.php">Shortcodes</a>
+            <a href="billing-shipping.php">Billing and Shipping</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="login-popup.php">Login Popup</a>
+            <a href="confirmation.php">Confirmation</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="ratings-popup.php">Ratings Popup</a>
+            <a href="cart.php">Shopping Cart</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.php">Sidebar 3 Col Grid</a>
+            <a href="wishlist.php">Wishlist</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-grid.php">4 Columns Grid</a>
+            <a href="profile.php">Your Account</a>
+          </li>
+          <!-- /MOBILE MENU DROPDOWN ITEM -->
+        </ul>
+        <!-- /MOBILE MENU DROPDOWN -->
+      </li>
+      <!-- /MOBILE MENU ITEM -->
+
+      <!-- MOBILE MENU ITEM -->
+      <li class="mobile-menu-item">
+        <a href="contactus.php">Contact</a>
+      </li>
+      <!-- /MOBILE MENU ITEM -->
+
+      <!-- MOBILE MENU ITEM -->
+      <li class="mobile-menu-item">
+        <a href="profile.php">My Account</a>
+      </li>
+      <!-- /MOBILE MENU ITEM -->
+
+      <!-- MOBILE MENU ITEM -->
+      <li class="mobile-menu-item">
+        <a href="wishlist.php">
+          Wishlist
+          <span class="bold">4</span>
+        </a>
+      </li>
+      <!-- /MOBILE MENU ITEM -->
+
+      <!-- MOBILE MENU ITEM -->
+      <li class="mobile-menu-item">
+        <a href="#" class="dropdown-control">
+          Language:
+          <span class="selected-option language-selected-option">eng</span>
+          <!-- SVG ARROW -->
+          <svg class="svg-arrow medium rotable">
+            <use xlink:href="#svg-arrow"></use>
+          </svg>
+          <!-- /SVG ARROW -->
+        </a>
+
+        <!-- MOBILE MENU DROPDOWN -->
+        <ul class="mobile-menu-dropdown dropdown">
+          <!-- MOBILE MENU DROPDOWN ITEM -->
+          <li data-language="eng" class="mobile-menu-dropdown-item language-option selected">
+            <a href="#">eng</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list2.php">Sidebar 3 Col List</a>
+          <li data-language="spa" class="mobile-menu-dropdown-item language-option">
+            <a href="#">eu</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list.php">4 Columns List</a>
+          <li data-language="ger" class="mobile-menu-dropdown-item language-option">
+            <a href="#">spa</a>
+          </li>
+          <!-- /MOBILE MENU DROPDOWN ITEM -->
+        </ul>
+        <!-- /MOBILE MENU DROPDOWN -->
+      </li>
+      <!-- /MOBILE MENU ITEM -->
+
+      <!-- MOBILE MENU ITEM -->
+      <li class="mobile-menu-item">
+        <a href="#" class="dropdown-control">
+          Currency:
+          <span class="selected-option currency-selected-option">usd</span>
+          <!-- SVG ARROW -->
+          <svg class="svg-arrow medium rotable">
+            <use xlink:href="#svg-arrow"></use>
+          </svg>
+          <!-- /SVG ARROW -->
+        </a>
+
+        <!-- MOBILE MENU DROPDOWN -->
+        <ul class="mobile-menu-dropdown dropdown">
+          <!-- MOBILE MENU DROPDOWN ITEM -->
+          <li data-currency="usd" class="mobile-menu-dropdown-item currency-option selected">
+            <a href="#">usd</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.php">Product Page V1</a>
+          <li data-currency="euro" class="mobile-menu-dropdown-item currency-option">
+            <a href="#">euro</a>
           </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
 
+          
+          <!-- /MOBILE MENU DROPDOWN ITEM -->
+        </ul>
+        <!-- /MOBILE MENU DROPDOWN -->
+      </li>
+      <!-- /MOBILE MENU ITEM -->
+
+      <!-- MOBILE MENU ITEM -->
+      <li class="mobile-menu-item void">
+        <a href="#">Logout</a>
+      </li>
+      <!-- /MOBILE MENU ITEM -->
+    </ul>
+    <!-- /MOBILE MENU -->
+  </div>
+        <!-- /MOBILE MENU DROPDOWN -->
+      </li>
+      <!-- /MOBILE MENU ITEM -->
+
+      <!-- MOBILE MENU ITEM -->
+      <li class="mobile-menu-item">
+        <a href="blog.php">Our Blog</a>
+      </li>
+      <!-- /MOBILE MENU ITEM -->
+
+      <!-- MOBILE MENU ITEM -->
+      <li class="mobile-menu-item">
+        <a href="#" class="dropdown-control">
+          Features
+          <!-- SVG ARROW -->
+          <svg class="svg-arrow medium rotable">
+            <use xlink:href="#svg-arrow"></use>
+          </svg>
+          <!-- /SVG ARROW -->
+        </a>
+
+        <!-- MOBILE MENU DROPDOWN -->
+        <ul class="mobile-menu-dropdown dropdown">
+          
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.php">Product Page V2</a>
+            <a href="aboutus.php">About Us</a>
           </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
+         
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
