@@ -10,45 +10,47 @@
     <link rel="stylesheet" type="text/css" href="css/iofrm-theme5.css">
 </head>
 <body>
-    <div class="form-body">
-        <div class="website-logo">
-            <a href="index.php">
-                <div class="logo">
-                    <img class="logo-size" src="images/logo-light.svg" alt="">
-                </div>
-            </a>
-        </div>
-        <div class="row">
-            <div class="img-holder">
-                <div class="bg"></div>
-                <div class="info-holder">
-                    <img src="images/REGISTER.png" alt="">
-                </div>
-            </div>
-            <div class="form-holder">
-                <div class="form-content">
-                    <div class="form-items">
-                        <h3>Register now!</h3>
-                        <p>Create your very own account in PC Worldz.</p>
-                        <div class="page-links">
-                            <a href="index.php">Login</a><a href="register5.php" class="active">Register</a>
-                        </div>
-                        <form>
-                            <input class="form-control" type="text" name="name" placeholder="Full Name" required>
-                            <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
-                            <input class="form-control" type="password" name="password" placeholder="Password" required>
-                            <div class="form-button">
-                                <button id="submit" type="submit" class="ibtn">Register</button>
-                            </div>
-                        </form>
-                        <div class="other-links">
-                            <span>Or register with</span><a href="#">Facebook</a><a href="#">Google</a><a href="#">Linkedin</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<?php
+echo '<div class="form-body">';
+echo '<div class="website-logo">';
+echo '<a href="index.php">';
+echo '<div class="logo">';
+echo '<img class="logo-size" src="images/logo-light.svg" alt="">';
+echo '</div>';
+echo '</a>';
+echo '</div>';
+echo '<div class="row">';
+echo '<div class="img-holder">';
+echo '<div class="bg"></div>';
+echo '<div class="info-holder">';
+echo '<img src="images/REGISTER.png" alt="">';
+echo '</div>';
+echo '</div>';
+echo '<div class="form-holder">';
+echo '<div class="form-content">';
+echo '<div class="form-items">';
+echo '<h3>Register now!</h3>';
+echo '<p>Create your very own account in PC Worldz.</p>';
+echo '<div class="page-links">';
+echo '<a href="index.php">Login</a><a href="register5.php" class="active">Register</a>';
+echo '</div>';
+echo '<form>';
+echo '<input class="form-control" type="text" name="name" placeholder="Full Name" required>';
+echo '<input class="form-control" type="email" name="email" placeholder="E-mail Address" required>';
+echo '<input class="form-control" type="password" name="password" placeholder="Password" required>';
+echo '<div class="form-button">';
+echo '<button id="submit" type="submit" class="ibtn">Register</button>';
+echo '</div>';
+echo '</form>';
+echo '<div class="other-links">';
+echo '<span>Or register with</span><a href="#">Facebook</a><a href="#">Google</a><a href="#">Linkedin</a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+?>
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
