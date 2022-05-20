@@ -10,42 +10,55 @@
   <link rel="stylesheet" href="css/style.min.css">
   <!-- favicon -->
   <link rel="icon" href="favicon.ico">
-  <title>PC WORLDZ | Wishlist</title>
+    <?php
+    echo '<title>PC WORLDZ | Wishlist</title>';
+    echo '';
+    ?>
 </head>
 <body>
 
   <!-- FORM POPUP -->
   <div id="login-popup" class="form-popup medium mfp-hide">
-    <!-- CLOSE BTN -->
-    <svg class="svg-cross medium close-btn">
-      <use xlink:href="#svg-cross"></use>
-    </svg>
-    <!-- /CLOSE BTN -->
+    <?php
+    echo '<!-- CLOSE BTN -->';
+    echo '<svg class="svg-cross medium close-btn">';
+    echo '<use xlink:href="#svg-cross"></use>';
+    echo '</svg>';
+    echo '<!-- /CLOSE BTN -->';
+    ?>
 
     <!-- FORM POPUP COLUMN -->
     <div class="form-popup-column small">
-      <h2 class="subsection-title medium">Register now!</h2>
-      <hr class="line-separator">
-      <p class="small">Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <!-- FORM -->
-      <form>
+      <?php
+      echo '<h2 class="subsection-title medium">Register now!</h2>';
+      echo '<hr class="line-separator">';
+      echo '<p class="small">Fill all the requirements on the space provided.</p>';
+      echo '<!-- FORM -->';
+      echo '<form>';
+      ?>
         <!-- FORM ROW -->
         <div class="form-row">
-          <label for="email" class="rl-label">Email</label>
-          <input type="text" id="email" name="email" placeholder="Enter your email...">
+          <?php
+          echo '<label for="email" class="rl-label">Email</label>';
+          echo '<input type="text" id="email" name="email" placeholder="Enter your email...">';
+          ?>
         </div>
         <!-- /FORM ROW -->
 
         <!-- FORM ROW -->
         <div class="form-row">
-          <label for="password" class="rl-label">Password</label>
-          <input type="password" id="password" name="password" placeholder="Enter your password...">
+          <?php
+          echo '<label for="password" class="rl-label">Password</label>';
+          echo '<input type="password" id="password" name="password" placeholder="Enter your password...">';
+          ?>
         </div>
         <!-- /FORM ROW -->
 
         <!-- FORM ROW -->
         <div class="form-row separated">
-          <button class="button dark full">Register to PC WORLDZ!</button>
+          <?php
+          echo '<button class="button dark full">Register to PC WORLDZ!</button>';
+          ?>
         </div>
         <!-- /FORM ROW -->
       </form>
@@ -59,57 +72,71 @@
 
     <!-- FORM POPUP COLUMN -->
     <div class="form-popup-column small">
-      <h2 class="subsection-title medium">Login to PC WORLDZ</h2>
-      <hr class="line-separator">
+      <?php
+      echo '<h2 class="subsection-title medium">Login to PC WORLDZ</h2>';
+      echo '<hr class="line-separator">';
+      ?>
       <!-- FORM -->
       <form>
         <!-- FORM ROW -->
         <div class="form-row">
-          <label for="username" class="rl-label">Username</label>
-          <input type="text" id="username" name="username" placeholder="Enter your username...">
+          <?php
+          echo '<label for="username" class="rl-label">Username</label>';
+          echo '<input type="text" id="username" name="username" placeholder="Enter your username...">';
+          ?>
         </div>
         <!-- /FORM ROW -->
 
         <!-- FORM ROW -->
         <div class="form-row">
-          <label for="password2" class="rl-label">Password</label>
-          <input type="password" id="password2" name="password2" placeholder="Enter your password...">
+          <?php
+          echo '<label for="password2" class="rl-label">Password</label>';
+          echo '<input type="password" id="password2" name="password2" placeholder="Enter your password...">';
+          ?>
         </div>
         <!-- /FORM ROW -->
 
         <!-- FORM ROW -->
         <div class="form-row">
-          <!-- CHECKBOX -->
-					<input type="checkbox" id="keep_logged" name="keep_logged" checked>
-					<label class="checkbox" for="keep_logged">
-						<span class="box">
-              <!-- SVG CHECK -->
-						  <svg class="svg-check">
-						    <use xlink:href="#svg-check"></use>
-						  </svg>
-              <!-- /SVG CHECK -->
-						</span>
-						Keep me logged in
-					</label>
-					<!-- /CHECKBOX -->
-
-          <a href="#" class="link">Forgot password?</a>
+          <?php
+          echo '<!-- CHECKBOX -->';
+          echo '<input type="checkbox" id="keep_logged" name="keep_logged" checked>';
+          echo '<label class="checkbox" for="keep_logged">';
+          echo '<span class="box">';
+          echo '<!-- SVG CHECK -->';
+          echo '<svg class="svg-check">';
+          echo '<use xlink:href="#svg-check"></use>';
+          echo '</svg>';
+          echo '<!-- /SVG CHECK -->';
+          echo '</span>';
+          echo 'Keep me logged in';
+          echo '</label>';
+          echo '<!-- /CHECKBOX -->';
+          echo '';
+          echo '<a href="#" class="link">Forgot password?</a>';
+          ?>
         </div>
         <!-- /FORM ROW -->
 
         <!-- FORM ROW -->
         <div class="form-row short-space separated">
-          <button class="button full">Login to your Account</button>
+          <?php
+          echo '<button class="button full">Login to your Account</button>';
+          ?>
         </div>
         <!-- /FORM ROW -->
 
         <!-- FORM ROW -->
         <div class="form-row">
           <div class="half">
-            <a href="#" class="button blue full">Facebook Login</a>
+            <?php
+            echo '<a href="#" class="button blue full">Facebook Login</a>';
+            ?>
           </div>
-          <div class="half">
-            <a href="#" class="button lightblue full">Twitter Login</a>
+          <div class="half">           
+            <?php
+            echo '<a href="#" class="button blue full">Facebook Login</a>';
+            ?>
           </div>
         </div>
         <!-- /FORM ROW -->
@@ -124,171 +151,199 @@
   <div class="widget-line-wrap widget-line-1">
     <!-- WIDGET LINE -->
     <div class="widget-line">
-      <!-- ACTIONS LIST -->
-      <ul class="actions-list left">
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <!-- SOCIAL LINK -->
+      <?php
+      echo '<!-- ACTIONS LIST -->';
+      echo '<ul class="actions-list left">';
+      echo '<!-- ACTIONS LIST ITEM -->';
+      echo '<li class="actions-list-item">';
+      echo '<!-- SOCIAL LINK -->';
+      ?>
           <div class="social-link">
-            <a href="#">
-              <i class="fa fa-facebook"></i>
-            </a>
+            <?php
+            echo '<a href="#">';
+            echo '<i class="fa fa-facebook"></i>';
+            echo '</a>';
+            ?>
           </div>
           <!-- /SOCIAL LINK -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
+            <?php
+            echo '</li>';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '<li class="actions-list-item">';
+            ?>
           <!-- SOCIAL LINK -->
           <div class="social-link">
-            <a href="#">
-              <i class="fa fa-twitter"></i>
-            </a>
+            <?php
+            echo '<a href="#">';
+            echo '<i class="fa fa-twitter"></i>';
+            echo '</a>';
+            ?>
           </div>
           <!-- /SOCIAL LINK -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
+            <?php
+            echo '</li>';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '<li class="actions-list-item">';
+            ?>
           <!-- SOCIAL LINK -->
           <div class="social-link">
-            <a href="#">
-              <i class="fa fa-google-plus"></i>
-            </a>
+            <?php
+            echo '<a href="#">';
+            echo '<i class="fa fa-google-plus"></i>';
+            echo '</a>';
+            ?>
           </div>
           <!-- /SOCIAL LINK -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
+            <?php
+            echo '</li>';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '<li class="actions-list-item">';
+            ?>
           <!-- SOCIAL LINK -->
           <div class="social-link">
-            <a href="#">
-              <i class="fa fa-rss"></i>
-            </a>
+            <?php
+            echo '<a href="#">';
+            echo '<i class="fa fa-rss"></i>';
+            echo '</a>';
+            ?>
           </div>
           <!-- /SOCIAL LINK -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
+            <?php
+            echo '</li>';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '<li class="actions-list-item">';
+            ?>
           <!-- SOCIAL LINK -->
           <div class="social-link">
-            <a href="#">
-              <i class="fa fa-vimeo"></i>
-            </a>
+            <?php
+            echo '<a href="#">';
+            echo '<i class="fa fa-vimeo"></i>';
+            echo '</a>';
+            ?>
           </div>
           <!-- /SOCIAL LINK -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-      </ul>
-      <!-- ACTIONS LIST -->
-
-      <!-- ACTIONS LIST -->
-      <ul class="actions-list right">
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <a class="action-button options-dropdown dropdown-control click-closable" href="#">
-            <span class="language-selected-option">eng</span>
-            <!-- SVG ARROW -->
-  					<svg class="svg-arrow small face-down">
-  						<use xlink:href="#svg-arrow"></use>
-  					</svg>
-  					<!-- /SVG ARROW -->
-          </a>
-
-          <!-- DROPDOWN LIST -->
-          <ul class="dropdown-list dropdown">
-            <li data-language="eng" class="dropdown-list-item language-option selected">
-              <a href="#">eng</a>
-            </li>
-            <li data-language="spa" class="dropdown-list-item language-option">
-              <a href="#">spa</a>
-            </li>
-            <li data-language="ger" class="dropdown-list-item language-option">
-              <a href="#">ger</a>
-            </li>
-          </ul>
-          <!-- /DROPDOWN LIST -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <a class="action-button options-dropdown dropdown-control click-closable" href="#">
-            <span class="currency-selected-option">usd</span>
-            <!-- SVG ARROW -->
-  					<svg class="svg-arrow small face-down">
-  						<use xlink:href="#svg-arrow"></use>
-  					</svg>
-  					<!-- /SVG ARROW -->
-          </a>
-
-          <!-- DROPDOWN LIST -->
-          <ul class="dropdown-list dropdown">
-            <li data-currency="usd" class="dropdown-list-item currency-option selected">
-              <a href="#">usd</a>
-            </li>
-            <li data-currency="euro" class="dropdown-list-item currency-option">
-              <a href="#">euro</a>
-            </li>
-          </ul>
-          <!-- /DROPDOWN LIST -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <a class="action-button" href="profile.php">My Account</a>
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <a class="action-button" href="wishlist.php">Wishlist<span class="bold">4</span></a>
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <a class="action-button" href="index.html">Logout</a>
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <!-- SEARCH FORM -->
-          <form class="search-form">
-            <input type="text" name="search" autocomplete="off" placeholder="Search products here...">
+            <?php
+            echo '</li>';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '</ul>';
+            echo '<!-- ACTIONS LIST -->';
+            echo '';
+            echo '<!-- ACTIONS LIST -->';
+            echo '<ul class="actions-list right">';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '<li class="actions-list-item">';
+            echo '<a class="action-button options-dropdown dropdown-control click-closable" href="#">';
+            echo '<span class="language-selected-option">eng</span>';
+            echo '<!-- SVG ARROW -->';
+            echo '<svg class="svg-arrow small face-down">';
+            echo '<use xlink:href="#svg-arrow"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG ARROW -->';
+            echo '</a>';
+            echo '';
+            echo '<!-- DROPDOWN LIST -->';
+            echo '<ul class="dropdown-list dropdown">';
+            echo '<li data-language="eng" class="dropdown-list-item language-option selected">';
+            echo '<a href="#">eng</a>';
+            echo '</li>';
+            echo '<li data-language="spa" class="dropdown-list-item language-option">';
+            echo '<a href="#">spa</a>';
+            echo '</li>';
+            echo '<li data-language="ger" class="dropdown-list-item language-option">';
+            echo '<a href="#">ger</a>';
+            echo '</li>';
+            echo '</ul>';
+            echo '<!-- /DROPDOWN LIST -->';
+            echo '</li>';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '<li class="actions-list-item">';
+            echo '<a class="action-button options-dropdown dropdown-control click-closable" href="#">';
+            echo '<span class="currency-selected-option">usd</span>';
+            echo '<!-- SVG ARROW -->';
+            echo '<svg class="svg-arrow small face-down">';
+            echo '<use xlink:href="#svg-arrow"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG ARROW -->';
+            echo '</a>';
+            echo '';
+            echo '<!-- DROPDOWN LIST -->';
+            echo '<ul class="dropdown-list dropdown">';
+            echo '<li data-currency="usd" class="dropdown-list-item currency-option selected">';
+            echo '<a href="#">usd</a>';
+            echo '</li>';
+            echo '<li data-currency="euro" class="dropdown-list-item currency-option">';
+            echo '<a href="#">euro</a>';
+            echo '</li>';
+            echo '</ul>';
+            echo '<!-- /DROPDOWN LIST -->';
+            echo '</li>';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '<li class="actions-list-item">';
+            echo '<a class="action-button" href="profile.php">My Account</a>';
+            echo '</li>';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '<li class="actions-list-item">';
+            echo '<a class="action-button" href="wishlist.php">Wishlist<span class="bold">4</span></a>';
+            echo '</li>';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '<li class="actions-list-item">';
+            echo '<a class="action-button" href="index.html">Logout</a>';
+            echo '</li>';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '<li class="actions-list-item">';
+            echo '<!-- SEARCH FORM -->';
+            echo '<form class="search-form">';
+            echo '<input type="text" name="search" autocomplete="off" placeholder="Search products here...">';
+            ?>
             <!-- SEARCH SUBMIT -->
             <div class="search-submit">
-              <!-- SVG MAG GLASS -->
-    					<svg class="svg-mag-glass">
-    						<use xlink:href="#svg-mag-glass"></use>
-    					</svg>
-    					<!-- /SVG MAG GLASS -->
+              <?php
+              echo '<!-- SVG MAG GLASS -->';
+              echo '<svg class="svg-mag-glass">';
+              echo '<use xlink:href="#svg-mag-glass"></use>';
+              echo '</svg>';
+              echo '<!-- /SVG MAG GLASS -->';
+              ?>
             </div>
             <!-- /SEARCH SUBMIT -->
 
             <!-- SEARCH CANCEL -->
             <div class="search-cancel hidden">
-              <!-- SVG CROSS -->
-    					<svg class="svg-cross">
-    						<use xlink:href="#svg-cross"></use>
-    					</svg>
-    					<!-- /SVG CROSS -->
+              <?php
+              echo '<!-- SVG CROSS -->';
+              echo '<svg class="svg-cross">';
+              echo '<use xlink:href="#svg-cross"></use>';
+              echo '</svg>';
+              echo '<!-- /SVG CROSS -->';
+              ?>
             </div>
-            <!-- /SEARCH CANCEL -->
-          </form>
-          <!-- /SEARCH FORM -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-      </ul>
-      <!-- ACTIONS LIST -->
+              <?php
+              echo '<!-- /SEARCH CANCEL -->';
+              echo '</form>';
+              echo '<!-- /SEARCH FORM -->';
+              echo '</li>';
+              echo '<!-- ACTIONS LIST ITEM -->';
+              echo '</ul>';
+              echo '<!-- ACTIONS LIST -->';
+              ?>
     </div>
     <!-- WIDGET LINE -->
   </div>
@@ -298,38 +353,46 @@
   <div class="widget-line-wrap widget-line-2">
     <!-- WIDGET LINE -->
     <div class="widget-line">
-      <!-- ACTIONS LIST -->
-      <ul class="actions-list">
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item full void">
-          <!-- SEARCH FORM -->
-          <form class="search-form">
-            <input type="text" name="search" autocomplete="off" placeholder="Search products here...">
-            <!-- SEARCH SUBMIT -->
+      <?php
+      echo '<!-- ACTIONS LIST -->';
+      echo '<ul class="actions-list">';
+      echo '<!-- ACTIONS LIST ITEM -->';
+      echo '<li class="actions-list-item full void">';
+      echo '<!-- SEARCH FORM -->';
+      echo '<form class="search-form">';
+      echo '<input type="text" name="search" autocomplete="off" placeholder="Search products here...">';
+      echo '<!-- SEARCH SUBMIT -->';
+      ?>
             <div class="search-submit">
-              <!-- SVG MAG GLASS -->
-    					<svg class="svg-mag-glass">
-    						<use xlink:href="#svg-mag-glass"></use>
-    					</svg>
-    					<!-- /SVG MAG GLASS -->
+              <?php
+              echo '<!-- SVG MAG GLASS -->';
+              echo '<svg class="svg-mag-glass">';
+              echo '<use xlink:href="#svg-mag-glass"></use>';
+              echo '</svg>';
+              echo '<!-- /SVG MAG GLASS -->';
+              ?>
             </div>
             <!-- /SEARCH SUBMIT -->
 
             <!-- SEARCH CANCEL -->
             <div class="search-cancel hidden">
-              <!-- SVG CROSS -->
-    					<svg class="svg-cross">
-    						<use xlink:href="#svg-cross"></use>
-    					</svg>
-    					<!-- /SVG CROSS -->
+              <?php
+              echo '<!-- SVG CROSS -->';
+              echo '<svg class="svg-cross">';
+              echo '<use xlink:href="#svg-cross"></use>';
+              echo '</svg>';
+              echo '<!-- /SVG CROSS -->';
+              ?>
             </div>
-            <!-- /SEARCH CANCEL -->
-          </form>
-          <!-- /SEARCH FORM -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-      </ul>
-      <!-- ACTIONS LIST -->
+              <?php
+              echo '<!-- /SEARCH CANCEL -->';
+              echo '</form>';
+              echo '<!-- /SEARCH FORM -->';
+              echo '</li>';
+              echo '<!-- ACTIONS LIST ITEM -->';
+              echo '</ul>';
+              echo '<!-- ACTIONS LIST -->';
+              ?>
     </div>
     <!-- WIDGET LINE -->
   </div>
@@ -337,34 +400,41 @@
 
   <!-- NAVIGATION WRAP -->
   <div class="navigation-wrap">
-    <!-- NAVIGATION -->
-    <nav class="navigation">
-      <!-- LOGO -->
-      <figure class="logo">
-        <img src="img/logo.png" alt="logo">
-        <figcaption>PC WORLDZ</figcaption>
-      </figure>
-      <!-- /LOGO -->
+    <?php
+    echo '<!-- NAVIGATION -->';
+    echo '<nav class="navigation">';
+    echo '<!-- LOGO -->';
+    echo '<figure class="logo">';
+    echo '<img src="img/logo.png" alt="logo">';
+    echo '<figcaption>PC WORLDZ</figcaption>';
+    echo '</figure>';
+    echo '<!-- /LOGO -->';
+    ?>
 
       <!-- CART DROPDOWN WRAP -->
       <div class="cart-dropdown-wrap">
         <!-- CART DROPDOWN CONTROL -->
         <div class="cart-dropdown-control">
-          <!-- SVG CART -->
-          <svg class="svg-cart">
-            <use xlink:href="#svg-cart"></use>
-          </svg>
-          <!-- /SVG CART -->
-
-          <!-- SVG CROSS -->
-          <svg class="svg-cross medium hidden">
-            <use xlink:href="#svg-cross"></use>
-          </svg>
-          <!-- /SVG CROSS -->
+          <?php
+          echo '<!-- SVG CART -->';
+          echo '<svg class="svg-cart">';
+          echo '<use xlink:href="#svg-cart"></use>';
+          echo '</svg>';
+          echo '<!-- /SVG CART -->';
+          echo '';
+          echo '<!-- SVG CROSS -->';
+          echo '<svg class="svg-cross medium hidden">';
+          echo '<use xlink:href="#svg-cross"></use>';
+          echo '</svg>';
+          echo '<!-- /SVG CROSS -->';
+          ?>
 
           <!-- CART ITEM QUANTITY -->
           <div class="cart-item-quantity">
-            <p>8</p>
+            <?php
+            echo '<p>3</p>';
+            echo '';
+            ?>          
           </div>
           <!-- /CART ITEM QUANTITY -->
         </div>
@@ -377,240 +447,282 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.php">
-                <figure class="product-img small">
-                  <img src="img/products/02.jpg" alt="02">
-                </figure>
-              </a>
-              <!-- /PRODUCT IMG -->
+              <?php
+              echo '<a href="product-page-v1.php">';
+              echo '<figure class="product-img small">';
+              echo '<img src="img/products/01.png" alt="02">';
+              echo '</figure>';
+              echo '</a>';
+              echo '<!-- /PRODUCT IMG -->';
+              ?>
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.php"><h6 class="title small">Poisonous Frog</h6></a>
-                <p class="product-description small">For Outdoor Sports</p>
-                <!-- RATING -->
-                <ul class="rating small">
-                  <!-- RATING ITEM -->
-                  <li class="rating-item filled">
-                    <!-- SVG STAR -->
-                    <svg class="svg-star">
-                      <use xlink:href="#svg-star"></use>
-                    </svg>
-                    <!-- /SVG STAR -->
-                  </li>
-                  <!-- /RATING ITEM -->
-
-                  <!-- RATING ITEM -->
-                  <li class="rating-item filled">
-                    <!-- SVG STAR -->
-                    <svg class="svg-star">
-                      <use xlink:href="#svg-star"></use>
-                    </svg>
-                    <!-- /SVG STAR -->
-                  </li>
-                  <!-- /RATING ITEM -->
-
-                  <!-- RATING ITEM -->
-                  <li class="rating-item filled">
-                    <!-- SVG STAR -->
-                    <svg class="svg-star">
-                      <use xlink:href="#svg-star"></use>
-                    </svg>
-                    <!-- /SVG STAR -->
-                  </li>
-                  <!-- /RATING ITEM -->
-
-                  <!-- RATING ITEM -->
-                  <li class="rating-item filled">
-                    <!-- SVG STAR -->
-                    <svg class="svg-star">
-                      <use xlink:href="#svg-star"></use>
-                    </svg>
-                    <!-- /SVG STAR -->
-                  </li>
-                  <!-- /RATING ITEM -->
-
-                  <!-- RATING ITEM -->
-                  <li class="rating-item">
-                    <!-- SVG STAR -->
-                    <svg class="svg-star">
-                      <use xlink:href="#svg-star"></use>
-                    </svg>
-                    <!-- /SVG STAR -->
-                  </li>
-                  <!-- /RATING ITEM -->
-                </ul>
-                <!-- /RATING -->
-                <p class="product-quantity">x4</p>
-                <p class="product-price">$600</p>
+                <a href="product-page-v1.html"><h6 class="title small">              
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[0]->name;
+              ?>
+              </h6></a>
+                <?php
+                echo '<p class="product-description small">Gaming</p>';
+                echo '<!-- RATING -->';
+                echo '<ul class="rating small">';
+                echo '<!-- RATING ITEM -->';
+                echo '<li class="rating-item filled">';
+                echo '<!-- SVG STAR -->';
+                echo '<svg class="svg-star">';
+                echo '<use xlink:href="#svg-star"></use>';
+                echo '</svg>';
+                echo '<!-- /SVG STAR -->';
+                echo '</li>';
+                echo '<!-- /RATING ITEM -->';
+                echo '';
+                echo '<!-- RATING ITEM -->';
+                echo '<li class="rating-item filled">';
+                echo '<!-- SVG STAR -->';
+                echo '<svg class="svg-star">';
+                echo '<use xlink:href="#svg-star"></use>';
+                echo '</svg>';
+                echo '<!-- /SVG STAR -->';
+                echo '</li>';
+                echo '<!-- /RATING ITEM -->';
+                echo '';
+                echo '<!-- RATING ITEM -->';
+                echo '<li class="rating-item filled">';
+                echo '<!-- SVG STAR -->';
+                echo '<svg class="svg-star">';
+                echo '<use xlink:href="#svg-star"></use>';
+                echo '</svg>';
+                echo '<!-- /SVG STAR -->';
+                echo '</li>';
+                echo '<!-- /RATING ITEM -->';
+                echo '';
+                echo '<!-- RATING ITEM -->';
+                echo '<li class="rating-item filled">';
+                echo '<!-- SVG STAR -->';
+                echo '<svg class="svg-star">';
+                echo '<use xlink:href="#svg-star"></use>';
+                echo '</svg>';
+                echo '<!-- /SVG STAR -->';
+                echo '</li>';
+                echo '<!-- /RATING ITEM -->';
+                echo '';
+                echo '<!-- RATING ITEM -->';
+                echo '<li class="rating-item">';
+                echo '<!-- SVG STAR -->';
+                echo '<svg class="svg-star">';
+                echo '<use xlink:href="#svg-star"></use>';
+                echo '</svg>';
+                echo '<!-- /SVG STAR -->';
+                echo '</li>';
+                echo '<!-- /RATING ITEM -->';
+                echo '</ul>';
+                echo '<!-- /RATING -->';
+                echo '<p class="product-quantity">x4</p>';
+                echo '<p class="product-price"><br><br>';
+                echo '₱233,848';
+                echo '</p>';
+                ?>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
 
-              <!-- SVG CROSS -->
-              <svg class="svg-cross medium">
-                <use xlink:href="#svg-cross"></use>
-              </svg>
-              <!-- /SVG CROSS -->
+              <?php
+              echo '<!-- SVG CROSS -->';
+              echo '<svg class="svg-cross medium">';
+              echo '<use xlink:href="#svg-cross"></use>';
+              echo '</svg>';
+              echo '<!-- /SVG CROSS -->';
+              ?>
             </div>
             <!-- /CART DROPDOWN ITEM -->
 
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
-              <!-- PRODUCT IMG -->
-              <a href="product-page-v1.php">
-                <figure class="product-img small">
-                  <img src="img/products/06.jpg" alt="06">
-                </figure>
-              </a>
-              <!-- /PRODUCT IMG -->
+              <?php
+              echo '<!-- PRODUCT IMG -->';
+              echo '<a href="product-page-v1.php">';
+              echo '<figure class="product-img small">';
+              echo '<img src="img/products/02.png" alt="06">';
+              echo '</figure>';
+              echo '</a>';
+              echo '<!-- /PRODUCT IMG -->';
+              ?>
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.php"><h6 class="title small">Crashing Wave</h6></a>
-                <p class="product-description small">Water Resistant</p>
-                <!-- RATING -->
-                <ul class="rating small">
-                  <!-- RATING ITEM -->
-                  <li class="rating-item filled">
-                    <!-- SVG STAR -->
-                    <svg class="svg-star">
-                      <use xlink:href="#svg-star"></use>
-                    </svg>
-                    <!-- /SVG STAR -->
-                  </li>
-                  <!-- /RATING ITEM -->
-
-                  <!-- RATING ITEM -->
-                  <li class="rating-item filled">
-                    <!-- SVG STAR -->
-                    <svg class="svg-star">
-                      <use xlink:href="#svg-star"></use>
-                    </svg>
-                    <!-- /SVG STAR -->
-                  </li>
-                  <!-- /RATING ITEM -->
-
-                  <!-- RATING ITEM -->
-                  <li class="rating-item filled">
-                    <!-- SVG STAR -->
-                    <svg class="svg-star">
-                      <use xlink:href="#svg-star"></use>
-                    </svg>
-                    <!-- /SVG STAR -->
-                  </li>
-                  <!-- /RATING ITEM -->
-
-                  <!-- RATING ITEM -->
-                  <li class="rating-item">
-                    <!-- SVG STAR -->
-                    <svg class="svg-star">
-                      <use xlink:href="#svg-star"></use>
-                    </svg>
-                    <!-- /SVG STAR -->
-                  </li>
-                  <!-- /RATING ITEM -->
-
-                  <!-- RATING ITEM -->
-                  <li class="rating-item">
-                    <!-- SVG STAR -->
-                    <svg class="svg-star">
-                      <use xlink:href="#svg-star"></use>
-                    </svg>
-                    <!-- /SVG STAR -->
-                  </li>
-                  <!-- /RATING ITEM -->
-                </ul>
-                <!-- /RATING -->
-                <p class="product-quantity">x2</p>
-                <p class="product-price">$360</p>
+                <a href="product-page-v1.html"><h6 class="title small">              
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[1]->name;
+              ?>
+              </h6></a>
+                <?php
+                echo '<p class="product-description small">Gaming</p>';
+                echo '<!-- RATING -->';
+                echo '<ul class="rating small">';
+                echo '<!-- RATING ITEM -->';
+                echo '<li class="rating-item filled">';
+                echo '<!-- SVG STAR -->';
+                echo '<svg class="svg-star">';
+                echo '<use xlink:href="#svg-star"></use>';
+                echo '</svg>';
+                echo '<!-- /SVG STAR -->';
+                echo '</li>';
+                echo '<!-- /RATING ITEM -->';
+                echo '';
+                echo '<!-- RATING ITEM -->';
+                echo '<li class="rating-item filled">';
+                echo '<!-- SVG STAR -->';
+                echo '<svg class="svg-star">';
+                echo '<use xlink:href="#svg-star"></use>';
+                echo '</svg>';
+                echo '<!-- /SVG STAR -->';
+                echo '</li>';
+                echo '<!-- /RATING ITEM -->';
+                echo '';
+                echo '<!-- RATING ITEM -->';
+                echo '<li class="rating-item filled">';
+                echo '<!-- SVG STAR -->';
+                echo '<svg class="svg-star">';
+                echo '<use xlink:href="#svg-star"></use>';
+                echo '</svg>';
+                echo '<!-- /SVG STAR -->';
+                echo '</li>';
+                echo '<!-- /RATING ITEM -->';
+                echo '';
+                echo '<!-- RATING ITEM -->';
+                echo '<li class="rating-item">';
+                echo '<!-- SVG STAR -->';
+                echo '<svg class="svg-star">';
+                echo '<use xlink:href="#svg-star"></use>';
+                echo '</svg>';
+                echo '<!-- /SVG STAR -->';
+                echo '</li>';
+                echo '<!-- /RATING ITEM -->';
+                echo '';
+                echo '<!-- RATING ITEM -->';
+                echo '<li class="rating-item">';
+                echo '<!-- SVG STAR -->';
+                echo '<svg class="svg-star">';
+                echo '<use xlink:href="#svg-star"></use>';
+                echo '</svg>';
+                echo '<!-- /SVG STAR -->';
+                echo '</li>';
+                echo '<!-- /RATING ITEM -->';
+                echo '</ul>';
+                echo '<!-- /RATING -->';
+                echo '<p class="product-quantity">x2</p>';
+                echo '<p class="product-price"><br><br>';
+                echo '₱57,032';
+                echo '</p>';
+                ?>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
 
-              <!-- SVG CROSS -->
-              <svg class="svg-cross medium">
-                <use xlink:href="#svg-cross"></use>
-              </svg>
-              <!-- /SVG CROSS -->
+              <?php
+              echo '<!-- SVG CROSS -->';
+              echo '<svg class="svg-cross medium">';
+              echo '<use xlink:href="#svg-cross"></use>';
+              echo '</svg>';
+              echo '<!-- /SVG CROSS -->';
+              ?>
             </div>
             <!-- /CART DROPDOWN ITEM -->
 
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
-              <!-- PRODUCT IMG -->
-              <a href="product-page-v1.php">
-                <figure class="product-img small">
-                  <img src="img/products/05.jpg" alt="05">
-                </figure>
-              </a>
-              <!-- /PRODUCT IMG -->
+              <?php
+              echo '<!-- PRODUCT IMG -->';
+              echo '<a href="product-page-v1.php">';
+              echo '<figure class="product-img small">';
+              echo '<img src="img/products/03.png" alt="05">';
+              echo '</figure>';
+              echo '</a>';
+              echo '<!-- /PRODUCT IMG -->';
+              ?>
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.php"><h6 class="title small">The Patriot</h6></a>
-                <p class="product-description small">By Spiegel</p>
-                <!-- RATING -->
-                <ul class="rating small">
-                  <!-- RATING ITEM -->
-                  <li class="rating-item filled">
-                    <!-- SVG STAR -->
-                    <svg class="svg-star">
-                      <use xlink:href="#svg-star"></use>
-                    </svg>
-                    <!-- /SVG STAR -->
-                  </li>
-                  <!-- /RATING ITEM -->
-
-                  <!-- RATING ITEM -->
-                  <li class="rating-item filled">
-                    <!-- SVG STAR -->
-                    <svg class="svg-star">
-                      <use xlink:href="#svg-star"></use>
-                    </svg>
-                    <!-- /SVG STAR -->
-                  </li>
-                  <!-- /RATING ITEM -->
-
-                  <!-- RATING ITEM -->
-                  <li class="rating-item filled">
-                    <!-- SVG STAR -->
-                    <svg class="svg-star">
-                      <use xlink:href="#svg-star"></use>
-                    </svg>
-                    <!-- /SVG STAR -->
-                  </li>
-                  <!-- /RATING ITEM -->
-
-                  <!-- RATING ITEM -->
-                  <li class="rating-item filled">
-                    <!-- SVG STAR -->
-                    <svg class="svg-star">
-                      <use xlink:href="#svg-star"></use>
-                    </svg>
-                    <!-- /SVG STAR -->
-                  </li>
-                  <!-- /RATING ITEM -->
-
-                  <!-- RATING ITEM -->
-                  <li class="rating-item">
-                    <!-- SVG STAR -->
-                    <svg class="svg-star">
-                      <use xlink:href="#svg-star"></use>
-                    </svg>
-                    <!-- /SVG STAR -->
-                  </li>
-                  <!-- /RATING ITEM -->
-                </ul>
-                <!-- /RATING -->
-                <p class="product-quantity">x1</p>
-                <p class="product-price">$185</p>
+                <a href="product-page-v1.html"><h6 class="title small">              
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[2]->name;
+              ?>
+                </h6></a>
+                  <?php
+                  echo '<p class="product-description small">Gaming</p>';
+                  echo '<!-- RATING -->';
+                  echo '<ul class="rating small">';
+                  echo '<!-- RATING ITEM -->';
+                  echo '<li class="rating-item filled">';
+                  echo '<!-- SVG STAR -->';
+                  echo '<svg class="svg-star">';
+                  echo '<use xlink:href="#svg-star"></use>';
+                  echo '</svg>';
+                  echo '<!-- /SVG STAR -->';
+                  echo '</li>';
+                  echo '<!-- /RATING ITEM -->';
+                  echo '';
+                  echo '<!-- RATING ITEM -->';
+                  echo '<li class="rating-item filled">';
+                  echo '<!-- SVG STAR -->';
+                  echo '<svg class="svg-star">';
+                  echo '<use xlink:href="#svg-star"></use>';
+                  echo '</svg>';
+                  echo '<!-- /SVG STAR -->';
+                  echo '</li>';
+                  echo '<!-- /RATING ITEM -->';
+                  echo '';
+                  echo '<!-- RATING ITEM -->';
+                  echo '<li class="rating-item filled">';
+                  echo '<!-- SVG STAR -->';
+                  echo '<svg class="svg-star">';
+                  echo '<use xlink:href="#svg-star"></use>';
+                  echo '</svg>';
+                  echo '<!-- /SVG STAR -->';
+                  echo '</li>';
+                  echo '<!-- /RATING ITEM -->';
+                  echo '';
+                  echo '<!-- RATING ITEM -->';
+                  echo '<li class="rating-item filled">';
+                  echo '<!-- SVG STAR -->';
+                  echo '<svg class="svg-star">';
+                  echo '<use xlink:href="#svg-star"></use>';
+                  echo '</svg>';
+                  echo '<!-- /SVG STAR -->';
+                  echo '</li>';
+                  echo '<!-- /RATING ITEM -->';
+                  echo '';
+                  echo '<!-- RATING ITEM -->';
+                  echo '<li class="rating-item">';
+                  echo '<!-- SVG STAR -->';
+                  echo '<svg class="svg-star">';
+                  echo '<use xlink:href="#svg-star"></use>';
+                  echo '</svg>';
+                  echo '<!-- /SVG STAR -->';
+                  echo '</li>';
+                  echo '<!-- /RATING ITEM -->';
+                  echo '</ul>';
+                  echo '<!-- /RATING -->';
+                  echo '<p class="product-quantity">x1</p>';
+                  ?>
+                <p class="product-price"> <br><br>             
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[2]->price;
+              ?>
+                </p>
               </div>
               <!-- /CART DROPDOWN ITEM INFO -->
 
-              <!-- SVG CROSS -->
-              <svg class="svg-cross medium">
-                <use xlink:href="#svg-cross"></use>
-              </svg>
-              <!-- /SVG CROSS -->
+              <?php
+              echo '<!-- SVG CROSS -->';
+              echo '<svg class="svg-cross medium">';
+              echo '<use xlink:href="#svg-cross"></use>';
+              echo '</svg>';
+              echo '<!-- /SVG CROSS -->';
+              ?>
             </div>
             <!-- /CART DROPDOWN ITEM -->
           </div>
@@ -618,15 +730,19 @@
 
           <!-- CART DROPDOWN SUBTOTAL -->
           <div class="cart-dropdown-subtotal">
-            <p class="title small">Cart Subtotal</p>
-            <p class="product-price">$1145</p>
+            <?php
+            echo '<p class="title small">Cart Subtotal</p>';
+            echo '<p class="product-price">₱303,827</p>';
+            ?>
           </div>
           <!-- /CART DROPDOWN SUBTOTAL -->
 
           <!-- CART DROPDOWN ACTIONS -->
           <div class="cart-dropdown-actions">
-            <a href="cart.php" class="button dark large">Go to the Cart</a>
-            <a href="identification.php" class="button large">Go to Checkout</a>
+            <?php
+            echo '<a href="cart.php" class="button dark large">Go to the Cart</a>';
+            echo '<a href="identification.php" class="button large">Go to Checkout</a>';
+            ?>
           </div>
           <!-- /CART DROPDOWN ACTIONS -->
         </div>
@@ -634,128 +750,134 @@
       </div>
       <!-- /CART DROPDOWN WRAP -->
 
-      <!-- MAIN MENU -->
-      <ul class="main-menu">
-        <!-- MAIN MENU ITEM -->
-        <li class="main-menu-item">
-          <a href="home.php">Home</a>
-        </li>
-        <!-- /MAIN MENU ITEM -->
-
-        <!-- MAIN MENU ITEM -->
-        <li class="main-menu-item">
-          <a href="aboutus.php">About</a>
-        </li>
-        <!-- /MAIN MENU ITEM -->
-
-        <!-- MAIN MENU ITEM -->
-        <li class="main-menu-item">
-          <a href="#">
-            Shop
-            <!-- SVG ARROW -->
-            <svg class="svg-arrow face-down">
-              <use xlink:href="#svg-arrow"></use>
-            </svg>
-            <!-- /SVG ARROW -->
-          </a>
-          <!-- MENU DROPDOWN -->
-          <ul class="menu-dropdown">           
-            <!-- MENU DROPDOWN ITEM -->
-            <li class="menu-dropdown-item">
-              <a href="shop-list.php">Motherboards</a>
-            </li>
-            <li class="menu-dropdown-item">
-              <a href="shop-list2.php">Processors</a>
-            </li>
-            <li class="menu-dropdown-item">
-              <a href="shop-list3.php">Graphic Cards</a>
-            </li>
-             
-            </li>
-           
-          </ul>
-          <!-- /MENU DROPDOWN -->
-        </li>
-        <!-- /MAIN MENU ITEM -->
-
-        <!-- MAIN MENU ITEM -->
-        <li class="main-menu-item">
-          <a href="blog.php">Our Blog</a>
-        </li>
-        <!-- /MAIN MENU ITEM -->
-
-        <!-- MAIN MENU ITEM -->
-        <li class="main-menu-item sub">
-          <a href="#">
-            Features
-            <!-- SVG ARROW -->
-            <svg class="svg-arrow face-down">
-              <use xlink:href="#svg-arrow"></use>
-            </svg>
-            <!-- /SVG ARROW -->
-          </a>
+        <?php
+        echo '<!-- MAIN MENU -->';
+        echo '<ul class="main-menu">';
+        echo '<!-- MAIN MENU ITEM -->';
+        echo '<li class="main-menu-item">';
+        echo '<a href="home.php">Home</a>';
+        echo '</li>';
+        echo '<!-- /MAIN MENU ITEM -->';
+        echo '';
+        echo '<!-- MAIN MENU ITEM -->';
+        echo '<li class="main-menu-item">';
+        echo '<a href="aboutus.php">About</a>';
+        echo '</li>';
+        echo '<!-- /MAIN MENU ITEM -->';
+        echo '';
+        echo '<!-- MAIN MENU ITEM -->';
+        echo '<li class="main-menu-item">';
+        echo '<a href="#">';
+        echo 'Shop';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow face-down">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        echo '<!-- MENU DROPDOWN -->';
+        echo '<ul class="menu-dropdown">';
+        echo '<!-- MENU DROPDOWN ITEM -->';
+        echo '<li class="menu-dropdown-item">';
+        echo '<a href="shop-list.php">Motherboards</a>';
+        echo '</li>';
+        echo '<li class="menu-dropdown-item">';
+        echo '<a href="shop-list2.php">Processors</a>';
+        echo '</li>';
+        echo '<li class="menu-dropdown-item">';
+        echo '<a href="shop-list3.php">Graphic Cards</a>';
+        echo '</li>';
+        echo '';
+        echo '</li>';
+        echo '';
+        echo '</ul>';
+        echo '<!-- /MENU DROPDOWN -->';
+        echo '</li>';
+        echo '<!-- /MAIN MENU ITEM -->';
+        echo '';
+        echo '<!-- MAIN MENU ITEM -->';
+        echo '<li class="main-menu-item">';
+        echo '<a href="blog.php">Our Blog</a>';
+        echo '</li>';
+        echo '<!-- /MAIN MENU ITEM -->';
+        echo '';
+        echo '<!-- MAIN MENU ITEM -->';
+        echo '<li class="main-menu-item sub">';
+        echo '<a href="#">';
+        echo 'Features';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow face-down">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        ?>
 
           <!-- CONTENT DROPDOWN -->
           <div class="content-dropdown with-bg">
             <!-- CONTENT DROPDOWN COLUMN -->
             <div class="content-dropdown-column">
-              <h6 class="title tiny secondary">Account</h6>
-              <hr class="line-separator">
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="home.php">Identification</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="billing-shipping.php">Billing and Shipping</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="confirmation.php">Confirmation</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="cart.php">Shopping Cart</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="wishlist.php">Wishlist</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="profile.php">Your Account</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
+              <?php
+              echo '<h6 class="title tiny secondary">Account</h6>';
+              echo '<hr class="line-separator">';
+              echo '<!-- LINK LIST -->';
+              echo '<ul class="link-list simple">';
+              echo '<!-- LINK LIST ITEM -->';
+              echo '<li class="link-list-item">';
+              echo '<a href="home.php">Identification</a>';
+              echo '</li>';
+              echo '<!-- /LINK LIST ITEM -->';
+              echo '';
+              echo '<!-- LINK LIST ITEM -->';
+              echo '<li class="link-list-item">';
+              echo '<a href="billing-shipping.php">Billing and Shipping</a>';
+              echo '</li>';
+              echo '<!-- /LINK LIST ITEM -->';
+              echo '';
+              echo '<!-- LINK LIST ITEM -->';
+              echo '<li class="link-list-item">';
+              echo '<a href="confirmation.php">Confirmation</a>';
+              echo '</li>';
+              echo '<!-- /LINK LIST ITEM -->';
+              echo '';
+              echo '<!-- LINK LIST ITEM -->';
+              echo '<li class="link-list-item">';
+              echo '<a href="cart.php">Shopping Cart</a>';
+              echo '</li>';
+              echo '<!-- /LINK LIST ITEM -->';
+              echo '';
+              echo '<!-- LINK LIST ITEM -->';
+              echo '<li class="link-list-item">';
+              echo '<a href="wishlist.php">Wishlist</a>';
+              echo '</li>';
+              echo '<!-- /LINK LIST ITEM -->';
+              echo '';
+              echo '<!-- LINK LIST ITEM -->';
+              echo '<li class="link-list-item">';
+              echo '<a href="profile.php">Your Account</a>';
+              echo '</li>';
+              echo '<!-- /LINK LIST ITEM -->';
+              echo '</ul>';
+              echo '<!-- /LINK LIST -->';
+              ?>
             </div>
             <!-- /CONTENT DROPDOWN COLUMN -->
           </div>
           <!-- /CONTENT DROPDOWN -->
-        </li>
-        <!-- /MAIN MENU ITEM -->
-
-        <!-- MAIN MENU ITEM -->
-        <li class="main-menu-item">
-          <a href="contactus.php">Contact</a>
-        </li>
-        <!-- /MAIN MENU ITEM -->
-      </ul>
-      <!-- /MAIN MENU -->
-    </nav>
-    <!-- /NAVIGATION -->
+            <?php
+            echo '</li>';
+            echo '<!-- /MAIN MENU ITEM -->';
+            echo '';
+            echo '<!-- MAIN MENU ITEM -->';
+            echo '<li class="main-menu-item">';
+            echo '<a href="contactus.php">Contact</a>';
+            echo '</li>';
+            echo '<!-- /MAIN MENU ITEM -->';
+            echo '</ul>';
+            echo '<!-- /MAIN MENU -->';
+            echo '</nav>';
+            echo '<!-- /NAVIGATION -->';
+            ?>
   </div>
   <!-- /NAVIGATION WRAP -->
 
@@ -763,342 +885,209 @@
   <div class="mobile-menu-wrap">
     <!-- MOBILE MENU CONTROL -->
     <div class="mobile-menu-control dropdown-control">
-      <!-- SVG BURGER -->
-      <svg class="svg-burger">
-        <use xlink:href="#svg-burger"></use>
-      </svg>
-      <!-- /SVG BURGER -->
+      <?php
+      echo '<!-- SVG BURGER -->';
+      echo '<svg class="svg-burger">';
+      echo '<use xlink:href="#svg-burger"></use>';
+      echo '</svg>';
+      echo '<!-- /SVG BURGER -->';
+      ?>
     </div>
     <!-- /MOBILE MENU CONTROL -->
 
-    <!-- MOBILE MENU -->
-    <ul class="mobile-menu dropdown">
-      <!-- MOBILE MENU ITEM -->
-      <li class="mobile-menu-item">
-        <a href="home.php">Home</a>
-      </li>
-      <!-- /MOBILE MENU ITEM -->
-
-      <!-- MOBILE MENU ITEM -->
-      <li class="mobile-menu-item">
-        <a href="aboutus.php">About</a>
-      </li>
-      <!-- /MOBILE MENU ITEM -->
-
-      <!-- MOBILE MENU ITEM -->
-      <li class="mobile-menu-item">
-        <a href="#" class="dropdown-control">
-          Shop
-          <!-- SVG ARROW -->
-          <svg class="svg-arrow medium rotable">
-            <use xlink:href="#svg-arrow"></use>
-          </svg>
-          <!-- /SVG ARROW -->
-        </a>
-
-        <!-- MOBILE MENU DROPDOWN -->
-        <ul class="mobile-menu-dropdown dropdown">
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.php">Sidebar 3 Col Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-grid.php">4 Columns Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list2.php">Sidebar 3 Col List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list.php">4 Columns List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.php">Product Page V1</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v2.php">Product Page V2</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-        </ul>
-        <!-- /MOBILE MENU DROPDOWN -->
-      </li>
-      <!-- /MOBILE MENU ITEM -->
-
-      <!-- MOBILE MENU ITEM -->
-      <li class="mobile-menu-item">
-        <a href="blog.php">Our Blog</a>
-      </li>
-      <!-- /MOBILE MENU ITEM -->
-
-      <!-- MOBILE MENU ITEM -->
-      <li class="mobile-menu-item">
-        <a href="#" class="dropdown-control">
-          Features
-          <!-- SVG ARROW -->
-          <svg class="svg-arrow medium rotable">
-            <use xlink:href="#svg-arrow"></use>
-          </svg>
-          <!-- /SVG ARROW -->
-        </a>
-
-        <!-- MOBILE MENU DROPDOWN -->
-        <ul class="mobile-menu-dropdown dropdown">
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="home.php">Trickster Home</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-builder-v1.php">Product Builder V1</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-builder-v2.php">Product Builder V2</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="blog.php">Trickster Blog</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="post.php">Blog Post</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="contactus.php">Contact Page</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="404.php">Error Page</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="aboutus.php">About Us</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="menu-dropdowns.php">Menu &amp; DDowns</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shortcodes.php">Shortcodes</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="login-popup.php">Login Popup</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="ratings-popup.php">Ratings Popup</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.php">Sidebar 3 Col Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-grid.php">4 Columns Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list2.php">Sidebar 3 Col List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list.php">4 Columns List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.php">Product Page V1</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.php">Product Page V2</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="identification.php">Identification</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="billing-shipping.php">Billing and Shipping</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="confirmation.php">Confirmation</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="cart.php">Shopping Cart</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="wishlist.php">Wishlist</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="profile.php">Your Account</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-        </ul>
-        <!-- /MOBILE MENU DROPDOWN -->
-      </li>
-      <!-- /MOBILE MENU ITEM -->
-
-      <!-- MOBILE MENU ITEM -->
-      <li class="mobile-menu-item">
-        <a href="contactus.php">Contact</a>
-      </li>
-      <!-- /MOBILE MENU ITEM -->
-
-      <!-- MOBILE MENU ITEM -->
-      <li class="mobile-menu-item">
-        <a href="profile.php">My Account</a>
-      </li>
-      <!-- /MOBILE MENU ITEM -->
-
-      <!-- MOBILE MENU ITEM -->
-      <li class="mobile-menu-item">
-        <a href="wishlist.php">
-          Wishlist
-          <span class="bold">4</span>
-        </a>
-      </li>
-      <!-- /MOBILE MENU ITEM -->
-
-      <!-- MOBILE MENU ITEM -->
-      <li class="mobile-menu-item">
-        <a href="#" class="dropdown-control">
-          Language:
-          <span class="selected-option language-selected-option">eng</span>
-          <!-- SVG ARROW -->
-          <svg class="svg-arrow medium rotable">
-            <use xlink:href="#svg-arrow"></use>
-          </svg>
-          <!-- /SVG ARROW -->
-        </a>
-
-        <!-- MOBILE MENU DROPDOWN -->
-        <ul class="mobile-menu-dropdown dropdown">
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li data-language="eng" class="mobile-menu-dropdown-item language-option selected">
-            <a href="#">eng</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li data-language="spa" class="mobile-menu-dropdown-item language-option">
-            <a href="#">spa</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li data-language="ger" class="mobile-menu-dropdown-item language-option">
-            <a href="#">ger</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-        </ul>
-        <!-- /MOBILE MENU DROPDOWN -->
-      </li>
-      <!-- /MOBILE MENU ITEM -->
-
-      <!-- MOBILE MENU ITEM -->
-      <li class="mobile-menu-item">
-        <a href="#" class="dropdown-control">
-          Currency:
-          <span class="selected-option currency-selected-option">usd</span>
-          <!-- SVG ARROW -->
-          <svg class="svg-arrow medium rotable">
-            <use xlink:href="#svg-arrow"></use>
-          </svg>
-          <!-- /SVG ARROW -->
-        </a>
-
-        <!-- MOBILE MENU DROPDOWN -->
-        <ul class="mobile-menu-dropdown dropdown">
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li data-currency="usd" class="mobile-menu-dropdown-item currency-option selected">
-            <a href="#">usd</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li data-currency="euro" class="mobile-menu-dropdown-item currency-option">
-            <a href="#">euro</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-        </ul>
-        <!-- /MOBILE MENU DROPDOWN -->
-      </li>
-      <!-- /MOBILE MENU ITEM -->
-
-      <!-- MOBILE MENU ITEM -->
-      <li class="mobile-menu-item void">
-        <a href="#">Logout</a>
-      </li>
-      <!-- /MOBILE MENU ITEM -->
-    </ul>
-    <!-- /MOBILE MENU -->
+      <?php
+      echo '<!-- MOBILE MENU -->';
+      echo '<ul class="mobile-menu dropdown">';
+      echo '<!-- MOBILE MENU ITEM -->';
+      echo '<li class="mobile-menu-item">';
+      echo '<a href="index.php">Home</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU ITEM -->';
+      echo '<li class="mobile-menu-item">';
+      echo '<a href="aboutus.php">About</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU ITEM -->';
+      echo '<li class="mobile-menu-item">';
+      echo '<a href="#" class="dropdown-control">';
+      echo 'Shop';
+      echo '</a>';
+      echo '';
+      echo '<!-- MOBILE MENU DROPDOWN -->';
+      echo '<ul class="mobile-menu-dropdown dropdown">';
+      echo '<!-- MOBILE MENU DROPDOWN ITEM -->';
+      echo '<li class="mobile-menu-dropdown-item">';
+      echo '<a href="shop-list2.php">Motherboards</a>';
+      echo '</li>';
+      echo '<li class="mobile-menu-dropdown-item">';
+      echo '<a href="shop-list2.php">Processors</a>';
+      echo '</li>';
+      echo '<li class="mobile-menu-dropdown-item">';
+      echo '<a href="shop-list2.php">Graphic Cards</a>';
+      echo '</li>';
+      echo '</ul>';
+      echo '<!-- /MOBILE MENU DROPDOWN -->';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU ITEM -->';
+      echo '<li class="mobile-menu-item">';
+      echo '<a href="blog.php">Our Blog</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU ITEM -->';
+      echo '<li class="mobile-menu-item">';
+      echo '<a href="#" class="dropdown-control">';
+      echo 'Features';
+      echo '<!-- SVG ARROW -->';
+      echo '<svg class="svg-arrow medium rotable">';
+      echo '<use xlink:href="#svg-arrow"></use>';
+      echo '</svg>';
+      echo '<!-- /SVG ARROW -->';
+      echo '</a>';
+      echo '';
+      echo '<!-- MOBILE MENU DROPDOWN -->';
+      echo '<ul class="mobile-menu-dropdown dropdown">';
+      echo '';
+      echo '<!-- MOBILE MENU DROPDOWN ITEM -->';
+      echo '<li class="mobile-menu-dropdown-item">';
+      echo '<a href="identification.php">Identification</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU DROPDOWN ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU DROPDOWN ITEM -->';
+      echo '<li class="mobile-menu-dropdown-item">';
+      echo '<a href="billing-shipping.php">Billing and Shipping</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU DROPDOWN ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU DROPDOWN ITEM -->';
+      echo '<li class="mobile-menu-dropdown-item">';
+      echo '<a href="confirmation.php">Confirmation</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU DROPDOWN ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU DROPDOWN ITEM -->';
+      echo '<li class="mobile-menu-dropdown-item">';
+      echo '<a href="cart.php">Shopping Cart</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU DROPDOWN ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU DROPDOWN ITEM -->';
+      echo '<li class="mobile-menu-dropdown-item">';
+      echo '<a href="wishlist.php">Wishlist</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU DROPDOWN ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU DROPDOWN ITEM -->';
+      echo '<li class="mobile-menu-dropdown-item">';
+      echo '<a href="profile.php">Your Account</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU DROPDOWN ITEM -->';
+      echo '</ul>';
+      echo '<!-- /MOBILE MENU DROPDOWN -->';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU ITEM -->';
+      echo '<li class="mobile-menu-item">';
+      echo '<a href="contactus.php">Contact</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU ITEM -->';
+      echo '<li class="mobile-menu-item">';
+      echo '<a href="profile.php">My Account</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU ITEM -->';
+      echo '<li class="mobile-menu-item">';
+      echo '<a href="wishlist.php">';
+      echo 'Wishlist';
+      echo '<span class="bold">4</span>';
+      echo '</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU ITEM -->';
+      echo '<li class="mobile-menu-item">';
+      echo '<a href="#" class="dropdown-control">';
+      echo 'Language:';
+      echo '<span class="selected-option language-selected-option">eng</span>';
+      echo '<!-- SVG ARROW -->';
+      echo '<svg class="svg-arrow medium rotable">';
+      echo '<use xlink:href="#svg-arrow"></use>';
+      echo '</svg>';
+      echo '<!-- /SVG ARROW -->';
+      echo '</a>';
+      echo '';
+      echo '<!-- MOBILE MENU DROPDOWN -->';
+      echo '<ul class="mobile-menu-dropdown dropdown">';
+      echo '<!-- MOBILE MENU DROPDOWN ITEM -->';
+      echo '<li data-language="eng" class="mobile-menu-dropdown-item language-option selected">';
+      echo '<a href="#">eng</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU DROPDOWN ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU DROPDOWN ITEM -->';
+      echo '<li data-language="spa" class="mobile-menu-dropdown-item language-option">';
+      echo '<a href="#">spa</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU DROPDOWN ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU DROPDOWN ITEM -->';
+      echo '<li data-language="ger" class="mobile-menu-dropdown-item language-option">';
+      echo '<a href="#">ger</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU DROPDOWN ITEM -->';
+      echo '</ul>';
+      echo '<!-- /MOBILE MENU DROPDOWN -->';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU ITEM -->';
+      echo '<li class="mobile-menu-item">';
+      echo '<a href="#" class="dropdown-control">';
+      echo 'Currency:';
+      echo '<span class="selected-option currency-selected-option">usd</span>';
+      echo '<!-- SVG ARROW -->';
+      echo '<svg class="svg-arrow medium rotable">';
+      echo '<use xlink:href="#svg-arrow"></use>';
+      echo '</svg>';
+      echo '<!-- /SVG ARROW -->';
+      echo '</a>';
+      echo '';
+      echo '<!-- MOBILE MENU DROPDOWN -->';
+      echo '<ul class="mobile-menu-dropdown dropdown">';
+      echo '<!-- MOBILE MENU DROPDOWN ITEM -->';
+      echo '<li data-currency="usd" class="mobile-menu-dropdown-item currency-option selected">';
+      echo '<a href="#">usd</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU DROPDOWN ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU DROPDOWN ITEM -->';
+      echo '<li data-currency="euro" class="mobile-menu-dropdown-item currency-option">';
+      echo '<a href="#">euro</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU DROPDOWN ITEM -->';
+      echo '</ul>';
+      echo '<!-- /MOBILE MENU DROPDOWN -->';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU ITEM -->';
+      echo '';
+      echo '<!-- MOBILE MENU ITEM -->';
+      echo '<li class="mobile-menu-item void">';
+      echo '<a href="#">Logout</a>';
+      echo '</li>';
+      echo '<!-- /MOBILE MENU ITEM -->';
+      echo '</ul>';
+      echo '<!-- /MOBILE MENU -->';
+      ?>
   </div>
   <!-- /MOBILE MENU WRAP -->
 
@@ -1106,26 +1095,28 @@
   <div class="section-navigation-wrap">
     <!-- SECTION NAVIGATION -->
     <div class="section-navigation">
-      <!-- SECTION NAVIGATION PATH -->
-      <p class="section-navigation-path">
-        <span class="path">Home</span>
-        <span class="path">
-          <!-- SVG ARROW -->
-          <svg class="svg-arrow tiny">
-            <use xlink:href="#svg-arrow"></use>
-          </svg>
-          <!-- /SVG ARROW -->
-        </span>
-        <span class="path">Shop</span>
-        <span class="path bold">
-          <!-- SVG ARROW -->
-          <svg class="svg-arrow tiny">
-            <use xlink:href="#svg-arrow"></use>
-          </svg>
-          <!-- /SVG ARROW -->
-        </span>
-        <span class="path current">Wishlist</span>
-      </p>
+      <?php
+      echo '<!-- SECTION NAVIGATION PATH -->';
+      echo '<p class="section-navigation-path">';
+      echo '<span class="path">Home</span>';
+      echo '<span class="path">';
+      echo '<!-- SVG ARROW -->';
+      echo '<svg class="svg-arrow tiny">';
+      echo '<use xlink:href="#svg-arrow"></use>';
+      echo '</svg>';
+      echo '<!-- /SVG ARROW -->';
+      echo '</span>';
+      echo '<span class="path">Shop</span>';
+      echo '<span class="path bold">';
+      echo '<!-- SVG ARROW -->';
+      echo '<svg class="svg-arrow tiny">';
+      echo '<use xlink:href="#svg-arrow"></use>';
+      echo '</svg>';
+      echo '<!-- /SVG ARROW -->';
+      echo '</span>';
+      echo '<span class="path current">Wishlist</span>';
+      echo '</p>';
+      ?>
       <!-- SECTION NAVIGATION PATH -->
     </div>
     <!-- /SECTION NAVIGATION -->
@@ -1136,8 +1127,10 @@
   <div class="section-wrap">
     <!-- SECTION -->
     <div class="section no-title">
-      <h2 class="subsection-title">Your Wishlist</h2>
-      <hr class="line-separator">
+      <?php
+      echo '<h2 class="subsection-title">Your Wishlist</h2>';
+      echo '<hr class="line-separator">';
+      ?>
 
       <!-- PRODUCT TABLE -->
       <div class="product-table">
@@ -1145,37 +1138,50 @@
         <div class="product-table-header">
           <!-- PRODUCT TABLE PHOTO -->
           <div class="product-table-photo">
-            <h6 class="title">Product Photo</h6>
+            <?php
+            echo '<h6 class="title">Product Photo</h6>';
+            echo '';
+            ?>          
           </div>
           <!-- /PRODUCT TABLE PHOTO -->
 
           <!-- PRODUCT TABLE NAME -->
           <div class="product-table-name">
-            <h6 class="title">Product Name</h6>
+           <?php
+            echo '<h6 class="title">Product Name</h6>';
+            ?>
           </div>
           <!-- /PRODUCT TABLE NAME -->
 
           <!-- PRODUCT TABLE DESCRIPTION -->
           <div class="product-table-description">
-            <h6 class="title">Description</h6>
+            <?php
+            echo '<h6 class="title">Description</h6>';
+            ?>
           </div>
           <!-- /PRODUCT TABLE DESCRIPTION -->
 
           <!-- PRODUCT TABLE PRICE -->
           <div class="product-table-price">
-            <h6 class="title">Price</h6>
+            <?php
+            echo '<h6 class="title">Price</h6>';
+            ?>
           </div>
           <!-- /PRODUCT TABLE PRICE -->
 
           <!-- PRODUCT TABLE QUANTITY -->
           <div class="product-table-availability">
-            <h6 class="title">Availability</h6>
+            <?php
+            echo '<h6 class="title">Availability</h6>';
+            ?>
           </div>
           <!-- /PRODUCT TABLE QUANTITY -->
 
           <!-- PRODUCT TABLE TOTAL -->
           <div class="product-table-actions">
-            <h6 class="title">Add to Cart</h6>
+            <?php
+            echo '<h6 class="title">Add to Cart</h6>';
+            ?>
           </div>
           <!-- /PRODUCT TABLE TOTAL -->
         </div>
@@ -1185,13 +1191,15 @@
         <div class="product-table-row">
           <!-- PRODUCT TABLE PHOTO -->
           <div class="product-table-photo">
-            <!-- PRODUCT IMG -->
-            <a href="product-page-v1.php">
-              <figure class="product-img small">
-                <img src="img/products/01.png" alt="product11">
-              </figure>
-            </a>
-            <!-- /PRODUCT IMG -->
+            <?php
+            echo '<!-- PRODUCT IMG -->';
+            echo '<a href="product-page-v1.php">';
+            echo '<figure class="product-img small">';
+            echo '<img src="img/products/01.png" alt="product11">';
+            echo '</figure>';
+            echo '</a>';
+            echo '<!-- /PRODUCT IMG -->';
+            ?>
           </div>
           <!-- /PRODUCT TABLE PHOTO -->
 
@@ -1203,60 +1211,62 @@
               echo $item->product[0]->name;
               ?></h6>
             </a>
-            <p class="product-description small">Extra Durability</p>
-            <!-- RATING -->
-            <ul class="rating small">
-              <!-- RATING ITEM -->
-              <li class="rating-item filled">
-                <!-- SVG STAR --> 
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-
-              <!-- RATING ITEM -->
-              <li class="rating-item filled">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-
-              <!-- RATING ITEM -->
-              <li class="rating-item filled">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-
-              <!-- RATING ITEM -->
-              <li class="rating-item">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-
-              <!-- RATING ITEM -->
-              <li class="rating-item">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-            </ul>
-            <!-- /RATING -->
+            <?php
+            echo '<p class="product-description small">Gaming</p>';
+            echo '<!-- RATING -->';
+            echo '<ul class="rating small">';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item filled">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item filled">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item filled">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '</ul>';
+            echo '<!-- /RATING -->';
+            ?>
           </div>
           <!-- /PRODUCT TABLE NAME -->
 
@@ -1280,31 +1290,37 @@
 
           <!-- PRODUCT TABLE AVAILABILITY -->
           <div class="product-table-availability">
-            <h6 class="title small">In Stock</h6>
+           <?php
+            echo '<h6 class="title small">In Stock</h6>';
+            ?>
           </div>
           <!-- /PRODUCT TABLE AVAILABILITY -->
 
           <!-- PRODUCT TABLE ACTIONS -->
           <div class="product-table-actions">
-            <!-- BUTTON -->
-            <a href="#" class="button square">
-              <!-- SVG CART -->
-              <svg class="svg-cart-small">
-                <use xlink:href="#svg-cart-small"></use>
-              </svg>
-              <!-- /SVG CART -->
-            </a>
-            <!-- /BUTTON -->
+            <?php
+            echo '<!-- BUTTON -->';
+            echo '<a href="#" class="button square">';
+            echo '<!-- SVG CART -->';
+            echo '<svg class="svg-cart-small">';
+            echo '<use xlink:href="#svg-cart-small"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG CART -->';
+            echo '</a>';
+            echo '<!-- /BUTTON -->';
+            ?>
           </div>
           <!-- /PRODUCT TABLE ACTIONS -->
 
           <!-- REMOVE FCART -->
           <div class="remove-fcart">
-            <!-- SVG CROSS -->
-            <svg class="svg-cross medium">
-              <use xlink:href="#svg-cross"></use>
-            </svg>
-            <!-- /SVG CROSS -->
+            <?php
+            echo '<!-- SVG CROSS -->';
+            echo '<svg class="svg-cross medium">';
+            echo '<use xlink:href="#svg-cross"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG CROSS -->';
+            ?>
           </div>
           <!-- /REMOVE FCART -->
         </div>
@@ -1314,13 +1330,15 @@
         <div class="product-table-row">
           <!-- PRODUCT TABLE PHOTO -->
           <div class="product-table-photo">
-            <!-- PRODUCT IMG -->
-            <a href="product-page-v1.php">
-              <figure class="product-img small">
-                <img src="img/products/02.png" alt="product06">
-              </figure>
-            </a>
-            <!-- /PRODUCT IMG -->
+            <?php
+            echo '<!-- PRODUCT IMG -->';
+            echo '<a href="product-page-v1.php">';
+            echo '<figure class="product-img small">';
+            echo '<img src="img/products/02.png" alt="product06">';
+            echo '</figure>';
+            echo '</a>';
+            echo '<!-- /PRODUCT IMG -->';
+            ?>
           </div>
           <!-- /PRODUCT TABLE PHOTO -->
 
@@ -1332,60 +1350,62 @@
               echo $item->product[1]->name;
               ?></h6>
             </a>
-            <p class="product-description small">Water Resistant</p>
-            <!-- RATING -->
-            <ul class="rating small">
-              <!-- RATING ITEM -->
-              <li class="rating-item filled">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-
-              <!-- RATING ITEM -->
-              <li class="rating-item filled">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-
-              <!-- RATING ITEM -->
-              <li class="rating-item filled">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-
-              <!-- RATING ITEM -->
-              <li class="rating-item">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-
-              <!-- RATING ITEM -->
-              <li class="rating-item">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-            </ul>
-            <!-- /RATING -->
+            <?php
+            echo '<p class="product-description small">Gaming</p>';
+            echo '<!-- RATING -->';
+            echo '<ul class="rating small">';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item filled">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item filled">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item filled">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '</ul>';
+            echo '<!-- /RATING -->';
+            ?>
           </div>
           <!-- /PRODUCT TABLE NAME -->
 
@@ -1409,31 +1429,37 @@
 
           <!-- PRODUCT TABLE AVAILABILITY -->
           <div class="product-table-availability">
-            <h6 class="title small void">Out Of Stock</h6>
+            <?php
+            echo '<h6 class="title small void">Out Of Stock</h6>';
+            ?>
           </div>
           <!-- /PRODUCT TABLE AVAILABILITY -->
 
           <!-- PRODUCT TABLE ACTIONS -->
           <div class="product-table-actions">
-            <!-- BUTTON -->
-            <a href="#" class="button square">
-              <!-- SVG CART -->
-              <svg class="svg-cart-small">
-                <use xlink:href="#svg-cart-small"></use>
-              </svg>
-              <!-- /SVG CART -->
-            </a>
-            <!-- /BUTTON -->
+            <?php
+            echo '<!-- BUTTON -->';
+            echo '<a href="#" class="button square">';
+            echo '<!-- SVG CART -->';
+            echo '<svg class="svg-cart-small">';
+            echo '<use xlink:href="#svg-cart-small"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG CART -->';
+            echo '</a>';
+            echo '<!-- /BUTTON -->';
+            ?>
           </div>
           <!-- /PRODUCT TABLE ACTIONS -->
 
           <!-- REMOVE FCART -->
           <div class="remove-fcart">
-            <!-- SVG CROSS -->
-            <svg class="svg-cross medium">
-              <use xlink:href="#svg-cross"></use>
-            </svg>
-            <!-- /SVG CROSS -->
+            <?php
+            echo '<!-- SVG CROSS -->';
+            echo '<svg class="svg-cross medium">';
+            echo '<use xlink:href="#svg-cross"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG CROSS -->';
+            ?>
           </div>
           <!-- /REMOVE FCART -->
         </div>
@@ -1443,13 +1469,15 @@
         <div class="product-table-row">
           <!-- PRODUCT TABLE PHOTO -->
           <div class="product-table-photo">
-            <!-- PRODUCT IMG -->
-            <a href="product-page-v1.php">
-              <figure class="product-img small">
-                <img src="img/products/03.png" alt="product01">
-              </figure>
-            </a>
-            <!-- /PRODUCT IMG -->
+            <?php
+            echo '<!-- PRODUCT IMG -->';
+            echo '<a href="product-page-v1.php">';
+            echo '<figure class="product-img small">';
+            echo '<img src="img/products/03.png" alt="product01">';
+            echo '</figure>';
+            echo '</a>';
+            echo '<!-- /PRODUCT IMG -->';
+            ?>
           </div>
           <!-- /PRODUCT TABLE PHOTO -->
 
@@ -1461,60 +1489,62 @@
               echo $item->product[2]->name;
               ?></h6>
             </a>
-            <p class="product-description small">For Extreme Conditions</p>
-            <!-- RATING -->
-            <ul class="rating small">
-              <!-- RATING ITEM -->
-              <li class="rating-item filled">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-
-              <!-- RATING ITEM -->
-              <li class="rating-item filled">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-
-              <!-- RATING ITEM -->
-              <li class="rating-item filled">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-
-              <!-- RATING ITEM -->
-              <li class="rating-item filled">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-
-              <!-- RATING ITEM -->
-              <li class="rating-item">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-            </ul>
-            <!-- /RATING -->
+            <?php
+            echo '<p class="product-description small">Gaming</p>';
+            echo '<!-- RATING -->';
+            echo '<ul class="rating small">';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item filled">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item filled">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item filled">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item filled">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '</ul>';
+            echo '<!-- /RATING -->';
+            ?>
           </div>
           <!-- /PRODUCT TABLE NAME -->
 
@@ -1538,31 +1568,37 @@
 
           <!-- PRODUCT TABLE AVAILABILITY -->
           <div class="product-table-availability">
-            <h6 class="title small">In Stock</h6>
+           <?php
+            echo '<h6 class="title small">In Stock</h6>';
+            ?>
           </div>
           <!-- /PRODUCT TABLE AVAILABILITY -->
 
           <!-- PRODUCT TABLE ACTIONS -->
           <div class="product-table-actions">
-            <!-- BUTTON -->
-            <a href="#" class="button square">
-              <!-- SVG CART -->
-              <svg class="svg-cart-small">
-                <use xlink:href="#svg-cart-small"></use>
-              </svg>
-              <!-- /SVG CART -->
-            </a>
-            <!-- /BUTTON -->
+            <?php
+            echo '<!-- BUTTON -->';
+            echo '<a href="#" class="button square">';
+            echo '<!-- SVG CART -->';
+            echo '<svg class="svg-cart-small">';
+            echo '<use xlink:href="#svg-cart-small"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG CART -->';
+            echo '</a>';
+            echo '<!-- /BUTTON -->';
+            ?>
           </div>
           <!-- /PRODUCT TABLE ACTIONS -->
 
           <!-- REMOVE FCART -->
           <div class="remove-fcart">
-            <!-- SVG CROSS -->
-            <svg class="svg-cross medium">
-              <use xlink:href="#svg-cross"></use>
-            </svg>
-            <!-- /SVG CROSS -->
+            <?php
+            echo '<!-- SVG CROSS -->';
+            echo '<svg class="svg-cross medium">';
+            echo '<use xlink:href="#svg-cross"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG CROSS -->';
+            ?>
           </div>
           <!-- /REMOVE FCART -->
         </div>
@@ -1572,13 +1608,15 @@
         <div class="product-table-row">
           <!-- PRODUCT TABLE PHOTO -->
           <div class="product-table-photo">
-            <!-- PRODUCT IMG -->
-            <a href="product-page-v1.php">
-              <figure class="product-img small">
-                <img src="img/products/04.png" alt="product12">
-              </figure>
-            </a>
-            <!-- /PRODUCT IMG -->
+            <?php
+            echo '<!-- PRODUCT IMG -->';
+            echo '<a href="product-page-v1.php">';
+            echo '<figure class="product-img small">';
+            echo '<img src="img/products/04.png" alt="product12">';
+            echo '</figure>';
+            echo '</a>';
+            echo '<!-- /PRODUCT IMG -->';
+            ?>
           </div>
           <!-- /PRODUCT TABLE PHOTO -->
 
@@ -1590,60 +1628,62 @@
               echo $item->product[3]->name;
               ?></h6>
             </a>
-            <p class="product-description small">By Valentine</p>
-            <!-- RATING -->
-            <ul class="rating small">
-              <!-- RATING ITEM -->
-              <li class="rating-item filled">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-
-              <!-- RATING ITEM -->
-              <li class="rating-item filled">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-
-              <!-- RATING ITEM -->
-              <li class="rating-item filled">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-
-              <!-- RATING ITEM -->
-              <li class="rating-item filled">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-
-              <!-- RATING ITEM -->
-              <li class="rating-item">
-                <!-- SVG STAR -->
-                <svg class="svg-star">
-                  <use xlink:href="#svg-star"></use>
-                </svg>
-                <!-- /SVG STAR -->
-              </li>
-              <!-- /RATING ITEM -->
-            </ul>
-            <!-- /RATING -->
+            <?php
+            echo '<p class="product-description small">Gaming</p>';
+            echo '<!-- RATING -->';
+            echo '<ul class="rating small">';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item filled">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item filled">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item filled">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item filled">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '';
+            echo '<!-- RATING ITEM -->';
+            echo '<li class="rating-item">';
+            echo '<!-- SVG STAR -->';
+            echo '<svg class="svg-star">';
+            echo '<use xlink:href="#svg-star"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG STAR -->';
+            echo '</li>';
+            echo '<!-- /RATING ITEM -->';
+            echo '</ul>';
+            echo '<!-- /RATING -->';
+            ?>
           </div>
           <!-- /PRODUCT TABLE NAME -->
 
@@ -1667,31 +1707,37 @@
 
           <!-- PRODUCT TABLE AVAILABILITY -->
           <div class="product-table-availability">
-            <h6 class="title small">In Stock</h6>
+          <?php
+          echo '<h6 class="title small">In Stock</h6>';
+          ?>
           </div>
           <!-- /PRODUCT TABLE AVAILABILITY -->
 
           <!-- PRODUCT TABLE ACTIONS -->
           <div class="product-table-actions">
-            <!-- BUTTON -->
-            <a href="#" class="button square">
-              <!-- SVG CART -->
-              <svg class="svg-cart-small">
-                <use xlink:href="#svg-cart-small"></use>
-              </svg>
-              <!-- /SVG CART -->
-            </a>
-            <!-- /BUTTON -->
+            <?php
+            echo '<!-- BUTTON -->';
+            echo '<a href="#" class="button square">';
+            echo '<!-- SVG CART -->';
+            echo '<svg class="svg-cart-small">';
+            echo '<use xlink:href="#svg-cart-small"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG CART -->';
+            echo '</a>';
+            echo '<!-- /BUTTON -->';
+            ?>
           </div>
           <!-- /PRODUCT TABLE ACTIONS -->
 
           <!-- REMOVE FCART -->
           <div class="remove-fcart">
-            <!-- SVG CROSS -->
-            <svg class="svg-cross medium">
-              <use xlink:href="#svg-cross"></use>
-            </svg>
-            <!-- /SVG CROSS -->
+            <?php
+            echo '<!-- SVG CROSS -->';
+            echo '<svg class="svg-cross medium">';
+            echo '<use xlink:href="#svg-cross"></use>';
+            echo '</svg>';
+            echo '<!-- /SVG CROSS -->';
+            ?>
           </div>
           <!-- /REMOVE FCART -->
         </div>
@@ -1703,404 +1749,438 @@
   </div>
   <!-- /SECTION WRAP -->
 
-  <!-- FOOTER WRAP -->
-  <footer class="footer-wrap">
-    <!-- FOOTER TOP -->
+      <?php
+      echo '<!-- FOOTER WRAP -->';
+      echo '<footer class="footer-wrap">';
+      echo '<!-- FOOTER TOP -->';
+      ?>
     <div class="footer-top">
       <!-- ABOUTUS PREVIEW -->
       <div class="aboutus-preview">
-        <!-- LOGO -->
-        <figure class="logo">
-          <img src="img/logo-footer.png" alt="logo">
-          <figcaption>The Trickster</figcaption>
-        </figure>
-        <!-- /LOGO -->
-        <p class="description">Lorem ipsum dolor sit amet, sectetur sicing elit, sed do eiusmod. Ut enim ad minim iam, quis trud exercitation laboris. En derum de lorem sectum eusidim en amet.</p>
-
-        <!-- CONTACTUS LIST -->
-        <ul class="contactus-list">
-          <!-- CONTACTUS LIST ITEM -->
-          <li class="contactus-list-item">
-            <i class="s-icon icon-location-pin"></i>
-            <p>Marinduque, PH</p>
-          </li>
-          <!-- /CONTACTUS LIST ITEM -->
-
-          <!-- CONTACTUS LIST ITEM -->
-          <li class="contactus-list-item">
-            <i class="s-icon icon-envelope"></i>
-            <a href="mailto:info@tricksterhelmets.com" class="link">info@pcworldz.com</a>
-          </li>
-          <!-- /CONTACTUS LIST ITEM -->
-
-          <!-- CONTACTUS LIST ITEM -->
-          <li class="contactus-list-item">
-            <i class="s-icon icon-phone"></i>
-            <p>044 - 555 - 123 - 1234</p>
-          </li>
-          <!-- /CONTACTUS LIST ITEM -->
-        </ul>
-        <!-- /CONTACTUS LIST -->
+        <?php
+        echo '<!-- LOGO -->';
+        echo '<figure class="logo">';
+        echo '<img src="img/logo-footer.png" alt="logo">';
+        echo '<figcaption>PC WORLDZ</figcaption>';
+        echo '</figure>';
+        echo '<!-- /LOGO -->';
+        echo '<p class="description">Were dedicated to give you the very best of Computer Products, with a focus on quality, price and uniqueness. Founded in 2022 by Saludo, Peralta and Aquino, PC WORLDZ serves customer worldwide, and are thrilled to be a part of the fair trade wing of the IT industry.</p>';
+        echo '';
+        echo '<!-- CONTACTUS LIST -->';
+        echo '<ul class="contactus-list">';
+        echo '<!-- CONTACTUS LIST ITEM -->';
+        echo '<li class="contactus-list-item">';
+        echo '<i class="s-icon icon-location-pin"></i>';
+        echo '<p>Marinduque, PH</p>';
+        echo '</li>';
+        echo '<!-- /CONTACTUS LIST ITEM -->';
+        echo '';
+        echo '<!-- CONTACTUS LIST ITEM -->';
+        echo '<li class="contactus-list-item">';
+        echo '<i class="s-icon icon-envelope"></i>';
+        echo '<a href="mailto:info@tricksterhelmets.com" class="link">info@pcworldz.com</a>';
+        echo '</li>';
+        echo '<!-- /CONTACTUS LIST ITEM -->';
+        echo '';
+        echo '<!-- CONTACTUS LIST ITEM -->';
+        echo '<li class="contactus-list-item">';
+        echo '<i class="s-icon icon-phone"></i>';
+        echo '<p>044 - 555 - 123 - 1234</p>';
+        echo '</li>';
+        echo '<!-- /CONTACTUS LIST ITEM -->';
+        echo '</ul>';
+        echo '<!-- /CONTACTUS LIST -->';
+        ?>
       </div>
       <!-- /ABOUTUS PREVIEW -->
 
       <!-- CONTENT DROPDOWN COLUMN -->
       <div class="content-dropdown-column">
-        <h6 class="title small secondary">Sitemap</h6>
-        <hr class="line-separator">
-        <!-- LINK LIST -->
-        <ul class="link-list decorated">
-          <!-- LINK LIST ITEM -->
-          <li class="link-list-item">
-            <a href="home.php">
-              Home
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-            </a>
-          </li>
-          <!-- /LINK LIST ITEM -->
-
-          <!-- LINK LIST ITEM -->
-          <li class="link-list-item">
-            <a href="aboutus.php">
-              About Us
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-            </a>
-          </li>
-          <!-- /LINK LIST ITEM -->
-
-          <!-- LINK LIST ITEM -->
-          <li class="link-list-item">
-            <a href="shop-grid.php">
-              Shop
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-            </a>
-          </li>
-          <!-- /LINK LIST ITEM -->
-
-          <!-- LINK LIST ITEM -->
-          <li class="link-list-item">
-            <a href="blog.php">
-              Our Blog
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-            </a>
-          </li>
-          <!-- /LINK LIST ITEM -->
-
-          <!-- LINK LIST ITEM -->
-          <li class="link-list-item">
-            <a href="contactus.php">
-              Contact
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-            </a>
-          </li>
-          <!-- /LINK LIST ITEM -->
-
-          <!-- LINK LIST ITEM -->
-          <li class="link-list-item">
-            <a href="profile.php">
-              Your Account
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-            </a>
-          </li>
-          <!-- /LINK LIST ITEM -->
-
-          <!-- LINK LIST ITEM -->
-          <li class="link-list-item">
-            <a href="#">
-              FAQs
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-            </a>
-          </li>
-          <!-- /LINK LIST ITEM -->
-
-          <!-- LINK LIST ITEM -->
-          <li class="link-list-item">
-            <a href="#">
-              Our Guarantee
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-            </a>
-          </li>
-          <!-- /LINK LIST ITEM -->
-        </ul>
-        <!-- /LINK LIST -->
+        <?php
+        echo '<h6 class="title small secondary">Sitemap</h6>';
+        echo '<hr class="line-separator">';
+        echo '<!-- LINK LIST -->';
+        echo '<ul class="link-list decorated">';
+        echo '<!-- LINK LIST ITEM -->';
+        echo '<li class="link-list-item">';
+        echo '<a href="home.php">';
+        echo 'Home';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow tiny">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        echo '</li>';
+        echo '<!-- /LINK LIST ITEM -->';
+        echo '';
+        echo '<!-- LINK LIST ITEM -->';
+        echo '<li class="link-list-item">';
+        echo '<a href="aboutus.php">';
+        echo 'About Us';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow tiny">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        echo '</li>';
+        echo '<!-- /LINK LIST ITEM -->';
+        echo '';
+        echo '<!-- LINK LIST ITEM -->';
+        echo '<li class="link-list-item">';
+        echo '<a href="shop-grid.php">';
+        echo 'Shop';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow tiny">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        echo '</li>';
+        echo '<!-- /LINK LIST ITEM -->';
+        echo '';
+        echo '<!-- LINK LIST ITEM -->';
+        echo '<li class="link-list-item">';
+        echo '<a href="blog.php">';
+        echo 'Our Blog';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow tiny">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        echo '</li>';
+        echo '<!-- /LINK LIST ITEM -->';
+        echo '';
+        echo '<!-- LINK LIST ITEM -->';
+        echo '<li class="link-list-item">';
+        echo '<a href="contactus.php">';
+        echo 'Contact';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow tiny">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        echo '</li>';
+        echo '<!-- /LINK LIST ITEM -->';
+        echo '';
+        echo '<!-- LINK LIST ITEM -->';
+        echo '<li class="link-list-item">';
+        echo '<a href="profile.php">';
+        echo 'Your Account';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow tiny">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        echo '</li>';
+        echo '<!-- /LINK LIST ITEM -->';
+        echo '';
+        echo '<!-- LINK LIST ITEM -->';
+        echo '<li class="link-list-item">';
+        echo '<a href="#">';
+        echo 'FAQs';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow tiny">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        echo '</li>';
+        echo '<!-- /LINK LIST ITEM -->';
+        echo '';
+        echo '<!-- LINK LIST ITEM -->';
+        echo '<li class="link-list-item">';
+        echo '<a href="#">';
+        echo 'Our Guarantee';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow tiny">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        echo '</li>';
+        echo '<!-- /LINK LIST ITEM -->';
+        echo '</ul>';
+        echo '<!-- /LINK LIST -->';
+        ?>
       </div>
       <!-- /CONTENT DROPDOWN COLUMN -->
 
       <!-- CONTENT DROPDOWN COLUMN -->
       <div class="content-dropdown-column">
-        <h6 class="title small secondary">Company</h6>
-        <hr class="line-separator">
-        <!-- LINK LIST -->
-        <ul class="link-list decorated">
-          <!-- LINK LIST ITEM -->
-          <li class="link-list-item">
-            <a href="#">
-              Shipping Policy
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-            </a>
-          </li>
-          <!-- /LINK LIST ITEM -->
-
-          <!-- LINK LIST ITEM -->
-          <li class="link-list-item">
-            <a href="#">
-              International Shipping
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-            </a>
-          </li>
-          <!-- /LINK LIST ITEM -->
-
-          <!-- LINK LIST ITEM -->
-          <li class="link-list-item">
-            <a href="#">
-              Affiliates
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-            </a>
-          </li>
-          <!-- /LINK LIST ITEM -->
-
-          <!-- LINK LIST ITEM -->
-          <li class="link-list-item">
-            <a href="#">
-              Our Sponsors
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-            </a>
-          </li>
-          <!-- /LINK LIST ITEM -->
-
-          <!-- LINK LIST ITEM -->
-          <li class="link-list-item">
-            <a href="#">
-              Privacy Policy
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-            </a>
-          </li>
-          <!-- /LINK LIST ITEM -->
-
-          <!-- LINK LIST ITEM -->
-          <li class="link-list-item">
-            <a href="#">
-              Terms and Conditions
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-            </a>
-          </li>
-          <!-- /LINK LIST ITEM -->
-
-          <!-- LINK LIST ITEM -->
-          <li class="link-list-item">
-            <a href="#">
-              Pay on Arrival
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-            </a>
-          </li>
-          <!-- /LINK LIST ITEM -->
-        </ul>
-        <!-- /LINK LIST -->
+        <?php
+        echo '<h6 class="title small secondary">Company</h6>';
+        echo '<hr class="line-separator">';
+        echo '<!-- LINK LIST -->';
+        echo '<ul class="link-list decorated">';
+        echo '<!-- LINK LIST ITEM -->';
+        echo '<li class="link-list-item">';
+        echo '<a href="#">';
+        echo 'Shipping Policy';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow tiny">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        echo '</li>';
+        echo '<!-- /LINK LIST ITEM -->';
+        echo '';
+        echo '<!-- LINK LIST ITEM -->';
+        echo '<li class="link-list-item">';
+        echo '<a href="#">';
+        echo 'International Shipping';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow tiny">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        echo '</li>';
+        echo '<!-- /LINK LIST ITEM -->';
+        echo '';
+        echo '<!-- LINK LIST ITEM -->';
+        echo '<li class="link-list-item">';
+        echo '<a href="#">';
+        echo 'Affiliates';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow tiny">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        echo '</li>';
+        echo '<!-- /LINK LIST ITEM -->';
+        echo '';
+        echo '<!-- LINK LIST ITEM -->';
+        echo '<li class="link-list-item">';
+        echo '<a href="#">';
+        echo 'Our Sponsors';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow tiny">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        echo '</li>';
+        echo '<!-- /LINK LIST ITEM -->';
+        echo '';
+        echo '<!-- LINK LIST ITEM -->';
+        echo '<li class="link-list-item">';
+        echo '<a href="#">';
+        echo 'Privacy Policy';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow tiny">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        echo '</li>';
+        echo '<!-- /LINK LIST ITEM -->';
+        echo '';
+        echo '<!-- LINK LIST ITEM -->';
+        echo '<li class="link-list-item">';
+        echo '<a href="#">';
+        echo 'Terms and Conditions';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow tiny">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        echo '</li>';
+        echo '<!-- /LINK LIST ITEM -->';
+        echo '';
+        echo '<!-- LINK LIST ITEM -->';
+        echo '<li class="link-list-item">';
+        echo '<a href="#">';
+        echo 'Pay on Arrival';
+        echo '<!-- SVG ARROW -->';
+        echo '<svg class="svg-arrow tiny">';
+        echo '<use xlink:href="#svg-arrow"></use>';
+        echo '</svg>';
+        echo '<!-- /SVG ARROW -->';
+        echo '</a>';
+        echo '</li>';
+        echo '<!-- /LINK LIST ITEM -->';
+        echo '</ul>';
+        echo '<!-- /LINK LIST -->';
+        ?>
       </div>
       <!-- /CONTENT DROPDOWN COLUMN -->
 
       <!-- CONTENT DROPDOWN COLUMN -->
       <div class="content-dropdown-column full">
-        <h6 class="title small secondary">Quick Contact</h6>
-        <hr class="line-separator">
-        <p class="description">Lorem ipsum dolor sit amet, sectetur adipisicing elit, sed do eiusmod en derum der trenser lorem.</p>
-        <form class="quick-contact-form">
-          <input type="text" class="dark" name="qc_email" placeholder="Email">
-          <textarea name="qc_message" class="dark" placeholder="Message"></textarea>
-          <button class="button small">Send Message</button>
-        </form>
+        <?php
+        echo '<h6 class="title small secondary">Quick Contact</h6>';
+        echo '<hr class="line-separator">';
+        echo '<p class="description">You can contact by using our contact number or email us below by using our email info@pcworldz.com</p>';
+        echo '<form class="quick-contact-form">';
+        echo '<input type="text" class="dark" name="qc_email" placeholder="Email">';
+        echo '<textarea name="qc_message" class="dark" placeholder="Message"></textarea>';
+        echo '<button class="button small">Send Message</button>';
+        echo '</form>';
+        ?>
       </div>
       <!-- /CONTENT DROPDOWN COLUMN -->
     </div>
     <!-- /FOOTER TOP -->
 
-    <!-- FOOTER BOTTOM -->
-    <div class="footer-bottom">
-      <h6 class="title tiny secondary">Payment Methods:</h6>
-      <!-- PAYMENT LIST -->
-      <ul class="payment-list">
-        <!-- PAYMENT LIST ITEM -->
-        <li class="payment-list-item">
-          <a href="#">
-            <img src="img/home/card_01.png" alt="card01">
-          </a>
-        </li>
-        <!-- PAYMENT LIST ITEM -->
-
-        <!-- PAYMENT LIST ITEM -->
-        <li class="payment-list-item">
-          <a href="#">
-            <img src="img/home/card_02.png" alt="card02">
-          </a>
-        </li>
-        <!-- PAYMENT LIST ITEM -->
-
-        <!-- PAYMENT LIST ITEM -->
-        <li class="payment-list-item">
-          <a href="#">
-            <img src="img/home/card_03.png" alt="card03">
-          </a>
-        </li>
-        <!-- PAYMENT LIST ITEM -->
-
-        <!-- PAYMENT LIST ITEM -->
-        <li class="payment-list-item">
-          <a href="#">
-            <img src="img/home/card_04.png" alt="card04">
-          </a>
-        </li>
-        <!-- PAYMENT LIST ITEM -->
-
-        <!-- PAYMENT LIST ITEM -->
-        <li class="payment-list-item">
-          <a href="#">
-            <img src="img/home/card_05.png" alt="card05">
-          </a>
-        </li>
-        <!-- PAYMENT LIST ITEM -->
-
-        <!-- PAYMENT LIST ITEM -->
-        <li class="payment-list-item">
-          <a href="#">
-            <img src="img/home/card_06.png" alt="card06">
-          </a>
-        </li>
-        <!-- PAYMENT LIST ITEM -->
-      </ul>
-      <!-- /PAYMENT LIST -->
+      <?php
+      echo '<!-- FOOTER BOTTOM -->';
+      echo '<div class="footer-bottom">';
+      echo '<h6 class="title tiny secondary">Payment Methods:</h6>';
+      echo '<!-- PAYMENT LIST -->';
+      echo '<ul class="payment-list">';
+      echo '<!-- PAYMENT LIST ITEM -->';
+      echo '<li class="payment-list-item">';
+      echo '<a href="#">';
+      echo '<img src="img/home/card_01.png" alt="card01">';
+      echo '</a>';
+      echo '</li>';
+      echo '<!-- PAYMENT LIST ITEM -->';
+      echo '';
+      echo '<!-- PAYMENT LIST ITEM -->';
+      echo '<li class="payment-list-item">';
+      echo '<a href="#">';
+      echo '<img src="img/home/card_02.png" alt="card02">';
+      echo '</a>';
+      echo '</li>';
+      echo '<!-- PAYMENT LIST ITEM -->';
+      echo '';
+      echo '<!-- PAYMENT LIST ITEM -->';
+      echo '<li class="payment-list-item">';
+      echo '<a href="#">';
+      echo '<img src="img/home/card_03.png" alt="card03">';
+      echo '</a>';
+      echo '</li>';
+      echo '<!-- PAYMENT LIST ITEM -->';
+      echo '';
+      echo '<!-- PAYMENT LIST ITEM -->';
+      echo '<li class="payment-list-item">';
+      echo '<a href="#">';
+      echo '<img src="img/home/card_04.png" alt="card04">';
+      echo '</a>';
+      echo '</li>';
+      echo '<!-- PAYMENT LIST ITEM -->';
+      echo '';
+      echo '<!-- PAYMENT LIST ITEM -->';
+      echo '<li class="payment-list-item">';
+      echo '<a href="#">';
+      echo '<img src="img/home/card_05.png" alt="card05">';
+      echo '</a>';
+      echo '</li>';
+      echo '<!-- PAYMENT LIST ITEM -->';
+      echo '';
+      echo '<!-- PAYMENT LIST ITEM -->';
+      echo '<li class="payment-list-item">';
+      echo '<a href="#">';
+      echo '<img src="img/home/card_06.png" alt="card06">';
+      echo '</a>';
+      echo '</li>';
+      echo '<!-- PAYMENT LIST ITEM -->';
+      echo '</ul>';
+      echo '<!-- /PAYMENT LIST -->';
+      ?>
     </div>
     <!-- /FOOTER BOTTOM -->
-  </footer>
-  <!-- /FOOTER WRAP -->
+      <?php
+      echo '</footer>';
+      echo '<!-- /FOOTER WRAP -->';
+      ?>
 
   <!-- WIDGET LINE WRAP -->
   <div class="widget-line-wrap dark widget-line-copy">
     <!-- WIDGET LINE -->
     <div class="widget-line big">
-      <p class="copyright"><span class="bold">PC WORLDZ</span> | All Rights Reserved 2016</p>
-      <!-- ACTIONS LIST -->
-      <ul class="actions-list right">
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <!-- SOCIAL LINK -->
+      <?php
+      echo '<p class="copyright"><span class="bold">PC WORLDZ</span> | All Rights Reserved 2016</p>';
+      echo '<!-- ACTIONS LIST -->';
+      echo '<ul class="actions-list right">';
+      echo '<!-- ACTIONS LIST ITEM -->';
+      echo '<li class="actions-list-item">';
+      echo '<!-- SOCIAL LINK -->';
+      ?>
           <div class="social-link">
-            <a href="#">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </div>
-          <!-- /SOCIAL LINK -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <!-- SOCIAL LINK -->
+            <?php
+            echo '<a href="#">';
+            echo '<i class="fa fa-facebook"></i>';
+            echo '</a>';
+            echo '</div>';
+            echo '<!-- /SOCIAL LINK -->';
+            echo '</li>';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '<li class="actions-list-item">';
+            echo '<!-- SOCIAL LINK -->';
+            ?>
           <div class="social-link">
-            <a href="#">
-              <i class="fa fa-twitter"></i>
-            </a>
+            <?php
+            echo '<a href="#">';
+            echo '<i class="fa fa-twitter"></i>';
+            echo '</a>';
+            ?>
           </div>
-          <!-- /SOCIAL LINK -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <!-- SOCIAL LINK -->
+            <?php
+            echo '<!-- /SOCIAL LINK -->';
+            echo '</li>';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '<li class="actions-list-item">';
+            echo '<!-- SOCIAL LINK -->';
+            ?>
           <div class="social-link">
-            <a href="#">
-              <i class="fa fa-google-plus"></i>
-            </a>
+            <?php
+            echo '<a href="#">';
+            echo '<i class="fa fa-google-plus"></i>';
+            echo '</a>';
+            ?>        
           </div>
-          <!-- /SOCIAL LINK -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <!-- SOCIAL LINK -->
+            <?php
+            echo '<!-- /SOCIAL LINK -->';
+            echo '</li>';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '<li class="actions-list-item">';
+            echo '<!-- SOCIAL LINK -->';
+            ?>
           <div class="social-link">
-            <a href="#">
-              <i class="fa fa-rss"></i>
-            </a>
+            <?php
+            echo '<a href="#">';
+            echo '<i class="fa fa-rss"></i>';
+            echo '</a>';
+            ?>
           </div>
-          <!-- /SOCIAL LINK -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-
-        <!-- ACTIONS LIST ITEM -->
-        <li class="actions-list-item">
-          <!-- SOCIAL LINK -->
+            <?php
+            echo '<!-- /SOCIAL LINK -->';
+            echo '</li>';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '<li class="actions-list-item">';
+            echo '<!-- SOCIAL LINK -->';
+            ?>
           <div class="social-link">
-            <a href="#">
-              <i class="fa fa-vimeo"></i>
-            </a>
+            <?php
+            echo '<a href="#">';
+            echo '<i class="fa fa-vimeo"></i>';
+            echo '</a>';
+            ?>
           </div>
-          <!-- /SOCIAL LINK -->
-        </li>
-        <!-- ACTIONS LIST ITEM -->
-      </ul>
-      <!-- ACTIONS LIST -->
+            <?php
+            echo '<!-- /SOCIAL LINK -->';
+            echo '</li>';
+            echo '<!-- ACTIONS LIST ITEM -->';
+            echo '</ul>';
+            echo '<!-- ACTIONS LIST -->';
+            ?>
     </div>
     <!-- WIDGET LINE -->
   </div>
