@@ -886,11 +886,7 @@
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-<<<<<<< HEAD
-            <a href="post.php">Blog Post</a>
-=======
             <a href="wishlist.php">Wishlist</a>
->>>>>>> 339859f39da7db9be23299efbe24037cf8e0e072
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
