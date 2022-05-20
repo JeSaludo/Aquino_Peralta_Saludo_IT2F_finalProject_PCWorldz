@@ -44,61 +44,60 @@ if(isset($_REQUEST['login_button']) === true){
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
-    <div class="form-body">
-        <div class="website-logo">
-            <a href="index.php">
-                <div class="logo">
-                    <img class="logo-size" src="images/logo-footer.png" alt="">
-                </div>
-            </a>
-        </div>
-        <div class="row">
-            <div class="img-holder">
-                <div class="bg"></div>
-                <div class="info-holder">
-                    <img src="images/intro.png" alt="">
-                </div>
-            </div>
-            <div class="form-holder">
-                <div class="form-content">
-                    <div class="form-items">
-                        <h3>Welcome to PC Worldz!</h3>
-                        <p>Buy and build your very own gaming PC right now with PC Worldz.</p>
-                        <div class="page-links">
-                            <a href="index.php" class="active">Login</a><a href="register.php">Register</a>
-                        </div>
-                        <form method="POST">
-                        <?php
-						if(isset($_REQUEST['notexist'])===true){
-							echo "<div class='alert alert-danger' role='alert'> Username doest not exist... </div>";
-						}
-						else if(isset($_REQUEST['wrongpass']) ===true){
-							echo "<div class='alert alert-warning' role='alert'> Incorrect Password... </div>";					
-						}
-						else if(isset($_REQUEST['success']) ===true){
-							echo "<div class='alert alert-success' role='alert'> Redirecting... </div>";	
-							header("Refresh: 5; url=home.php");			
-						}
-						else if(isset($_REQUEST['logout']) === true)
-						{
-							echo "<div class='alert alert-info' role='alert'> Thank you... </div>";	
-						}
-						?>
-                        
-                            <input class="form-control" type="text" name="form_username" placeholder="E-mail Address" required>
-                            <input class="form-control" type="password" name="form_password" placeholder="Password" required>
-                            <div class="form-button">
-                                <button id="submit" type="submit" class="ibtn" name="login_button" >Login</button> <a href="forget.php">Forget password?</a>
-                            </div>
-                        </form>
-                        <div class="other-links">
-                            <span>Or login with</span><a href="#">Facebook</a><a href="#">Google</a><a href="#">Linkedin</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<?php
+echo '<div class="form-body">';
+echo '<div class="website-logo">';
+echo '<a href="index.php">';
+echo '<div class="logo">';
+echo '<img class="logo-size" src="images/logo-footer.png" alt="">';
+echo '</div>';
+echo '</a>';
+echo '</div>';
+echo '<div class="row">';
+echo '<div class="img-holder">';
+echo '<div class="bg"></div>';
+echo '<div class="info-holder">';
+echo '<img src="images/intro.png" alt="">';
+echo '</div>';
+echo '</div>';
+echo '<div class="form-holder">';
+echo '<div class="form-content">';
+echo '<div class="form-items">';
+echo '<h3>Welcome to PC Worldz!</h3>';
+echo '<p>Buy and build your very own gaming PC right now with PC Worldz.</p>';
+echo '<div class="page-links">';
+echo '<a href="index.php" class="active">Login</a><a href="register.php">Register</a>';
+echo '</div>';
+echo '<form method="POST">';
+if(isset($_REQUEST['notexist'])===true){
+    echo "<div class='alert alert-danger' role='alert'> Username doest not exist... </div>";
+}
+else if(isset($_REQUEST['wrongpass']) ===true){
+    echo "<div class='alert alert-warning' role='alert'> Incorrect Password... </div>";					
+}
+else if(isset($_REQUEST['success']) ===true){
+    echo "<div class='alert alert-success' role='alert'> Redirecting... </div>";	
+    header("Refresh: 5; url=home.php");			
+}
+else if(isset($_REQUEST['logout']) === true)
+{
+    echo "<div class='alert alert-info' role='alert'> Thank you... </div>";	
+}
+echo '<input class="form-control" type="text" name="form_username" placeholder="E-mail Address" required>';
+echo '<input class="form-control" type="password" name="form_password" placeholder="Password" required>';
+echo '<div class="form-button">';
+echo '<button id="submit" type="submit" class="ibtn" name="login_button" >Login</button> <a href="forget.php">Forget password?</a>';
+echo '</div>';
+echo '</form>';
+echo '<div class="other-links">';
+echo '<span>Or login with</span><a href="#">Facebook</a><a href="#">Google</a><a href="#">Linkedin</a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+?>
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
