@@ -903,7 +903,7 @@ span.bold {
   height: 3px;
   border: none;
   margin-top: 18px;
-  background-color: #023E8A;
+  background-color: #00B4D8;
   text-align: left; }
   .line-separator.big {
     width: 50px;
@@ -2299,7 +2299,7 @@ span.bold {
     text-align: center; }
 
 .welcome-section-wrap {
-  background-image: url("../img/home/welcome.jpg");
+  background-image: url("../img/home/welcome.png");
   background-repeat: no-repeat;
   background-position: 50% 100%;
   background-color: #f9f9f9; }

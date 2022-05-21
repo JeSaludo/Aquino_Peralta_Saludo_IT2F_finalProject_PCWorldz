@@ -376,7 +376,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.php">
+              <a href="#">
                 <figure class="product-img small">
                   <img src="img/products/01.png" alt="02">
                 </figure>
@@ -385,7 +385,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="#"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[0]->name;
@@ -465,7 +465,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.php">
+              <a href="#">
                 <figure class="product-img small">
                   <img src="img/products/02.png" alt="06">
                 </figure>
@@ -474,7 +474,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="#"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[1]->name;
@@ -554,7 +554,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.php">
+              <a href="#">
                 <figure class="product-img small">
                   <img src="img/products/03.png" alt="05">
                 </figure>
@@ -563,7 +563,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="#"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[2]->name;
@@ -1750,7 +1750,7 @@
   <div class="widget-line-wrap dark widget-line-copy">
     <!-- WIDGET LINE -->
     <div class="widget-line big">
-      <p class="copyright"><span class="bold"><?php echo 'PC WORLDZ';?></span><?php echo '| All Rights Reserved 2016';?></p>
+      <p class="copyright"><span class="bold"><?php echo 'PC WORLDZ';?></span><?php echo '| All Rights Reserved 2022';?></p>
       <!-- ACTIONS LIST -->
       <ul class="actions-list right">
         <!-- ACTIONS LIST ITEM -->

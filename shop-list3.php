@@ -256,7 +256,7 @@
     echo '';
     echo '<!-- ACTIONS LIST ITEM -->';
     echo '<li class="actions-list-item">';
-    echo '<a class="action-button" href="index.html">Logout</a>';
+    echo '<a class="action-button" href="index.php">Logout</a>';
     echo '</li>';
     echo '<!-- ACTIONS LIST ITEM -->';
     echo '';
@@ -379,7 +379,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.html">
+              <a href="#">
                 <figure class="product-img small">
                   <img src="img/products/01.png" alt="02">
                 </figure>
@@ -388,7 +388,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="#"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[0]->name;
@@ -466,7 +466,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.html">
+              <a href="#">
                 <figure class="product-img small">
                   <img src="img/products/02.png" alt="06">
                 </figure>
@@ -475,7 +475,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="#"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[1]->name;
@@ -553,7 +553,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.html">
+              <a href="#">
                 <figure class="product-img small">
                   <img src="img/products/03.png" alt="05">
                 </figure>
@@ -562,7 +562,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="#"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[2]->name;
@@ -1025,8 +1025,8 @@
   <div class="section-wrap">
     <!-- SECTION -->
     <div class="section no-title">
-      <h6 class="pretitle">Welcome to</h6>
-      <h3 class="title large">Browse all Designs</h3>
+      <h6 class="pretitle">Welcome to PC WORLDZ</h6>
+      <h3 class="title large">browse all designs items</h3>
       <hr class="line-separator">
       <!-- FILTER HEADER -->
       <div class="filter-header">
@@ -1124,7 +1124,7 @@
         <!-- PRODUCT LIST ITEM -->
         <div class="product-list-item">
           <!-- PRODUCT IMG -->
-          <a href="product-page-v1.php">
+          <a href="#">
             <figure class="product-img">
               <img src="img/products/013.png" alt="product01">
             </figure>
@@ -1133,7 +1133,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title medium">
+            <a href="#"><h6 class="title medium">
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[12]->name;
@@ -1247,7 +1247,7 @@
         <!-- PRODUCT LIST ITEM -->
         <div class="product-list-item">
           <!-- PRODUCT IMG -->
-          <a href="product-page-v1.php">
+          <a href="#">
             <figure class="product-img">
               <img src="img/products/014.png" alt="product02">
             </figure>
@@ -1256,7 +1256,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title medium">
+            <a href="#"><h6 class="title medium">
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[13]->name;
@@ -1373,7 +1373,7 @@
         <!-- PRODUCT LIST ITEM -->
         <div class="product-list-item">
           <!-- PRODUCT IMG -->
-          <a href="product-page-v1.php">
+          <a href="#">
             <figure class="product-img">
               <img src="img/products/015.png" alt="product03">
             </figure>
@@ -1382,7 +1382,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title medium">
+            <a href="#"><h6 class="title medium">
               <?php
                $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');;
               echo $item->product[14]->name;
@@ -1498,7 +1498,7 @@
         <!-- PRODUCT LIST ITEM -->
         <div class="product-list-item">
           <!-- PRODUCT IMG -->
-          <a href="product-page-v1.php">
+          <a href="#">
             <figure class="product-img">
               <img src="img/products/016.png" alt="product05">
             </figure>
@@ -1507,7 +1507,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title medium">
+            <a href="#"><h6 class="title medium">
             <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[15]->name;
@@ -1623,7 +1623,7 @@
         <!-- PRODUCT LIST ITEM -->
         <div class="product-list-item">
           <!-- PRODUCT IMG -->
-          <a href="product-page-v1.php">
+          <a href="#">
             <figure class="product-img">
               <img src="img/products/017.png" alt="product06">
             </figure>
@@ -1632,7 +1632,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title medium"><?php
+            <a href="#"><h6 class="title medium"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[16]->name;
               ?></h6></a>
@@ -1744,7 +1744,7 @@
         <!-- PRODUCT LIST ITEM -->
         <div class="product-list-item">
           <!-- PRODUCT IMG -->
-          <a href="product-page-v1.php">
+          <a href="#">
             <figure class="product-img">
               <img src="img/products/018.png" alt="product04">
             </figure>
@@ -1753,7 +1753,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title medium">
+            <a href="#"><h6 class="title medium">
             <?php
              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[17]->name;
@@ -2249,7 +2249,7 @@
       echo '<div class="widget-line-wrap dark widget-line-copy">';
       echo '<!-- WIDGET LINE -->';
       echo '<div class="widget-line big">';
-      echo '<p class="copyright"><span class="bold">The Trickster</span> | All Rights Reserved 2016</p>';
+      echo '<p class="copyright"><span class="bold">The Trickster</span> | All Rights Reserved 2022</p>';
       echo '<!-- ACTIONS LIST -->';
       echo '<ul class="actions-list right">';
       echo '<!-- ACTIONS LIST ITEM -->';

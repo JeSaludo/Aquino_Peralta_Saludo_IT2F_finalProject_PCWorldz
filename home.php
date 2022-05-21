@@ -378,7 +378,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.html">
+              <a href="#">
                 <figure class="product-img small">
                   <img src="img/products/01.png" alt="02">
                 </figure>
@@ -387,7 +387,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="#"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[0]->name;
@@ -465,7 +465,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.html">
+              <a href="#">
                 <figure class="product-img small">
                   <img src="img/products/02.png" alt="06">
                 </figure>
@@ -474,7 +474,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="#"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[1]->name;
@@ -552,7 +552,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.html">
+              <a href="#">
                 <figure class="product-img small">
                   <img src="img/products/03.png" alt="05">
                 </figure>
@@ -561,7 +561,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="#"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[2]->name;
@@ -663,7 +663,7 @@
       <ul class="main-menu">
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="index.php"><?php echo 'Home'; ?></a>
+          <a href="home.php"><?php echo 'Home'; ?></a>
         </li>
         <!-- /MAIN MENU ITEM -->
 
@@ -797,7 +797,7 @@
     <ul class="mobile-menu dropdown">
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
-        <a href="index.php"><?php echo 'Home'; ?></a>
+        <a href="home.php"><?php echo 'Home'; ?></a>
       </li>
       <!-- /MOBILE MENU ITEM -->
 
@@ -1041,7 +1041,7 @@
             <h2 class="banner-title"><span class="highlighted"><?php echo 'High-end'; ?></span></h2>
             <h2 class="banner-title"><?php echo 'PC Parts'; ?></h2>
             <h2 class="banner-title micro"><?php echo 'Hundreds of brands to choose from!'; ?></h2>
-            <a href="#" class="button"><?php echo 'Explore now!'; ?></a>
+            <a href="shop-list.php" class="button"><?php echo 'Explore now!'; ?></a>
 
           </div>
           <!-- SLIDE CONTENT -->
@@ -1059,7 +1059,7 @@
             <h2 class="banner-title dark large"><?php echo 'Choose'; ?></h2>
             <h2 class="banner-title main medium"><?php echo 'Your Parts'; ?></h2>
             <h2 class="banner-title micro light"><?php echo 'Build your dream gaming PC!'; ?></h2>
-            <a href="#" class="button"><?php echo 'Lets Go!'; ?> </a>
+            <a href="shop-list.php" class="button"><?php echo 'Lets Go!'; ?> </a>
           </div>
           <!-- SLIDE CONTENT -->
         </div>
@@ -1080,7 +1080,7 @@
         <img src="img/home/start01.png" alt="start01">
         <h6 class="title"><?php echo 'Motherboard'; ?></h6>
         <p><?php echo 'Better optimization'; ?></p>
-        <a href="product-builder-v1.php" class="button small"><?php echo 'Explore'; ?></a>
+        <a href="shop-list.php" class="button small"><?php echo 'Explore'; ?></a>
       </div>
       <!-- /BUILDER ACTIONS ITEM -->
     </div>
@@ -1093,7 +1093,7 @@
         <img src="img/home/start02.png" alt="start02">
         <h6 class="title"><?php echo 'Processor'; ?></h6>
         <p><?php echo 'Faster than ever'; ?></p>
-        <a href="product-builder-v2.php" class="button small"><?php echo 'Explore'; ?></a>
+        <a href="shop-list2.php" class="button small"><?php echo 'Explore'; ?></a>
       </div>
       <!-- /BUILDER ACTIONS ITEM -->
     </div>
@@ -1106,7 +1106,7 @@
         <img src="img/home/start03.png" alt="start03">
         <h6 class="title"><?php echo 'GRAPHICS CARD'; ?></h6>
         <p><?php echo 'Boost your gaming experience'; ?></p>
-        <a href="shop-grid.php" class="button small"><?php echo 'Explore'; ?></a>
+        <a href="shop-list3.php" class="button small"><?php echo 'Explore'; ?></a>
       </div>
       <!-- /BUILDER ACTIONS ITEM -->
     </div>
@@ -1138,7 +1138,7 @@
       </div>
       <!-- /ACTION POSTER INFO -->
 
-      <a href="#" class="button medium with-icon">
+      <a href="shop-list.php" class="button medium with-icon">
       <?php echo 'Start Browsing'; ?>
         <!-- SVG ARROW -->
         <svg class="svg-arrow">
@@ -1417,7 +1417,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title"><?php echo 'RTX 3080'; ?></h6></a>
+            <a href="#"><h6 class="title"><?php echo 'RTX 3080'; ?></h6></a>
             <p class="product-description"><?php echo 'NVIDIA'; ?></p>
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
@@ -1474,7 +1474,7 @@
                 <!-- /RATING ITEM -->
               </ul>
               <!-- /RATING -->
-              <h6 class="product-price"><?php echo '$140'; ?></h6>
+              <h6 class="product-price"><?php echo '$699'; ?></h6>
             </div>
             <!-- /PRODUCT LIST ITEM PRICE -->
           </div>
@@ -1536,7 +1536,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title"><?php echo 'Intel Core i9'; ?></h6></a>
+            <a href="#"><h6 class="title"><?php echo 'Intel Core i9'; ?></h6></a>
             <p class="product-description"><?php echo 'Intel'; ?></p>
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
@@ -1593,7 +1593,7 @@
                 <!-- /RATING ITEM -->
               </ul>
               <!-- /RATING -->
-              <h6 class="product-price"><?php echo '$170'; ?></h6>
+              <h6 class="product-price"><?php echo '$399'; ?></h6>
             </div>
             <!-- /PRODUCT LIST ITEM PRICE -->
           </div>
@@ -1655,7 +1655,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title"><?php echo 'ROG STRIX Z490-H'; ?> </h6></a>
+            <a href="#"><h6 class="title"><?php echo 'ROG STRIX Z490-H'; ?> </h6></a>
             <p class="product-description"><?php echo 'Republic of Gamers'; ?></p>
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
@@ -1712,7 +1712,7 @@
                 <!-- /RATING ITEM -->
               </ul>
               <!-- /RATING -->
-              <h6 class="product-price"><?php echo '$165'; ?></h6>
+              <h6 class="product-price"><?php echo '$287'; ?></h6>
             </div>
             <!-- /PRODUCT LIST ITEM PRICE -->
           </div>
@@ -1774,7 +1774,7 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title"><?php echo 'Ryzen 9'; ?></h6></a>
+            <a href="#"><h6 class="title"><?php echo 'Ryzen 9'; ?></h6></a>
             <p class="product-description"><?php echo 'AMD'; ?></p>
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
@@ -1831,7 +1831,7 @@
                 <!-- /RATING ITEM -->
               </ul>
               <!-- /RATING -->
-              <h6 class="product-price"><?php echo '$140'; ?></h6>
+              <h6 class="product-price"><?php echo '$461'; ?></h6>
             </div>
             <!-- /PRODUCT LIST ITEM PRICE -->
           </div>
@@ -1916,7 +1916,7 @@
         <ul class="link-list decorated">
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="index.php">
+            <a href="home.php">
             <?php echo 'Home'; ?>
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">

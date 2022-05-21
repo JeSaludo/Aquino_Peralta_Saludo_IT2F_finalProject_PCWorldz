@@ -273,7 +273,7 @@
       echo '';
       echo '<!-- ACTIONS LIST ITEM -->';
       echo '<li class="actions-list-item">';
-      echo '<a class="action-button" href="index.html">Logout</a>';
+      echo '<a class="action-button" href="index.php">Logout</a>';
       echo '</li>';
       echo '<!-- ACTIONS LIST ITEM -->';
       echo '';
@@ -403,7 +403,7 @@
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
               <?php
-              echo '<a href="product-page-v1.php">';
+              echo '<a href="#">';
               echo '<figure class="product-img small">';
               echo '<img src="img/products/01.png" alt="02">';
               echo '</figure>';
@@ -413,7 +413,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="#"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[0]->name;
@@ -492,7 +492,7 @@
               echo '<!-- CART DROPDOWN ITEM -->';
               echo '<div class="cart-dropdown-item">';
               echo '<!-- PRODUCT IMG -->';
-              echo '<a href="product-page-v1.php">';
+              echo '<a href="#">';
               echo '<figure class="product-img small">';
               echo '<img src="img/products/02.png" alt="06">';
               echo '</figure>';
@@ -502,7 +502,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="#"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[1]->name;
@@ -581,7 +581,7 @@
               echo '<!-- CART DROPDOWN ITEM -->';
               echo '<div class="cart-dropdown-item">';
               echo '<!-- PRODUCT IMG -->';
-              echo '<a href="product-page-v1.php">';
+              echo '<a href="#">';
               echo '<figure class="product-img small">';
               echo '<img src="img/products/03.png" alt="05">';
               echo '</figure>';
@@ -591,7 +591,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="#"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[2]->name;
@@ -703,7 +703,7 @@
       echo '<ul class="main-menu">';
       echo '<!-- MAIN MENU ITEM -->';
       echo '<li class="main-menu-item">';
-      echo '<a href="index.php">Home</a>';
+      echo '<a href="home.php">Home</a>';
       echo '</li>';
       echo '<!-- /MAIN MENU ITEM -->';
       echo '';
@@ -838,7 +838,7 @@
       echo '<ul class="mobile-menu dropdown">';
       echo '<!-- MOBILE MENU ITEM -->';
       echo '<li class="mobile-menu-item">';
-      echo '<a href="index.php">Home</a>';
+      echo '<a href="home.php">Home</a>';
       echo '</li>';
       echo '<!-- /MOBILE MENU ITEM -->';
       echo '';
@@ -1139,7 +1139,7 @@
       echo '<!-- PRODUCT TABLE PHOTO -->';
       echo '<div class="product-table-photo">';
       echo '<!-- PRODUCT IMG -->';
-      echo '<a href="product-page-v1.php">';
+      echo '<a href="#">';
       echo '<figure class="product-img small">';
       echo '<img src="img/products/01.png" alt="product02">';
       echo '</figure>';
@@ -1151,7 +1151,7 @@
 
           <!-- PRODUCT TABLE NAME -->
           <div class="product-table-name">
-            <a href="product-page-v1.html">
+            <a href="#">
               <h6 class="title small"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[0]->name;
@@ -1284,7 +1284,7 @@
           echo '<!-- PRODUCT TABLE PHOTO -->';
           echo '<div class="product-table-photo">';
           echo '<!-- PRODUCT IMG -->';
-          echo '<a href="product-page-v1.php">';
+          echo '<a href="#">';
           echo '<figure class="product-img small">';
           echo '<img src="img/products/02.png" alt="product06">';
           echo '</figure>';
@@ -1293,7 +1293,7 @@
           echo '</div>';
           ?>
           <div class="product-table-name">
-            <a href="product-page-v1.html">
+            <a href="#">
               <h6 class="title small"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[1]->name;
@@ -1428,7 +1428,7 @@
           <!-- PRODUCT TABLE PHOTO -->
           <div class="product-table-photo">
             <!-- PRODUCT IMG -->
-            <a href="product-page-v1.php">
+            <a href="#">
               <figure class="product-img small">
                 <img src="img/products/03.png" alt="product05">
               </figure>
@@ -1439,7 +1439,7 @@
 
           <!-- PRODUCT TABLE NAME -->
           <div class="product-table-name">
-            <a href="product-page-v1.html">
+            <a href="#">
               <h6 class="title small"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[2]->name;
@@ -1757,7 +1757,7 @@ echo '<!-- LINK LIST -->';
 echo '<ul class="link-list decorated">';
 echo '<!-- LINK LIST ITEM -->';
 echo '<li class="link-list-item">';
-echo '<a href="index.php">';
+echo '<a href="home.php">';
 echo 'Home';
 echo '<!-- SVG ARROW -->';
 echo '<svg class="svg-arrow tiny">';
@@ -2042,7 +2042,7 @@ echo '<!-- WIDGET LINE WRAP -->';
 echo '<div class="widget-line-wrap dark widget-line-copy">';
 echo '<!-- WIDGET LINE -->';
 echo '<div class="widget-line big">';
-echo '<p class="copyright"><span class="bold">PC WORLDZ</span> | All Rights Reserved 2016</p>';
+echo '<p class="copyright"><span class="bold">PC WORLDZ</span> | All Rights Reserved 2022</p>';
 echo '<!-- ACTIONS LIST -->';
 echo '<ul class="actions-list right">';
 echo '<!-- ACTIONS LIST ITEM -->';

@@ -316,7 +316,7 @@
           echo '';
           echo '<!-- ACTIONS LIST ITEM -->';
           echo '<li class="actions-list-item">';
-          echo '<a class="action-button" href="index.html">Logout</a>';
+          echo '<a class="action-button" href="index.php">Logout</a>';
           echo '</li>';
           echo '<!-- ACTIONS LIST ITEM -->';
           echo '';
@@ -463,7 +463,7 @@
             <div class="cart-dropdown-item">
               <?php
               echo '<!-- PRODUCT IMG -->';
-              echo '<a href="product-page-v1.php">';
+              echo '<a href="#">';
               echo '<figure class="product-img small">';
               echo '<img src="img/products/01.png" alt="02">';
               echo '</figure>';
@@ -473,7 +473,7 @@
               ?>
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="shop-list.php"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[0]->name;
@@ -556,7 +556,7 @@
             <div class="cart-dropdown-item">
               <?php
               echo '<!-- PRODUCT IMG -->';
-              echo '<a href="product-page-v1.php">';
+              echo '<a href="#">';
               echo '<figure class="product-img small">';
               echo '<img src="img/products/02.png" alt="06">';
               echo '</figure>';
@@ -566,7 +566,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="shop-list.php"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[1]->name;
@@ -649,7 +649,7 @@
             <div class="cart-dropdown-item">
               <?php
               echo '<!-- PRODUCT IMG -->';
-              echo '<a href="product-page-v1.php">';
+              echo '<a href="#">';
               echo '<figure class="product-img small">';
               echo '<img src="img/products/03.png" alt="05">';
               echo '</figure>';
@@ -659,7 +659,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="shop-list.php"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[2]->name;
@@ -1589,7 +1589,7 @@
     <!-- WIDGET LINE -->
     <div class="widget-line big">
     <?php
-      echo '<p class="copyright"><span class="bold">PC WORLDZ</span> | All Rights Reserved 2016</p>';
+      echo '<p class="copyright"><span class="bold">PC WORLDZ</span> | All Rights Reserved 2022</p>';
       echo '<!-- ACTIONS LIST -->';
       echo '<ul class="actions-list right">';
       echo '<!-- ACTIONS LIST ITEM -->';

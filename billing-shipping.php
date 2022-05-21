@@ -255,7 +255,7 @@
 
         <!-- ACTIONS LIST ITEM -->
         <li class="actions-list-item">
-          <a class="action-button" href="index.html">Logout</a>
+          <a class="action-button" href="index.php">Logout</a>
         </li>
         <!-- ACTIONS LIST ITEM -->
 
@@ -377,7 +377,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.php">
+              <a href="#">
                 <figure class="product-img small">
                   <img src="img/products/01.png" alt="02">
                 </figure>
@@ -386,7 +386,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="#"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[0]->name;
@@ -464,7 +464,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.php">
+              <a href="#">
                 <figure class="product-img small">
                   <img src="img/products/02.png" alt="06">
                 </figure>
@@ -473,7 +473,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="#"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[1]->name;
@@ -551,7 +551,7 @@
             <!-- CART DROPDOWN ITEM -->
             <div class="cart-dropdown-item">
               <!-- PRODUCT IMG -->
-              <a href="product-page-v1.php">
+              <a href="#">
                 <figure class="product-img small">
                   <img src="img/products/03.png" alt="05">
                 </figure>
@@ -560,7 +560,7 @@
 
               <!-- CART DROPDOWN ITEM INFO -->
               <div class="cart-dropdown-item-info">
-                <a href="product-page-v1.html"><h6 class="title small">              
+                <a href="#"><h6 class="title small">              
               <?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[2]->name;
@@ -843,7 +843,7 @@
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.php">Product Page V1</a>
+            <a href="#">Product Page V1</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
@@ -878,7 +878,7 @@
         <ul class="mobile-menu-dropdown dropdown">
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="index.html">PC WORLDZ Home</a>
+            <a href="home.php">PC WORLDZ Home</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
@@ -896,7 +896,7 @@
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="blog.html">PC WORLDZ Blog</a>
+            <a href="blog.php">PC WORLDZ Blog</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
@@ -974,13 +974,13 @@
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.php">Product Page V1</a>
+            <a href="#">Product Page V1</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.php">Product Page V2</a>
+            <a href="#">Product Page V2</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
@@ -1458,7 +1458,7 @@
         <div class="product-table-row">
           <!-- PRODUCT TABLE NAME -->
           <div class="product-table-name">
-            <a href="product-page-v1.html">
+            <a href="#">
               <h6 class="title small"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[0]->name;
@@ -1557,7 +1557,7 @@
         <div class="product-table-row">
           <!-- PRODUCT TABLE NAME -->
           <div class="product-table-name">
-            <a href="product-page-v1.html">
+            <a href="#">
               <h6 class="title small"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[1]->name;
@@ -1656,7 +1656,7 @@
         <div class="product-table-row">
           <!-- PRODUCT TABLE NAME -->
           <div class="product-table-name">
-            <a href="product-page-v1.html">
+            <a href="#">
               <h6 class="title small"><?php
               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
               echo $item->product[2]->name;
@@ -2205,7 +2205,7 @@
   <div class="widget-line-wrap dark widget-line-copy">
     <!-- WIDGET LINE -->
     <div class="widget-line big">
-      <p class="copyright"><span class="bold">PC WORLDZ</span> | All Rights Reserved 2016</p>
+      <p class="copyright"><span class="bold">PC WORLDZ</span> | All Rights Reserved 2022</p>
       <!-- ACTIONS LIST -->
       <ul class="actions-list right">
         <!-- ACTIONS LIST ITEM -->
